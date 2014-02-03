@@ -1,0 +1,14 @@
+/*----------MEDIA QUERIES---------------*/
+
+@media screen and (max-width: 900px) {
+	.column {
+		float: none;
+		margin: 0;
+	}	
+
+	.column.third { width: 100%; }
+
+@media screen and (max-width: 500px) {
+
+}
+

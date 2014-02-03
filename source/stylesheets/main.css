@@ -1,3 +1,165 @@
+/*  COLOR PALETTE - Soft colors
+	earthy pink #CFA996
+	light pink #D8B6AA
+	pale gray #C8C8C8
+	pale blue #BCCED2
+	pale green #B4C6C6
+
+
+	COLOR PALETTE - Medium colors
+	orange #D95C3C
+	red #CD2C02
+	pale green #9AB8B0
+	teal #659FA3
+	pale grey #CCCBC7
+*/
+
 body {
-	background: green;
+	background: white; 
+	color: #659FA3; 
+	font-size: 112%; /*allows font elemets to take their sizes from the body*/
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5em;
+	margin: 0; /* Reset tool for making consistent website designs in all browsers*/
+	padding: 0; /* Reset tool for making consistent website designs in all browsers*/
 }
+
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+a {
+	color: #659FA3; 
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B22548;
+}
+
+
+
+div {
+	display: block;
+}
+
+h1 {
+	color: #B22548;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+/*---------CONTAINER ------------------*/
+
+#container {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 2em 0;  /*--better for mobile--*/
+	max-width: 960px;
+	width: 90%;
+}
+
+.container-white {
+	margin: 0 auto;
+}
+
+
+
+
+/*----------- NAVIGATION ------------------*/
+
+
+#header {
+	margin-top: 0px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav {
+	float: right;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.2em;
+}
+
+.nav ul {
+	list-style:none;
+    font-size: 16px;
+    overflow:auto;
+    margin: 0 auto;
+}
+
+.nav li {
+	float:left;
+    padding: 0.5em;
+}
+
+
+/*------------FEATURE---------------------*/
+
+#feature p {
+	/*border-radius: 10px;
+  	background: #BCCED2;
+	margin-top: 0px;
+	position: relative;
+	font-size: 5em;
+	height: 180px;
+	margin-top: 1em;*/
+
+
+}
+
+
+
+#content { 
+	padding-top: 100px; 
+	margin: 0 auto;
+	
+}
+
+
+
+.column {
+	float: left;
+	margin-left: 5%;
+	width: 30%;
+}
+
+.column.second {
+	
+	width: 10%;
+}
+
+/*
+.column.third { width: 30%; }
+
+.column.half { width: 28%; }
+
+/*------------CONTENT----------------*/
+
+.remove-margin { margin-left: 0; }
+
+
+
+.circle {
+  border-radius: 50%;
+  background: url(/images/texture2.2.png);
+  height: 35px;
+  width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+

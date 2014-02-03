@@ -1,0 +1,24 @@
+---
+title: New Post
+date: 2014-01-01
+tags: example
+---
+
+<h1>Example Article</h1>
+
+<p class="blog-text">This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
+<p>This is an example article. You probably want to delete it and write your own articles!</p>
+
