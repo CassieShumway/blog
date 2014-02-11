@@ -1,0 +1,217 @@
+body {
+	color: #0A6C89;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 112%; /*allows font elemets to take their sizes from the body*/
+	line-height: 2em;
+	margin: 0; /* Reset tool for making consistent website designs in all browsers*/
+	padding: 0; /* Reset tool for making consistent website designs in all browsers*/
+}
+
+div {
+	display: block;
+}
+
+a {
+	color: #0A6C89;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D85588;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4em;
+	font-weight: normal;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+h3 {
+	color: #D85588;
+
+}
+
+p {
+	padding-top: 1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #F3EDD6;
+    background-image: -webkit-linear-gradient(left, #ccc, #F3EDD6, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #F3EDD6, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #F3EDD6, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #F3EDD6, #ccc); 
+}
+
+ul {
+	list-style: none;
+}
+
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;         
+}
+
+
+
+/* ----------HEADER------------- */
+
+#header {
+	background: url(sprinkles2x.png);
+	height: 3em;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+
+.navigation { 
+	width: 100%;
+	max-width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.navigation ul {
+	list-style: none;
+	text-align: right;
+	font-size: 16px;
+	float:right;
+	margin: 0 auto;
+
+	
+}
+
+.navigation li {
+	font-weight: bold;
+	float:left;
+	padding: 0.5em;
+	
+}
+
+
+/*-----------CONTAINER-----------*/
+
+
+#container {
+	background: white;
+	margin: 3em auto;
+	padding: 2em 0;
+	width: 90%;
+	max-width: 960px;
+	overflow: hidden; 
+	/*forces any floats to expand to fit whatevers inside as content*/
+}
+
+/*---------TITLE--------------*/
+
+
+.title {
+	margin: 0 auto;
+	padding: .5em 0;
+	width: 100%;
+}
+
+.center {
+  	text-align: center;
+}
+
+.csstitle {
+	color: #D85588;
+}
+
+/* --------TOPICS---------------*/
+
+#topics {
+	margin: 0 auto;
+	padding: 1em;
+
+}
+
+
+.topics-button {
+	margin: 0 auto;
+ 	overflow: hidden;
+ 	padding: 0;
+ 	text-align: center;
+ 	/* apply to parent container and it will center your inline element
+ 	makes block elements behave like inline elements */
+}
+
+.button {
+	-moz-border-radius: 50px; //for mozilla support
+	-webkit-border-radius: 50px; //for chrome support
+	border-radius: 50px;
+	background-color: #F9F4E4;
+	display: inline-block;
+	float: left;
+	font-size: 1em;
+	margin: .5em;
+	height: 40px;
+	width: 19.5%;
+	padding: 2em 1em;
+	overflow: hidden; 
+}
+
+.button:hover {
+	background:  url(sprinkles2x.png);
+	color: #0A6C89;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+
+}
+/* --------CONTENT -----------*/
+
+
+#content {
+	padding-top: 1em;
+}
+
+
+
+.column {
+    margin-left: 4%;
+	float: left;
+	width: 30%;
+}
+
+.column:first-child {
+  margin-left: 0;
+}
+
+.row {
+  overflow: hidden;
+
+
+
+/* ----------MEDIA QUERY-----------*/
+
+
+@media screen (min-width: 520px) {
+  
+
+
+}
+
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;         
+}
+
+
+
+
+
+
+
+

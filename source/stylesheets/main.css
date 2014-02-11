@@ -14,14 +14,16 @@
 	pale grey #CCCBC7
 */
 
+
 body {
 	background: white; 
-	color: #659FA3; 
+	color: #6A7574; 
 	font-size: 112%; /*allows font elemets to take their sizes from the body*/
-	font-family: 'Raleway', sans-serif;
-	line-height: 1.5em;
-	margin: 0; /* Reset tool for making consistent website designs in all browsers*/
-	padding: 0; /* Reset tool for making consistent website designs in all browsers*/
+	font-family: 'Rosario', sans-serif;
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
 }
 
 * {
@@ -31,47 +33,51 @@ body {
 }
 
 a {
-	color: #659FA3; 
-	font-family: 'Quicksand', sans-serif;
+	color: #6A7574;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #B22548;
+	color: #FF7865;
 }
-
-
 
 div {
 	display: block;
 }
 
 h1 {
-	color: #B22548;
-	font-family: 'Quicksand', sans-serif;
+	color: #FF7865;
 	font-size: 1.5em;
 	padding-bottom: 0.5em;
+	text-align: center;
 }
 
-/*---------CONTAINER ------------------*/
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+}
 
-#container {
-	overflow: hidden;
+p {
+	font-size: 1em;
+	font-style: normal;
+	text-align: center;
+}
+
+.headline {
+	font-size: 1.5em;
+}
+
+.feature {
+	width: 100%;
 	margin: 0 auto;
-	padding: 2em 0;  /*--better for mobile--*/
-	max-width: 960px;
-	width: 90%;
+	text-align: center;
+	margin-bottom: 2em;
 }
-
-.container-white {
-	margin: 0 auto;
-}
-
-
-
 
 /*----------- NAVIGATION ------------------*/
-
 
 #header {
 	margin-top: 0px;
@@ -81,77 +87,140 @@ h1 {
 }
 
 .nav {
-	float: right;
-	margin: 0 auto;
+	font-size: 16px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	padding: 0.2em;
 }
 
-.nav ul {
-	list-style:none;
-    font-size: 16px;
-    overflow:auto;
-    margin: 0 auto;
-}
-
 .nav li {
-	float:left;
-    padding: 0.5em;
+	display: inline; 
+	/*no long occupies 100% of the available width, 
+	so now they stack up nicely against eachother*/
 }
 
-
-/*------------FEATURE---------------------*/
-
-#feature p {
-	/*border-radius: 10px;
-  	background: #BCCED2;
-	margin-top: 0px;
-	position: relative;
-	font-size: 5em;
-	height: 180px;
-	margin-top: 1em;*/
-
-
+.nav a {
+	display: inline-block;
+	/*to make sure the links don't break onto new 
+	lines but still obey padding values*/
+	padding: 0.5em;
 }
 
+/*---------CONTAINER ------------------*/
 
+#container {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 2em 0;  
+	width: 100%;
+	max-width: 960px;
+}
+
+.container-list {
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+/*------------CONTENT----------------*/
 
 #content { 
 	padding-top: 100px; 
 	margin: 0 auto;
-	
 }
-
 
 
 .column {
 	float: left;
 	margin-left: 5%;
-	width: 30%;
+	width: 28%;
 }
 
-.column.second {
-	
-	width: 10%;
+.column:first-child {
+	margin-left: 0;
 }
 
 /*
-.column.third { width: 30%; }
+.column.half { width: 47%; }
 
-.column.half { width: 28%; }
 
-/*------------CONTENT----------------*/
+/*---------UTILITIES----------*/
 
 .remove-margin { margin-left: 0; }
 
 
+/*
+.column.third { width: 30%; }
 
-.circle {
-  border-radius: 50%;
-  background: url(/images/texture2.2.png);
-  height: 35px;
-  width: 35px;
+http://www.colourlovers.com/pattern/4130717/Strawberry_Blond
+
+
+
+
+
+
+
+/*====================================
+===============BLOG PAGE==============
+====================================*/
+
+
+
+.blog-list {
+	background: white;
 }
+
+.blog-text{
+
+}
+
+
+span {
+	float: right;
+}
+
+tr:hover {
+
+}
+
+
+/*====================================
+=============PROJECTS PAGE============
+====================================*/
+
+
+
+
+
+
+
+/*====================================
+==============ABOUT PAGE==============
+====================================*/
+
+.image {
+	max-width: 100%;
+	/*makes your images more flexible
+	without giving max-width, it'll break*/
+	height: auto;
+	/*makes their height automatically 
+	proportionate to their width*/
+	margin: 0 0 10px 0;
+}
+
+
+.circular{
+	width: 200px;
+	height: 200px;
+	background-position: center;
+	display: inline-block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+
 
 
 

@@ -1,14 +1,32 @@
 /*----------MEDIA QUERIES---------------*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 	.column {
+	
+		margin-left: 5%;
+}
+
+	.column:first-child {
+
+}
+
+	.column.half { width: 44%; }
+
+@media screen and (max-width: 320px) {
+
+#container {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 2em 0.5em;  
+	width: 100%;
+}
+
+.column {
 		float: none;
 		margin: 0;
 	}	
 
-	.column.third { width: 100%; }
-
-@media screen and (max-width: 500px) {
+.column.half { width: 100%; }
 
 }
 

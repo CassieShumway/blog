@@ -1,0 +1,148 @@
+/* --------BODY------------- */
+
+body {
+	background: white;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 100%;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+
+a:hover {
+	color: #F7DF40;
+}
+
+p {
+	font-size: 1em;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 3em;
+	display: block;
+	margin: 0; 
+	color: #F7DF40;
+}
+
+h2 {
+	display: block;
+
+}
+
+h3 {
+	color: #F7DF40;
+}
+
+
+span {
+	color: #F7DF40;
+}
+
+
+/* ---- HEADER ------ */
+
+.header {
+	padding: 2em;
+	text-align: center;
+}
+
+
+/* -------- NAVIGATION ----------- */
+
+
+.circle-navigation {
+	list-style: none;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+}
+
+.circle-button {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 50%;
+	background: url(tweed.png);
+	float: left;
+	margin: 0.5em;
+	padding: 1em;
+	text-align: center;
+}
+
+
+/* -------- CONTENT -----------*/
+
+
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 2em 0;  /*--better for mobile--*/
+	max-width: 960px;
+	width: 90%;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.container-white, {
+	margin: 0 auto;
+}
+
+
+
+.texture {
+	background: url(brushed.png);
+}
+
+.data {
+	padding: 2em;
+	position: relative;
+}
+
+table {
+	width: 80%;
+}
+
+.data td {
+	padding: 0.5em;
+	vertical-align: inherit;
+	border-top: 1px gray solid;
+}
+
+td {
+	
+}
+
+
+.row {
+	overflow: hidden;
+}
+
+.column {
+	float: left;
+	margin-left: 4%;
+	width: 48%;
+}
+
+.column:first-child {
+  margin-left: 0;
+}
+
+#example {
+	list-style: none;
+}

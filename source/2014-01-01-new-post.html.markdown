@@ -1,11 +1,11 @@
 ---
-title: New Post
+title: Margins
 date: 2014-01-01
-tags: example
+tags: margins
 ---
-
-<h1>Example Article</h1>
-
+<div class="container-list">
+<h1>Margins</h1>
+<p class="blog-list">Where are you</p>
 <p class="blog-text">This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles! This is an example article. You probably want to delete it and write your own articles!</p>
 
 <p>This is an example article. You probably want to delete it and write your own articles!</p>
@@ -21,4 +21,4 @@ tags: example
 <p>This is an example article. You probably want to delete it and write your own articles!</p>
 
 <p>This is an example article. You probably want to delete it and write your own articles!</p>
-
+</div>
