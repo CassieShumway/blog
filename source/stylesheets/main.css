@@ -64,10 +64,12 @@ p {
 	font-size: 1em;
 	font-style: normal;
 	text-align: center;
+	margin-bottom: 1em;
 }
 
 .headline {
 	font-size: 1.5em;
+	margin-bottom: 1em;
 }
 
 .feature {
@@ -130,20 +132,30 @@ p {
 	margin: 0 auto;
 }
 
+.row {
+	overflow: hidden;
+	margin: 2em 0;
+}
+
 
 .column {
 	float: left;
 	margin-left: 5%;
-	width: 28%;
 }
 
 .column:first-child {
 	margin-left: 0;
 }
 
-/*
-.column.half { width: 47%; }
+/*------------COLUMN SIZES----------------*/
 
+.column.half {
+	width: 47.5%;
+}
+
+.column.third {
+	width: 30%;
+}
 
 /*---------UTILITIES----------*/
 
@@ -211,13 +223,14 @@ tr:hover {
 
 
 .circular{
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	max-width: 200px;
 	background-position: center;
-	display: inline-block;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
+	display: block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 0 auto;
 }
 
 
