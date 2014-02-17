@@ -1,20 +1,3 @@
-/*  COLOR PALETTE - Soft colors
-	earthy pink #CFA996
-	light pink #D8B6AA
-	pale gray #C8C8C8
-	pale blue #BCCED2
-	pale green #B4C6C6
-
-
-	COLOR PALETTE - Medium colors
-	orange #D95C3C
-	red #CD2C02
-	pale green #9AB8B0
-	teal #659FA3
-	pale grey #CCCBC7
-*/
-
-
 body {
 	background: white; 
 	color: #6A7574; 
@@ -37,13 +20,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #FF7865;
-}
+a:hover { color: #FF7865; }
 
-div {
-	display: block;
-}
+div { display: block; }
 
 h1 {
 	color: #FF7865;
@@ -79,6 +58,11 @@ p {
 	margin-bottom: 2em;
 }
 
+.underline {
+	 
+	text-decoration:underline
+} 
+
 /*----------- NAVIGATION ------------------*/
 
 #header {
@@ -110,7 +94,7 @@ p {
 	padding: 0.5em;
 }
 
-/*---------CONTAINER ------------------*/
+/*---------CONTAINER ----------------*/
 
 #container {
 	overflow: hidden;
@@ -137,56 +121,44 @@ p {
 	margin: 2em 0;
 }
 
-
 .column {
 	float: left;
 	margin-left: 5%;
 }
 
-.column:first-child {
-	margin-left: 0;
-}
+.column:first-child { margin-left: 0; }
 
-/*------------COLUMN SIZES----------------*/
+/*------------COLUMN SIZES------------*/
 
-.column.half {
-	width: 47.5%;
-}
+.column.half { width: 47.5%; }
 
-.column.third {
-	width: 30%;
-}
+.column.third { width: 30%; }
 
-/*---------UTILITIES----------*/
+/*-------------UTILITIES--------------*/
 
 .remove-margin { margin-left: 0; }
 
+.example { 
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 1em;
+	border-radius: 3px;
+	margin: 1em 0;
+}
 
-/*
-.column.third { width: 30%; }
-
-http://www.colourlovers.com/pattern/4130717/Strawberry_Blond
-
-
-
-
-
-
-
-/*====================================
-===============BLOG PAGE==============
-====================================*/
-
-
+/*-----------BLOG PAGE ---------------*/
 
 .blog-list {
 	background: white;
 }
 
 .blog-text{
+	text-align: left;
 
 }
-
 
 span {
 	float: right;
@@ -196,23 +168,10 @@ tr:hover {
 
 }
 
-
-/*====================================
-=============PROJECTS PAGE============
-====================================*/
-
-
-
-
-
-
-
-/*====================================
-==============ABOUT PAGE==============
-====================================*/
+/*----------ABOUT PAGE---------------*/
 
 .image {
-	max-width: 100%;
+max-width: 100%;
 	/*makes your images more flexible
 	without giving max-width, it'll break*/
 	height: auto;
@@ -220,7 +179,6 @@ tr:hover {
 	proportionate to their width*/
 	margin: 0 0 10px 0;
 }
-
 
 .circular{
 	width: 100%;
@@ -232,16 +190,5 @@ tr:hover {
 	-moz-border-radius: 50%;
 	margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
