@@ -1,7 +1,11 @@
 ---
-title: Example Article
+title: Good Practice (CSS)
 date: 2012-01-01
-tags: example
+tags: css, good practice
+layout: blog
 ---
 
-This is an example article. You probably want to delete it and write your own articles!
+<div class="container-list">
+<h1>Good Practice in CSS</h1>
+<p>Reading Handcrafted CSS by Dan Cederholm</p>
+<p class="blog-text"></p>
