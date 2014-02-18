@@ -31,6 +31,11 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
 h3 {
 	font-weight: 700;
 	font-size: 1em;
@@ -50,11 +55,6 @@ p {
 	margin-bottom: 1em;
 }
 
-.headline {
-	font-size: 1.5em;
-	margin-bottom: 1em;
-}
-
 .feature {
 	width: 100%;
 	margin: 0 auto;
@@ -62,9 +62,7 @@ p {
 	margin-bottom: 2em;
 }
 
-.underline { 
-	text-decoration:underline
-} 
+.underline { text-decoration:underline } 
 
 /*----------- NAVIGATION ------------------*/
 
@@ -84,11 +82,9 @@ p {
 	padding: 0.2em;
 }
 
-.nav li {
-	display: inline; 
-	/*no long occupies 100% of the available width, 
+.nav li { display: inline; }
+	/*no longer occupies 100% of the available width, 
 	so now they stack up nicely against eachother*/
-}
 
 .nav a {
 	display: inline-block;
@@ -108,7 +104,7 @@ p {
 }
 
 .container-list {
-	max-width: 670px;
+	max-width: 620px;
 	margin: 0 auto;
 }
 
@@ -127,6 +123,7 @@ p {
 .column {
 	float: left;
 	margin-left: 5%;
+	text-align: center;
 }
 
 .column:first-child { margin-left: 0; }
@@ -154,35 +151,23 @@ p {
 
 /*-----------BLOG PAGE ---------------*/
 
-.blog-list {
-	background: white;
-}
+.blog-list { }
 
-.blog-text{
-	text-align: left;
+.blog-list span { float: right; }
 
-}
-
-span {
-	float: right;
-}
-
-tr:hover {
-
-}
+.blog-text{ text-align: left; }
 
 article {
 	max-width: 620px;
 	margin: 0 auto;
 }
 
-article p {
-}
+article p { }
 
-/*----------ABOUT PAGE---------------*/
+/*----------CIRCLE IMAGES-------------*/
 
 .image {
-max-width: 100%;
+  max-width: 100%;
 	/*makes your images more flexible
 	without giving max-width, it'll break*/
 	height: auto;
@@ -191,7 +176,7 @@ max-width: 100%;
 	margin: 0 0 10px 0;
 }
 
-.circular{
+.circular {
 	width: 100%;
 	max-width: 200px;
 	background-position: center;
@@ -202,8 +187,8 @@ max-width: 100%;
 	margin: 0 auto;
 }
 
-/* Gist Overrides
--------------------------------------------------------------- */
+/* ---------Gist Overrides----------- */
+
 .gist .gist-file {
   font-size: .9rem !important;
   margin: 0 auto;

@@ -2,14 +2,11 @@
 
 @media screen and (max-width: 768px) {
 .column {
-	float: none;
-	margin-left: 0;
-	padding: 0 3em;
+float: none;
+margin-left: 0;
 }
 
-	.column:first-child {
-
-}
+.column:first-child { }
 
 .column.half { width: 100%; }
 
@@ -18,8 +15,9 @@
 .column.third { width: 100%	}
 
 .circular{
- width: 100%;
- max-width: 300px;
+width: 100%;
+max-width: 300px;
+}
 
 }
 
@@ -27,17 +25,18 @@
 
 
 .column {
-	float: none;
-	margin: 0;
-	padding: 0;
-	}	
+float: none;
+margin: 0;
+padding: 0;
+}	
 
 .column.half { width: 100%; }
 
-.circular{
- width: 100%;
- max-width: 200px;
+.column.third { width: 100%	}
 
+.circular{
+width: 100%;
+max-width: 200px;
 }
 
 }

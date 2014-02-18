@@ -6,28 +6,22 @@
     <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= stylesheet_link_tag 'normalize', 'main' %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-
-    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-<div id="container">
-  <div id="header">
-      <div class="nav">
-        <ul>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+  <div id="container">
+    <div id="header">
+        <div class="nav">
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+      <div id="main" role="main">
+        <%= yield %>
       </div>
   </div>
-
-    <div id="main" role="main">
-      <h1>Mooooo</h1>
-      <%= yield %>
-    </div>
-  </body>
+</body>
 </html>
