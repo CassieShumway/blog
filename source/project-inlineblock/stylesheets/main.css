@@ -1,3 +1,132 @@
 body {
-	background-color: red;
+	background: white; 
+	color: #6A7574; 
+	font-size: 112%; /*allows font elemets to take their sizes from the body*/
+	font-family: 'Rosario', sans-serif;
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
 }
+
+a {
+	color: #6A7574;
+	text-decoration: none;
+}
+
+a:hover { color: #FF7865; }
+
+
+h1 {
+	font-size: 1.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+h2 {
+	background: #D0ECEA;
+	color: #FF3D7F;
+	display: inline-block;
+	font-weight: normal;
+	margin: 5%;
+	padding: 1em;
+	text-align: center;
+	width: 14%;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+span {
+	color: #FF3D7F;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	background: #EEEEDD;
+	list-style: none;
+	display: inline;
+	padding: 1em;
+}
+
+/*---------CONTAINER----------*/
+
+.container {
+	margin: 0 auto;
+	padding: 2em 0;
+	width: 90%;
+	max-width: 640px;
+}
+
+.box {
+	margin: 0 auto;
+	padding: 1em;
+	width: 100%;
+	max-width: 640px;
+}
+
+/*--------EXAMPLE-----------*/
+
+.example {
+	background: #EEEEDD;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	padding: 1em;
+	text-align: center;
+	width: 400px;
+}
+
+
+/*----------INLINE-----------*/
+
+.i-block {
+	background: #D0ECEA;
+	color: #FF3D7F;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+/*---------BLOCKLEVEL--------*/
+
+.block {
+	background: #D0ECEA;
+	margin-bottom: 1em;
+	padding: 1em;
+	text-align: center;
+}
+
+
+/* ---------Gist Overrides----------- */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+
+
+

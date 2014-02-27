@@ -14,7 +14,7 @@ tags: inline, block level, elements
 <p>They can live <em>inside</em> of block-level elements or other inline elements. 
 </p>
 
-<p>In terms of width, they take up the width of their content. For better understanding, I find it easiest to think of inline elements as text. If you put an inline element next to text, it simply flows with the text. Just think: text based!
+<p>In terms of width, they'll take up the width of their content. They'll also ignore any width and height properties. For better understanding, I find it easiest to think of inline elements as text. If you put an inline element next to text, it simply flows with the text. Just think: text based!
 </p>
 
 <p>Knowing this brings to light the next characteristic of inline elements: they will display without starting on a new line (there is no line break).
@@ -37,7 +37,13 @@ tags: inline, block level, elements
 
 
 <h3>The Visuals</h3>
-<p><a href="/project-inlineblock/index.html">Visit the projects page to see examples of how inline and block-level elements are used! Or click here to visit now.</a>
+<p><a href="/project-inlineblock/index.html">For a more comprehensive explanation of inline and block-level elements, visit the projects page. Or simply click here!</a>
 </p>
+
+<h3>Sources</h3>
+<ul>
+	<li><a href="http://www.impressivewebs.com/difference-block-inline-css/">The Difference Between "Block" and "Inline"</a></li>
+	<li><a href="https://developer.mozilla.org">Mozilla Developer Network</a></li>
+</ul>
 </article>
 

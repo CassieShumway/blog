@@ -10,14 +10,53 @@ layout: projects-layout
     <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
-
-
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>    
+     <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>   
 </head>
 <body>
-
-<a href="/">MARGINNNNNNNNNSSS</a>
-
+<div class="container">
+	<h1>Inline Elements & Block-Level Elements</h1>
+		<div class="block">
+			<p>Hi, I'm a block-level element!</p>
+		</div>
+	<div class="example">
+		<p>Hi, <span>I'm an inline element.</span> I flow like text! 
+		</p>
+	</div>
+		<p>For this project, we'll be going over how CSS can change behavior in inline and block-level elements. If you'd like to review the basics of these elements, please go to the blog post <a href="2014-02-20-example-article.html">Inline Elements & Block-Level Elements</a> first before reading on. 
+		</p> 
+			<h3>Inline Block</h3>
+				<script src="https://gist.github.com/CassieShumway/9253123.js"></script>
+					<p>Is it possible to have a block element act as an inline element? Yes! By using the above code, the element is still set inline but will behave like a block element. And for added bonus, these inline elements now obey height and width properties. 
+					</p>
+				<div class="box">
+					<h2>h2</h2><h2>h2</h2><h2>h2</h2>
+				</div>
+					<p>Remember how h2 tags were block elements? With a little CSS, they're now behaving as inline elements. 
+					</p>
+			<h3>Block</h3>
+				<script src="https://gist.github.com/CassieShumway/9254434.js"></script>
+					<p>By using this bit of code, you can have an element display as a block element. To demonstrate, lets take an inline element 'a' tag and turn it into a block element. 
+					</p>
+				<div class="box">
+					<p>This is a normal block of text. But once I add display:block to an inline element such as the 'a' tag...<a class ="i-block" href="#">You'll notice it creates a new line break.</a>Now it is behaving like a block element. You can also see that as a block element, it is taking up the full width of its container. 
+					</p>
+				</div>
+			<h3>Inline</h3>
+				<script src="https://gist.github.com/CassieShumway/9255164.js"></script>
+					<p>With this, you can have an element display as an inline element. However, don't forget that inline elements will still ignore width and height properties. And unlike block elements, no new line break will be created. 
+					</p>
+				<div class="box">
+					<ul>
+						<li>li</li>
+						<li>li</li>
+						<li>li</li>
+					</ul>
+				</div>
+			<p>As you can see, we've created the natural block element 'li' to display as an inline element. 
+			</p>
+				<h3>Sources</h3>
+					<p><a href="http://www.w3schools.com/">CSS Display Property</a>
+					</p>
+</div>
 </body>
 </html>
