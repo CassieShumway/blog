@@ -15,6 +15,13 @@ tags: css, good practice
 Adding overflow:hidden to the element that contains the floated items is one method of self clearing. These small bits of advice are just the tip of the iceberg. 
 </p>
 
+<h3>An Introduction</h3>
+<p>Learning everything there is to know about floats is extremely intensive. So we'll start from the basics again! 
+
+<h3>What Is A Float?</h3>
+<script src="https://gist.github.com/CassieShumway/9341986.js"></script>
+<p>
+
 <h3>The Visuals</h3>
 <p><a href="/project-floats/index.html">For more explanation on floats, visit the projects page. Or simply click here!</a>
 </p>

@@ -10,20 +10,33 @@ layout: projects-layout
     <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
 <div id="wrapper">
-	<h1>Floats</h1>
-		<div class="container center">
-			<ul class="cf">
-				<li class="rectangle">clearfix</li>
-				<li class="rectangle">overflow</li>
-				<li class="rectangle">:after</li>
-			</ul>
+	<div class="container">
+		<h1>FLOATS</h1>
+			<div class="box">
+				<ul class="cf">
+					<li class="rectangle">1</li>
+					<li class="rectangle">2</li>
+					<li class="rectangle">3</li>
+					<li class="rectangle">4</li>
+				</ul>
+			</div>
+			<p>Floats are a CSS positioning property. For this project, we will focus on basic float layouts.</p>
+	<h2>Example 1</h2>
+	<script src="https://gist.github.com/CassieShumway/9341986.js"></script>
+		<div class="box">
+			<div class="example1">
+				<p class="rectangle">float</p>
+				<p class="1">This is sample text floated left. This is sample text floated left. This is sample text floated left. This is sample text floated left. This is sample text floated left. This is sample text floated left.   This is sample text floated left.</p>
+			</div>
 		</div>
-		<p>For this project, lets play a little with the float property. As you can see above, we have rectangles that have been floated</p>
+	
+	</div>
 </div>
 </body>
 </html>

@@ -2,7 +2,7 @@ body {
 	background: white; 
 	color: #6A7574; 
 	font-size: 112%; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	font-weight: 300;
 	line-height: 2em;
 	margin: 0; 
@@ -10,83 +10,105 @@ body {
 }
 
 a {
-	color: #6A7574;
+	color: #EDBCBC;
 	text-decoration: none;
 }
 
 a:hover { color: #FF7865; }
 
 h1 {
+	color: #BD628E;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
 	text-align: center;
 }
 
-ul {
-	overflow: hidden;
+h2 {
+	color: #EDBCBC;
+	font-size: 1.5em;
+	font-weight: 400;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(172, 230, 67, 0.3);
+    width: 300px;
+}
 
+ul { overflow: hidden; }
 
 /*-----------WRAPPER---------------*/
 
 #wrapper {
-	background: white;
+	background: #ecede8;
 	margin: 0 auto;
-	padding: 2em 0;
+	margin-top: 0;
+	padding: 2em;
 	width: 90%;
 	max-width: 670px;
-	overflow: hidden;
-	/*forces any floats to expand to fit whatevers inside as content*/
 }
-
-/*---------------BOX-----------------*/
-
-
-
 
 /*------------CONTAINER-------------*/
 
 .container {
 	margin: 0 auto;
 	overflow: auto;
+	max-width: 640px;
+}
+
+/*----------------BOX---------------*/
+
+.box {
+	background: white;
+	border: #E9E9E9; 
+	border-style: solid;
+	border-width: 1px;
+	margin: 2em auto;
+	padding: 1em;
 	width: 100%;
+	max-width: 604px;
 }
 
-.center {
-	text-align: center;
-}
-
-/*----------RECTANGLE---------------*/
-
-
+/*----------RECTANGLES--------------*/
 
 .rectangle {
-	background: #6EB3B8;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	color: #ACE643;
+	background: url(squaredmetal.png);
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #BD628E;
 	float: left;
-	height: 20px;
+	height: auto;
 	line-height: 1em;
 	list-style: none;
-	margin: .5em;
+	margin: .7em;
 	padding: 1em;
-	width: 16%;
+	text-align: center;
+	width: 14%;
 }
 
 .rectangle:first-child {
  	margin-left: 0;
 }
 
-.rectangle p {
-	text-align: center;
-	margin: 0;
+.rectangle:hover {
+	background: url(greencup.png);
+	color: #E4E3DC;
 }
 
-.rectangle:hover {
-	background: #ACE643;
-	color: #0A6C89;
-	font-weight: bold;
+/*----------EXAMPLES----------------*/
 
+.example1 {
+	overflow: auto;
+}
+
+.1 {
+	float: left;
+}
+
+.example1 ul {
+	overflow: auto;
 }
 
 /* ---------Gist Overrides----------- */

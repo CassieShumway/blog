@@ -33,20 +33,21 @@ h1 {
 }
 
 h2 {
-	text-align: center;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 h3 {
-	font-weight: 700;
+	color: #FAA498;
 	font-size: 1em;
+	font-weight: 700;
 }
 
 hr {
     border: 0;
-    height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 0;
     width: 300px;
 }
 
@@ -57,10 +58,10 @@ p {
 }
 
 .feature {
-	width: 100%;
 	margin: 0 auto;
-	text-align: center;
 	margin-bottom: 2em;
+	text-align: center;
+	width: 100%;
 }
 
 .underline { text-decoration:underline } 
@@ -68,10 +69,10 @@ p {
 /*----------- NAVIGATION ------------------*/
 
 #header {
-	margin-top: 0px;
-	width: 100%;
-	max-width: 960px;
 	margin: 0 auto;
+	margin-top: 0px;
+	max-width: 960px;
+	width: 100%;
 }
 
 .nav {
@@ -84,41 +85,37 @@ p {
 }
 
 .nav li { display: inline; }
-	/*no longer occupies 100% of the available width, 
-	so now they stack up nicely against eachother*/
 
 .nav a {
 	display: inline-block;
-	/*to make sure the links don't break onto new 
-	lines but still obey padding values*/
 	padding: 0.5em;
 }
 
 /*---------CONTAINER ----------------*/
 
 #container {
-	overflow: hidden;
 	margin: 0 auto;
+	overflow: hidden;
 	padding: 2em 0;  
 	width: 90%;
 	max-width: 960px;
 }
 
 .container-list {
-	max-width: 620px;
 	margin: 0 auto;
+	max-width: 620px;
 }
 
 /*------------CONTENT----------------*/
 
 #content { 
-	padding-top: 100px; 
 	margin: 0 auto;
+	padding-top: 100px; 
 }
 
 .row {
-	overflow: hidden;
 	margin: 2em 0;
+	overflow: hidden;
 }
 
 .column {
@@ -142,12 +139,12 @@ p {
 .example { 
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
+	border-radius: 3px;
 	font-size: 13px;
 	line-height: 19px;
+	margin: 1em 0;
 	overflow: auto;
 	padding: 1em;
-	border-radius: 3px;
-	margin: 1em 0;
 }
 
 /*-----------BLOG PAGE ---------------*/
@@ -168,7 +165,7 @@ article p { }
 /*----------CIRCLE IMAGES-------------*/
 
 .image {
-  max-width: 100%;
+  	max-width: 100%;
 	/*makes your images more flexible
 	without giving max-width, it'll break*/
 	height: auto;
@@ -178,14 +175,14 @@ article p { }
 }
 
 .circular {
-	width: 100%;
-	max-width: 200px;
 	background-position: center;
-	display: block;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
+	display: block;
 	margin: 0 auto;
+	width: 100%;
+	max-width: 200px;
 }
 
 /* ---------Gist Overrides----------- */
