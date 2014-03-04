@@ -15,30 +15,35 @@ layout: projects-layout
 <body>
 <div class="container">
 	<h1>Inline Elements & Block-Level Elements</h1>
-		<div class="block">
-			<p>Hi, I'm a block-level element!</p>
+		<div class="box">
+			<p>Hi! As you are reading through this paragraph, you can see that <span>inline elements</span> flow like text. They do not create new line breaks like block elements. 
+			</p>
 		</div>
-	<div class="example">
-		<p>Hi, <span>I'm an inline element.</span> I flow like text! 
-		</p>
-	</div>
-		<p>For this project, we'll be going over how CSS can change behavior in inline and block-level elements. If you'd like to review the basics of these elements, please go to the blog post <a href="2014-02-20-example-article.html">Inline Elements & Block-Level Elements</a> first before reading on. 
+			<div class="box">
+				<div class="block">
+					<p>Hi! I'm a block-level element, which is a block of content.</p>
+				</div>
+			</div>
+	<h3>Introduction</h3>
+		<p>For this project, we'll be going over how CSS can change behavior in inline and block-level elements. If you'd like to review the basics of these elements, please go to the blog post Inline Elements & Block-Level Elements first before reading on. 
 		</p> 
 			<h3>Inline Block</h3>
 				<script src="https://gist.github.com/CassieShumway/9253123.js"></script>
-					<p>Is it possible to have a block element act as an inline element? Yes! By using the above code, the element is still set inline but will behave like a block element. And for added bonus, these inline elements now obey height and width properties. 
+					<p>Is it possible to have a block element act as an inline element? Yes! By using the above code, the element is still set inline but will behave like a block element. And for an added bonus, these inline elements will obey height and width properties. 
 					</p>
 				<div class="box">
 					<h2>h2</h2><h2>h2</h2><h2>h2</h2>
 				</div>
-					<p>Remember how h2 tags were block elements? With a little CSS, they're now behaving as inline elements. 
+					<p>Remember how <code>h2</code> tags were block elements? With a little CSS, they are now behaving like inline elements. 
 					</p>
 			<h3>Block</h3>
 				<script src="https://gist.github.com/CassieShumway/9254434.js"></script>
-					<p>By using this bit of code, you can have an element display as a block element. To demonstrate, lets take an inline element 'a' tag and turn it into a block element. 
+					<p>By using this bit of code, you can have an element display as a block element. To demonstrate, lets take an inline element <code>a</code> tag and turn it into a block element. Normally, this inline element would flow like regular text. But now you'll notice that it creates a new line break and takes up the full width of its container:
 					</p>
 				<div class="box">
-					<p>This is a normal block of text. But once I add display:block to an inline element such as the 'a' tag...<a class ="i-block" href="#">You'll notice it creates a new line break.</a>Now it is behaving like a block element. You can also see that as a block element, it is taking up the full width of its container. 
+					<p><a class ="inline-block" href="#">a</a>
+					</p>
+					<p><a class ="inline-block" href="#">a</a>
 					</p>
 				</div>
 			<h3>Inline</h3>
@@ -52,7 +57,7 @@ layout: projects-layout
 						<li>li</li>
 					</ul>
 				</div>
-			<p>As you can see, we've created the natural block element 'li' to display as an inline element. 
+			<p>As you can see, we've created the natural block element <code>li</code> to display as an inline element. 
 			</p>
 				<h3>Sources</h3>
 					<p><a href="http://www.w3schools.com/">CSS Display Property</a>

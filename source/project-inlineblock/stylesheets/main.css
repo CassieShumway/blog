@@ -16,11 +16,10 @@ a {
 
 a:hover { color: #FF7865; }
 
-
 h1 {
 	font-size: 1.5em;
-	padding-bottom: 0.5em;
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 h2 {
@@ -34,22 +33,17 @@ h2 {
 	width: 14%;
 }
 
-h4 {
-	font-weight: normal;
-}
+h4 { font-weight: normal; }
 
-span {
-	color: #FF3D7F;
-}
+span { color: #FF3D7F; }
 
-ul {
-	text-align: center;
-}
+ul { text-align: center; }
 
 li {
 	background: #EEEEDD;
-	list-style: none;
 	display: inline;
+	list-style: none;
+	margin: .5em;
 	padding: 1em;
 }
 
@@ -62,48 +56,37 @@ li {
 	max-width: 640px;
 }
 
+/*--------BOX EXAMPLES-------*/
+
 .box {
-	margin: 0 auto;
-	padding: 1em;
-	width: 100%;
-	max-width: 640px;
-}
-
-/*--------EXAMPLE-----------*/
-
-.example {
-	background: #EEEEDD;
+	border: #E9E9E9; 
+	border-style: dashed;
+	border-width: 1px;
 	margin: 0 auto;
 	margin-bottom: 1em;
 	padding: 1em;
-	text-align: center;
-	width: 400px;
+	width: 100%;
+	max-width: 604px;
 }
-
 
 /*----------INLINE-----------*/
 
-.i-block {
+.inline-block {
 	background: #D0ECEA;
 	color: #FF3D7F;
 	display: block;
 	text-align: center;
 }
 
-
-
-
 /*---------BLOCKLEVEL--------*/
 
 .block {
 	background: #D0ECEA;
-	margin-bottom: 1em;
 	padding: 1em;
 	text-align: center;
 }
 
-
-/* ---------Gist Overrides----------- */
+/* -------GIST OVERRIDE---- */
 
 .gist .gist-file {
   font-size: .9rem !important;
@@ -127,6 +110,16 @@ li {
   font-weight: normal !important;
 }
 
+/*---------CODE----------------*/
 
-
-
+code {
+	background: #ecede8;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	border: #aaa; 
+	border-style: solid;
+	border-width: 2px;
+	top: -1px;
+	padding: 0.2em 0.7em;
+	position: relative;
+}

@@ -1,0 +1,145 @@
+body {
+	background: white; 
+	color: #6A7574; 
+	font-size: 112%; 
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+a {
+	color: #6A7574;
+	text-decoration: none;
+}
+
+a:hover { color: #FF7865; }
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	overflow: hidden;
+}
+
+
+
+/*-----------WRAPPER---------------*/
+
+#wrapper {
+	background: white;
+	margin: 0 auto;
+	padding: 2em 0;
+	width: 90%;
+	max-width: 670px;
+	overflow: hidden;
+	/*forces any floats to expand to fit whatevers inside as content*/
+}
+
+/*---------------BOX-----------------*/
+
+
+
+
+/*------------CONTAINER-------------*/
+
+.container {
+	margin: 0 auto;
+	overflow: auto;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+/*----------RECTANGLE---------------*/
+
+
+
+.rectangle {
+	background: #6EB3B8;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #ACE643;
+	float: left;
+	height: 20px;
+	line-height: 1em;
+	list-style: none;
+	margin: .5em;
+	padding: 1em;
+	width: 16%;
+}
+
+.rectangle:first-child {
+ 	margin-left: 0;
+}
+
+.rectangle p {
+	text-align: center;
+	margin: 0;
+}
+
+.rectangle:hover {
+	background: #ACE643;
+	color: #0A6C89;
+	font-weight: bold;
+
+}
+
+/* ---------Gist Overrides----------- */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/*---------CLEAR FIX-----------------*/
+/**
+http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
