@@ -7,10 +7,12 @@ layout: projects-layout
   <head>    
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>cassieshumway<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 <div id="wrapper">
@@ -60,7 +62,7 @@ layout: projects-layout
 		<h2>3: Clear Fix</h2>
 			<p>Whenever floats are used, its parent container will NOT automatically expand to adjust to the floated elements inside. Unfortunately, you must always clear the containing element so that it doesn't collapse. One of the best ways to clear floats is by using a clearfix. 
 			</p>
-				<script src="https://gist.github.com/CassieShumway/9357122.js"></script>
+		<script src="https://gist.github.com/CassieShumway/9357122.js"></script>
 	</section>
 					
 	<section id="4">
@@ -68,20 +70,20 @@ layout: projects-layout
 			<p>Now, you might be wondering, "How does a parent container collapse?" Well, looking below, you'll see what happens when floats are not cleared:
 			</p>
 				<div class="collapse-box">
-					<div class="collapse-float">float: left</div>
-					<div class="collapse-text">
-						<p>This is sample text.</p>
-					</div>
+					<span class="example">float: left</span>
+					<span class="example">
+					float: left
+					</span>
 				</div>
 					<p>Notice how the floated element is outside the containing box? That's because the parent container doesn't recognize the floated element within itself. Which results in the parent container not knowing how to properly expand and "clear" the floats.
 					</p> 
 					<p>Well fear not, because all you need to do is add the clearfix to the parent container! Now you can see that the floated element is properly contained.
 					</p>
 			<div class="collapse-box cf">
-				<div class="collapse-float">float: left</div>
-				<div class="collapse-text">
-					<p>This is sample text.</p>
-				</div>
+				<span class="example collapse-example">float: left</span>
+				<span class="example collapse-example">
+				float: left
+				</span>
 			</div>
 	</section>
 
