@@ -1,0 +1,115 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+body {
+	background: #fff; 
+	color: #807575; 
+	font-size: 112%; 
+	font-family: 'Noto Serif', serif;
+	font-weight: 300;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+a {
+	color: #6A7574; 
+	text-decoration: none;
+}
+
+a:hover { color: #FCE3A1; }
+
+h1 {
+	color: #98A7BC;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	color: #ED9F9F;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    margin-left:0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(252, 227, 161, 0.3);
+    width: 200px;
+}
+
+ul {
+  list-style: none;
+  overflow: auto;
+}
+
+li {
+  
+  float: left;
+  padding: 0.7em;
+}
+
+/*-----------CONTAINERS--------------*/
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 740px;
+}
+
+.color-container {
+	background: url(creampixels.png);
+  border-bottom: 1px solid #E9E9E9;
+  padding: 1em;
+}
+
+/*--------------BOXES----------------*/
+
+.box {
+  background: #333;
+  background: rgba(0,0,0,7);
+}
+
+/* ---------Gist Overrides---------- */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/*----------CLEAR FIX-----------------*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+
+

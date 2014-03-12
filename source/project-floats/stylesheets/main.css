@@ -5,7 +5,7 @@
 }
 
 body {
-	background: white; 
+	background: #fff; 
 	color: #6A7574; 
 	font-size: 112%; 
 	font-family: 'Varela Round', sans-serif;
@@ -33,47 +33,42 @@ h2 {
 	font-size: 1.5em;
 	font-weight: 400;
 }
-
-hr {
-    border: 0;
-    height: 0;
-    margin-left:0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(237, 188, 188, 0.3);
-    width: 200px;
-}
-
-/*-----------WRAPPER---------------*/
+/* =================================
+  WRAPPER
+   ============================== */
 
 #wrapper {
 	background: #ecede8;
 	margin: 0 auto;
-	margin-top: 0;
 	padding: 2em;
 	width: 90%;
 	max-width: 680px;
 }
 
-/*------------CONTAINER-------------*/
+/* =================================
+  CONTAINER
+   ============================== */
 
 .container {
 	margin: 0 auto;
 	max-width: 650px;
 }
 
-/*----------------BOX---------------*/
+/* =================================
+  BOX
+   ============================== */
 
 .box {
-	background: white;
-	border: #E9E9E9; 
-	border-style: solid;
-	border-width: 1px;
+	background: #fff;
+	border: 1px solid #E9E9E9; 
 	margin: 2em auto;
 	padding: 1em;
 	width: 100%;
 }
 
-/*----------RECTANGLES--------------*/
+/* =================================
+  RECTANGLES
+   ============================== */
 
 .rectangle {
 	background: url(squaredmetal.png);
@@ -96,8 +91,9 @@ hr {
 	background: url(greencup.png);
 	color: #E4E3DC;
 }
-
-/*----------EXAMPLES----------------*/
+/* =================================
+  EXAMPLES
+   ============================== */
 
 .example {
 	background: url(squaredmetal.png);
@@ -124,19 +120,17 @@ hr {
 }
 
 .collapse-box {
-	background: white;
-	border: #E9E9E9; 
-	border-style: solid;
-	border-width: 1px;
+	background: #fff;
+	border: 1px solid #E9E9E9; 
 	margin: 2em auto;
 	width: 100%;
 }
 
-.collapse-example {
-	display: inline-block;
-}
+.collapse-example { display: inline-block; }
 
-/* ---------Gist Overrides----------- */
+/* =================================
+  GIST OVERRIDES
+   ============================== */
 
 .gist .gist-file {
   font-size: .9rem !important;
@@ -160,34 +154,19 @@ hr {
   font-weight: normal !important;
 }
 
-/*---------CLEAR FIX-----------------*/
-/**
-http://nicolasgallagher.com/micro-clearfix-hack/
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+/* =================================
+  CLEAR FIX
+   ============================== */
+
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; 
+    display: table;
 }
 
-.cf:after {
-    clear: both;
-}
+.cf:after { clear: both; }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
+.cf { *zoom: 1; }
 
 
 

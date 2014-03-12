@@ -22,9 +22,6 @@ a {
 
 a:hover { color: #FF7865; }
 
-div { display: block; }
-
-
 h1 {
 	color: #FF7865;
 	font-size: 1.5em;
@@ -39,7 +36,7 @@ h2 {
 
 h3 {
 	color: #FAA498;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 700;
 }
 
@@ -54,7 +51,7 @@ hr {
 p {
 	font-size: 1em;
 	font-style: normal;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 .feature {
@@ -66,7 +63,9 @@ p {
 
 .underline { text-decoration:underline } 
 
-/*----------- NAVIGATION ------------------*/
+/* =================================
+  NAVIGATION
+   ============================== */
 
 #header {
 	margin: 0 auto;
@@ -91,7 +90,9 @@ p {
 	padding: 0.5em;
 }
 
-/*---------CONTAINER ----------------*/
+/* =================================
+   CONTAINER
+   ============================== */
 
 #container {
 	margin: 0 auto;
@@ -106,12 +107,24 @@ p {
 	max-width: 620px;
 }
 
-/*------------CONTENT----------------*/
+.color-container {
+	background: url(creampixels.png);
+  /*border-bottom: 1px solid #E9E9E9;*/
+  padding: 1em;
+}
+
+/* =================================
+   CONTENT
+   ============================== */
 
 #content { 
 	margin: 0 auto;
 	padding-top: 100px; 
 }
+
+/* =================================
+   COLUMNS
+   ============================== */
 
 .row {
 	margin: 2em 0;
@@ -126,13 +139,13 @@ p {
 
 .column:first-child { margin-left: 0; }
 
-/*------------COLUMN SIZES------------*/
+.half { width: 47.5%; }
 
-.column.half { width: 47.5%; }
+.third { width: 30%; }
 
-.column.third { width: 30%; }
-
-/*-------------UTILITIES--------------*/
+/* =================================
+   UTILITIES
+   ============================== */
 
 .remove-margin { margin-left: 0; }
 
@@ -147,31 +160,18 @@ p {
 	padding: 1em;
 }
 
-/*-----------BLOG PAGE ---------------*/
-
-.blog-list { }
-
-.blog-list span { float: right; }
-
-.blog-text{ text-align: left; }
-
-article {
-	max-width: 620px;
-	margin: 0 auto;
-}
-
-article p { }
-
-/*----------CIRCLE IMAGES-------------*/
+/* =================================
+   CIRCLE IMAGES
+   ============================== */
 
 .image {
-  	max-width: 100%;
-	/*makes your images more flexible
-	without giving max-width, it'll break*/
-	height: auto;
-	/*makes their height automatically 
-	proportionate to their width*/
+  height: auto;
+  /*makes their height automatically 
+  proportionate to their width*/
 	margin: 0 0 10px 0;
+  max-width: 100%;
+  /*makes your images more flexible
+  without giving max-width, it'll break*/
 }
 
 .circular {
@@ -185,7 +185,99 @@ article p { }
 	max-width: 200px;
 }
 
-/* ---------Gist Overrides----------- */
+/* =================================
+   BOXES USED FOR EXAMPLES
+   ============================== */
+
+.box {
+	border: 1px dashed #E9E9E9; 
+	margin: 0 auto;
+	margin-bottom: 1em;
+	padding: 1em;
+	width: 100%;
+	max-width: 604px;
+  text-align: center;
+}
+
+/* =================================
+   STYLES - FOR BLOG PAGE
+   ============================== */
+
+.blog-list { }
+
+.blog-list span { float: right; }
+
+.blog-text{ text-align: left; }
+
+article {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+article .underline {
+  color: #FF7865;
+  text-decoration: underline;
+}
+
+article p { }
+
+/* =================================
+   STYLES - FOR PSEUDO BLOG POST
+   ============================== */
+
+.column-example1 {
+  border: 1px solid #ddd;
+  float: left;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.column-example2 {
+  border: 1px solid #ddd;
+  float: left;
+  margin-left: 5%;
+  width: 28%;
+}
+
+.column-example1:first-child { 
+  background: #C3E0DE;
+  margin-left: 0;
+}
+
+.column-example2:first-child { 
+  background: #C3E0DE;
+}
+
+.animal-before:before {
+  background: url('/images/cat.jpg');
+  content: " ";
+  padding: 0.2em .9em;
+}
+
+.animal-after:after {
+  background: url('/images/bear.jpg');
+  content: " ";
+  padding: 0.2em .9em;
+}
+
+/* =================================
+   CODE
+   ============================== */
+
+code {
+	background: #F3F3F2;
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	border: 1px solid #DDD7D7; 
+	font-size: 16px;
+	padding: 0.2em 0.7em;
+	position: relative;
+	top: -1px;
+}
+
+/* =================================
+   GIST OVERRIDES
+   ============================== */
 
 .gist .gist-file {
   font-size: .9rem !important;
@@ -209,5 +301,20 @@ article p { }
   font-weight: normal !important;
 }
 
+/* =================================
+   CLEAR FIX
+   ============================== */
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

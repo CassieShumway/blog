@@ -1,0 +1,164 @@
+---
+layout: projects-layout
+---
+
+<!DOCTYPE html>
+<head>
+	<title>Font Relative Lengths</title>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--References
+	http://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/
+	http://www.w3.org/TR/css3-values/
+	http://snook.ca/archives/html_and_css/font-size-with-rem
+	-->
+<body>
+	<div class="container-white">
+		<div class="background-white">
+			<div class="header">
+				<h1 class="relativelength">RELATIVE LENGTHS</h1>
+					<p>Relative length units specify a length relative to another length.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container center">
+		<ul class="circle-navigation">
+			<a href="em"><li class="circle-button">em</li></a>
+			<a href="#rem"><li class="circle-button">rem</li></a>
+			<a href="ex"><li class="circle-button">ex</li></a>
+			<a href="ch"><li class="circle-button">ch</li></a>
+		</ul>
+	</div>
+
+	<div class="texture">
+		<div class="container">
+			<h2 class="fontrelative">Font Relative Lengths</h2>
+				<p>Aside from 'rem' (which refers to the font-size of the root element), the font-relative lengths refer to the font metrics of the element on which they are used. The exception is when they occur in the value of the ‘font-size’ property itself, in which case they refer to the computed font metrics of the parent element (or the computed font metrics corresponding to the initial values of the ‘font’ property, if the element has no parent).</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<h3>em unit</h3>
+					<p>Equal to the computed value of the font-size property of the element on which it is used. </p>
+			</div>
+			<div class="column">
+				<h3>rem unit</h3>
+					<p>Equal to the computed value of font-size on the root element.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<h3>ex unit</h3>
+					<p>Equal to the used x-height of the first available font. [CSS3-FONTS] The x-height is so called because it is often equal to the height of the lowercase "x".</p>
+			</div>
+			<div class="column">
+				<h3>ch unit</h3>
+					<p>Equal to the used advance measure of the "0" (ZERO, U+0030) glyph found in the font used to render it.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="texture">
+		<div class="container">
+			<table class="data">
+				<thead>
+					<tr>
+						<th>Unit</th>
+						<th>Relative To</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>em</td>
+						<td>font size of the element</td>
+					</tr>
+					<tr>
+						<td>rem</td>
+						<td>font size of the root element</td>
+					</tr>
+					<tr>
+						<td>ex</td>
+						<td>x-height of the element's font</td>
+					</tr>
+					<tr>
+						<td>ch</td>
+						<td>width of the "0" (ZERO, U+0030) glyph in the element's font</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="background-white">
+			<h2 class="emunit"><span>Sizing with em</span></h2>
+			<p>Resizing text in IE has been an ongoing struggle. To get around this, we can use em units.</p>
+			<p>The technique modifies the base font-size on the body using a percentage.</p>
+				<ul>
+					<li>This adjusts things so that 1em equals 10px, instead of the default 16px.</li>
+					<li>To set the font-size to the equivalent of 14px, set it to 1.4em.</li>
+				</ul>
+				<ul>
+					<li id="example">body {font-size: 62.50%; }
+					<li id="example">h1 {font-size: <span>2.4em</span>; } /* =<span>24px</span> */</li>
+					<li id="example">p,li {font-size: <span>1.4em</span>; } /* =<span>14px</span> */</li>
+				</ul>
+		</div>
+	</div>
+
+	<div class="texture">
+		<div class="container">
+			<h2>Using line-height & font-size with em</h2>
+				<p>The rule: h1 { line-height: 1.2em }</p>
+					<ul>
+						<li>Means that the line height of h1 elements will be 20% greater than the font size of h1 element.</li>
+					</ul>
+				<p>On the other hand: h1 { font-size: 1.2em }</p>
+					<ul>
+						<li>Means that the font size of h1 elements will be 20% greater than the computed font size inherited by h1 elements.</li>
+				</ul>
+			<h2>Disadvantages using em</h2>
+				<p>The problem with em-based font sizing is that the font size compounds.</p>
+				<p>The em unit is relative to the font-size of the parent, which causes the compounding issue.</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="background-white">
+			<h2 class="remunit"><span>Sizing with rem</span></h2>
+				<p>The main use for rem is replacing em to protect inner element font sizes from being changed by outer elements.</p>
+				<p>Thus avoiding the classic nested em scaling problem.</p>
+					<ul>
+						<li>The rem unit is relative to the root— or the html —element.</li> 
+						<li>That means that we can define a single font size on the html element and define all rem units to be a percentage of that.</li>
+					</ul>
+				<ul>
+					<li id="example">html {font-size: 62.50%; }
+					<li id="example">body {font-size: <span>1.4rem</span>; } /* =<span>14px</span> */</li>
+					<li id="example">h1 {font-size: <span>2.4em</span>; } /* =<span>24px</span> */</li>
+				</ul>	
+		</div>
+	</div>	
+
+	<div class="texture">
+		<div class="container">
+			<h2>What to do for browsers that don't support rem?</h2>
+				<p>We can specify the fall-back using px.  <br />To do so, we specify the font-size using px units first and then define it again using rem units.</p>
+				<ul>
+					<li id="example">html {font-size: 62.50%; }
+					<li id="example">body {font-size: 14px; font-size:<span>1.4rem</span>; } /* =<span>14px</span> */</li>
+					<li id="example">h1 {font-size: 24px; font-size:<span>2.4em</span>; } /* =<span>24px</span> */</li>
+				</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+					

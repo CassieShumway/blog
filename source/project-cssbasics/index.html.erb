@@ -1,0 +1,102 @@
+---
+layout: projects-layout
+---
+
+<!doctype html>
+<html>
+  <head>    
+  	<title>CSS Basics</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!--content information reference: 
+		http://www.cssbasics.com/introduction-to-css/ 
+		http://www.w3schools.com/css/css_positioning.asp-->
+	</head>
+
+	<body>
+		<div id="header">
+			<div class="navigation">
+				<ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#"><li>Contact</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<div id="container">
+			<div class="title center">
+				<h1>LEARNING <span class="csstitle">CSS</span> BASICS</h1>
+				<hr>
+		     <p>CSS stands for Cascading Style Sheets. This allows you to separate your web sites (X)HTML content from it’s style. CSS defines how HTML elements are to be displayed. These external style sheets enable you to change the appearance and layout of all the pages in a Web site, just by editing one single file!</p>	
+		     <p>Here are your topics:</p>
+			</div>
+			<div id="topics">
+				<ul class="topics-button">
+					<a href="#syntax"><li class="button">Syntax</li></a>
+					<a href="#spans"><li class="button">Spans</li></a>
+					<a href="#divisions"><li class="button">Divisions</li></a>
+					<a href="#pseudo"><li class="button">Pseudo Classes</li></a>
+					<a href="#static"><li class="button">Static Positioning</li></a>
+					<a href="#relative"><li class="button">Relative Positioning</li></a>
+					<a href="#absolute"><li class="button">Absolute Positioning</li></a>
+					<a href="#fixed"><li class="button">Fixed Positioning</li></a>
+				</ul>
+			</div>
+			<hr>
+
+			<div id="content">
+				<section id="syntax">
+				<h2>CSS Syntax</h2>
+				<p>The syntax consists of only 3 parts: selector {propery:value}</p>
+				<p>>The selector is the (X)HTML element that you want to style. The property is the actual property title, and the value is the style you apply to that property.</p>
+				<p>Each selector can have multiple properties, and each property within that selector can have independent values. The property and value are separated with a colon and contained within curly brackets. Multiple properties are separated by a semi colon. Multiple values within a property are sperated by commas, and if an individual value contains more than one word you surround it with quotation marks. As shown below.</p>
+				
+				<section id="spans">
+				<h2>Spans</h2>
+				<p>Spans are very similar to divisions except they are an inline element versus a block level element. No linebreak is created when a span is declared.</p>
+				
+				<section id="divisions">
+				<h2>Divisions</h2>
+				<p>Divisions are a block level (X)HTML element used to define sections of an (X)HTML file. A division can contain all the parts that make up your website. Including additional divisions, spans, images, text and so on.
+				You define a division within an (X)HTML file by placing the following between the <body></body> tags</p>
+				
+				<section id="pseudo">
+				<h2>Pseudo Classes</h2>
+				<p>You can set links contained in different parts of your web page to be different colors by using the pseudo class. For example, lets say you want your links in the content area to have a different color then the links in the left or right column of your webpage.</p>
+				<p>You can do this in the following fashion:</p>
+				<ul>
+					<li>#content a:link {color: #009900;}</li>
+					<li>#content a:visited {color: #999999;}</li>
+					<li>#content a:hover {color: #333333;}</li>
+					<li>#content a:focus {color: #333333;}</li>
+					<li>#content a:active {color: #009900;}</li>
+				</ul>
+
+				<section id="static">
+				<h2>Static Positioning</h2>
+				<p>Static positioning is by default the way an element will appear in the normal flow of your (X)HTML file. It is not necessary to declare a position of static. Doing so, is no different than not declaring it at all.</p>
+
+				<section id="relative">
+				<h2>Relative Positioning</h2>
+				<p>Positioning an element relatively places the element in the normal flow of your (X)HTML file and then offsets it by some amount using the properties left, right, top and bottom. This may cause the element to overlap other elements that are on the page, which of course may be the effect that is required.</p>
+
+				<section id="absolute">
+				<h2>Absolute Positioning</h2>
+				<p>Positioning an element absolutely, removes the element from the normal flow of your (X)HTML file, and positions it to the top left of its nearest parent element that has a position declared other than static. If no parent element with a position other than static exists then it will be positioned from the top left of the browser window.</p>
+
+				<section id="fixed">
+				<h2>Fixed Positioning</h2>
+				<p>Positioning an element with the fixed value, is the same as absolute except the parent element is always the browser window. It makes no difference if the fixed element is nested inside other positioned elements.</p>
+				<p>Furthermore, an element that is positioned with a fixed value, will not scroll with the document. It will remain in its position regardless of the scroll position of the page.</p>
+				<p>>At this time IE6 (Internet Explorer 6) does not support the fixed value for the positioning of an element. Thus it will not position fixed elements correctly and will still scroll with the page. To see this effect in action you will need to use a standards compliant browser, such as Firefox 1.0</p>
+			</div>
+		</div>  
+	</body>
+</html>

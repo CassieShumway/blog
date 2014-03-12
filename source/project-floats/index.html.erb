@@ -11,88 +11,79 @@ layout: projects-layout
     <title>cassieshumway<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	</head>
 
-</head>
-<body>
-<div id="wrapper">
-	<div class="container">
-		<h1>FLOATS</h1>
-			<div class="box">
-				<ul class="cf">
-					<a href="#1"><li class="rectangle">1</li></a>
-					<a href="#2"><li class="rectangle">2</li></a>
-					<a href="#3"><li class="rectangle">3</li></a>
-					<a href="#4"><li class="rectangle">4</li></a>
-				</ul>
-			</div>
-		<p>Floats are a CSS positioning property. They can be used to create fluid layouts for the web. They are also used to wrap text around images. For this project, we will focus on basic float layouts and float clearing.</p>
-	<section id="1">
-		<h2>1: Left, Right</h2>
-			<p>When you float elements, they will either float to the left or to the right (not up or down) and will always move to the edge of its parent container.
-			</p> 
-				<script src="https://gist.github.com/CassieShumway/9341986.js"></script>
+	<body>
+		<div id="wrapper">
+			<div class="container">
+				<h1>FLOATS</h1>
+				<div class="box">
+					<ul class="cf">
+						<a href="#1"><li class="rectangle">1</li></a>
+						<a href="#2"><li class="rectangle">2</li></a>
+						<a href="#3"><li class="rectangle">3</li></a>
+						<a href="#4"><li class="rectangle">4</li></a>
+					</ul>
+				</div>
+				<p>Floats are a CSS positioning property. They can be used to create fluid layouts for the web. They are also used to wrap text around images. For this project, we will focus on basic float layouts and float clearing.</p>
+			
+				<section id="1">
+					<h2>1: Left, Right</h2>
+					<p>When you float elements, they will either float to the left or to the right (not up or down) and will always move to the edge of its parent container.</p> 
+					<script src="https://gist.github.com/CassieShumway/9341986.js"></script>
 					<div class="box">
 						<span class="example left">float: left</span>
-							<p>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p>
+						<p>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p>
 					</div>
-							<p>Notice how the text wraps around the floated element? Any elements after the floated element will simply flow around it. The same would apply if it were floated to the right as well:
-							</p> 
+					<p>Notice how the text wraps around the floated element? Any elements after the floated element will simply flow around it. The same would apply if it were floated to the right as well:</p> 
 					<script src="https://gist.github.com/CassieShumway/9350060.js"></script>
-			<div class="box">
-				<span class="example right">float: right</span>
-				<p>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p>
-			</div>
-	</section>
+					<div class="box">
+						<span class="example right">float: right</span>
+						<p>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p>
+					</div>
+				</section>
 
-	<section id="2">
-		<h2>2: Negative Margins</h2>
-			<p>One of the ways you can control floated elements is by using negative margins. In this example, we'll use margin-left to make our floated element have an overlapping effect. 
-			</p>
-				<script src="https://gist.github.com/CassieShumway/9351903.js"></script>
+				<section id="2">
+					<h2>2: Negative Margins</h2>
+					<p>One of the ways you can control floated elements is by using negative margins. In this example, we'll use margin-left to make our floated element have an overlapping effect.</p>
+					<script src="https://gist.github.com/CassieShumway/9351903.js"></script>
 					<div class="box">
 						<span class="example margin-example">float: left</span>
 						<p>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p>
 					</div>
-				<p>If you play with the negative margins, you'll notice that you can tug and pull the floated element. Also, by using this trick, you can make way for some nice visual effects on a website!
-				</p>
-	</section>
-
-	<section id="3">
-		<h2>3: Clear Fix</h2>
-			<p>Whenever floats are used, its parent container will NOT automatically expand to adjust to the floated elements inside. Unfortunately, you must always clear the containing element so that it doesn't collapse. One of the best ways to clear floats is by using a clearfix. 
-			</p>
-		<script src="https://gist.github.com/CassieShumway/9357122.js"></script>
-	</section>
-					
-	<section id="4">
-		<h2>4: Collapsing Issues</h2>
-			<p>Now, you might be wondering, "How does a parent container collapse?" Well, looking below, you'll see what happens when floats are not cleared:
-			</p>
-				<div class="collapse-box">
-					<span class="example">float: left</span>
-					<span class="example">
-					float: left
-					</span>
-				</div>
-					<p>Notice how the floated element is outside the containing box? That's because the parent container doesn't recognize the floated element within itself. Which results in the parent container not knowing how to properly expand and "clear" the floats.
-					</p> 
-					<p>Well fear not, because all you need to do is add the clearfix to the parent container! Now you can see that the floated element is properly contained.
+					<p>If you play with the negative margins, you'll notice that you can tug and pull the floated element. Also, by using this trick, you can make way for some nice visual effects on a website!
 					</p>
-			<div class="collapse-box cf">
-				<span class="example collapse-example">float: left</span>
-				<span class="example collapse-example">
-				float: left
-				</span>
-			</div>
-	</section>
+				</section>
 
-		<h2>Sources</h2>
-			<ul>
-				<li><a href="http://www.w3schools.com/">What Is CSS Float?</a></li>
-				<li><a href="http://css-tricks.com/">All About Floats</a></li>
-			</ul>
-	</div>
-</div>
-</body>
+				<section id="3">
+					<h2>3: Clear Fix</h2>
+					<p>Whenever floats are used, its parent container will NOT automatically expand to adjust to the floated elements inside. Unfortunately, you must always clear the containing element so that it doesn't collapse. One of the best ways to clear floats is by using a clearfix.</p>
+					<script src="https://gist.github.com/CassieShumway/9357122.js"></script>
+				</section>
+							
+				<section id="4">
+					<h2>4: Collapsing Issues</h2>
+					<p>Now, you might be wondering, "How does a parent container collapse?" Well, looking below, you'll see what happens when floats are not cleared:</p>
+					<div class="collapse-box">
+						<span class="example">float: left</span>
+						<span class="example">float: left</span>
+					</div>
+					<p>Notice how the floated element is outside the containing box? That's because the parent container doesn't recognize the floated element within itself. Which results in the parent container not knowing how to properly expand and "clear" the floats.</p> 
+					<p>Well fear not, because all you need to do is add the clearfix to the parent container! Now you can see that the floated element is properly contained.</p>
+					<div class="collapse-box cf">
+						<span class="example collapse-example">float: left</span>
+						<span class="example collapse-example">float: left</span>
+					</div>
+					<p>(Note: display inline-block had to be added to the span class because clearfix will not work on inline elements.)</p>
+				</section>
+
+				<h2>Sources</h2>
+				<ul>
+					<li><a href="http://www.w3schools.com/">What Is CSS Float?</a></li>
+					<li><a href="http://css-tricks.com/">All About Floats</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
 </html>

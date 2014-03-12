@@ -47,7 +47,9 @@ li {
 	padding: 1em;
 }
 
-/*---------CONTAINER----------*/
+/* =================================
+   CONTAINER
+   ============================== */
 
 .container {
 	margin: 0 auto;
@@ -56,12 +58,12 @@ li {
 	max-width: 640px;
 }
 
-/*--------BOX EXAMPLES-------*/
+/* =================================
+   BOXES USED FOR EXAMPLES
+   ============================== */
 
 .box {
-	border: #E9E9E9; 
-	border-style: dashed;
-	border-width: 1px;
+	border: 1px dashed #E9E9E9; 
 	margin: 0 auto;
 	margin-bottom: 1em;
 	padding: 1em;
@@ -69,7 +71,9 @@ li {
 	max-width: 604px;
 }
 
-/*----------INLINE-----------*/
+/* =================================
+   INLINE
+   ============================== */
 
 .inline-block {
 	background: #D0ECEA;
@@ -78,7 +82,9 @@ li {
 	text-align: center;
 }
 
-/*---------BLOCKLEVEL--------*/
+/* =================================
+   BLOCKLEVEL
+   ============================== */
 
 .block {
 	background: #D0ECEA;
@@ -86,7 +92,9 @@ li {
 	text-align: center;
 }
 
-/* -------GIST OVERRIDE---- */
+/* =================================
+   GIST OVERRIDES
+   ============================== */
 
 .gist .gist-file {
   font-size: .9rem !important;
@@ -110,16 +118,17 @@ li {
   font-weight: normal !important;
 }
 
-/*---------CODE----------------*/
+/* =================================
+   CODE
+   ============================== */
 
 code {
-	background: #ecede8;
+	background: #F3F3F2;
 	-moz-border-radius: 15px;
 	border-radius: 5px;
-	border: #aaa; 
-	border-style: solid;
-	border-width: 2px;
-	top: -1px;
+	border: 1px solid #DDD7D7; 
+	font-size: 16px;
 	padding: 0.2em 0.7em;
 	position: relative;
+	top: -1px;
 }
