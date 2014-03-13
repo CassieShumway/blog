@@ -1,7 +1,7 @@
 ---
-title: Pseudo Classes Part 1
+title: Pseudo Classes
 date: 2014-03-10
-tags: pseudo
+tags: pseudo, classes
 ---
 
 <article>
@@ -59,9 +59,28 @@ tags: pseudo
 <script src="https://gist.github.com/CassieShumway/9500641.js"></script>
 
 <div class="box cf">
-  <p class="animal-before">this cat has been inserted using <code>:before</code></p>
-  <p class="animal-after">this bear has been inserted using <code>:after</code></p>
+  <p class="animal-before">This cat has been inserted using <code>:before</code> in this sentence</p>
+  <p class="animal-after">This bear has been inserted using <code>:after</code> in this sentence</p>
 </div>
+
+<h3>:nth-child(N)</h3>
+<p>This pseudo class matches elements of the nth child. This could be a keyword, number or formula. To keep things simple we'll choose (N) to match to any odd numbered columns. Looking below, you'll now see that column 1 and column 3 are highlighted in brown.</p>
+
+<script src="https://gist.github.com/CassieShumway/9520699.js"></script>
+
+<div class="box cf">
+  <div class="column-example3">
+    <p>column 1</p>
+  </div>
+  <div class="column-example3">
+    <p>column 2</p>
+  </div>
+  <div class="column-example3">
+    <p>column 3</p>
+  </div>
+</div>
+
+<p>Super easy!</p>
 
 <h3>Sources</h3>
 <ul>

@@ -239,6 +239,13 @@ article p { }
   width: 28%;
 }
 
+.column-example3 {
+  border: 1px solid #ddd;
+  float: left;
+  margin-left: 5%;
+  width: 28%;
+}
+
 .column-example1:first-child { 
   background: #C3E0DE;
   margin-left: 0;
@@ -246,6 +253,10 @@ article p { }
 
 .column-example2:first-child { 
   background: #C3E0DE;
+}
+
+.column-example3:nth-child(odd) {
+  background: #DDD3D0;
 }
 
 .animal-before:before {
