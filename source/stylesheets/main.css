@@ -1,6 +1,6 @@
 body {
-	background: white; 
-	color: #6A7574; 
+	background: #fff; 
+	color: #6a7574; 
 	font-size: 112%; /*allows font elemets to take their sizes from the body*/
 	font-family: 'Rosario', sans-serif;
 	font-weight: 300;
@@ -16,14 +16,14 @@ body {
 }
 
 a {
-	color: #6A7574;
+	color: #6a7574;
 	text-decoration: none;
 }
 
-a:hover { color: #FF7865; }
+a:hover { color: #ff7865; }
 
 h1 {
-	color: #FF7865;
+	color: #ff7865;
 	font-size: 1.5em;
 	padding-bottom: 0.5em;
 	text-align: center;
@@ -35,9 +35,10 @@ h2 {
 }
 
 h3 {
-	color: #FAA498;
+	color: #faa498;
 	font-size: 1.1em;
 	font-weight: 700;
+  padding-top: 0.5em;
 }
 
 hr {
@@ -243,7 +244,7 @@ article p { }
   border: 1px solid #ddd;
   float: left;
   margin-left: 5%;
-  width: 28%;
+  width: 30%;
 }
 
 .column-example1:first-child { 
@@ -253,6 +254,10 @@ article p { }
 
 .column-example2:first-child { 
   background: #C3E0DE;
+}
+
+.column-example3:first-child {
+  margin-left: 0;
 }
 
 .column-example3:nth-child(odd) {
@@ -322,10 +327,6 @@ code {
     display: table; /* 2 */
 }
 
-.cf:after {
-    clear: both;
-}
+.cf:after { clear: both; }
 
-.cf {
-    *zoom: 1;
-}
+.cf { *zoom: 1; }
