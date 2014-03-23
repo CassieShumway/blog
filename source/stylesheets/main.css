@@ -187,20 +187,6 @@ p {
 }
 
 /* =================================
-   BOXES USED FOR EXAMPLES
-   ============================== */
-
-.box {
-	border: 1px dashed #E9E9E9; 
-	margin: 0 auto;
-	margin-bottom: 1em;
-	padding: 1em;
-	width: 100%;
-	max-width: 604px;
-  text-align: center;
-}
-
-/* =================================
    STYLES - FOR BLOG PAGE
    ============================== */
 
@@ -226,42 +212,42 @@ article p { }
    STYLES - FOR PSEUDO BLOG POST
    ============================== */
 
-.column-example1 {
+.column-example-one {
   border: 1px solid #ddd;
   float: left;
   margin-left: 5%;
   width: 30%;
 }
 
-.column-example2 {
+.column-example-two {
   border: 1px solid #ddd;
   float: left;
   margin-left: 5%;
   width: 28%;
 }
 
-.column-example3 {
+.column-example-three {
   border: 1px solid #ddd;
   float: left;
   margin-left: 5%;
   width: 30%;
 }
 
-.column-example1:first-child { 
-  background: #C3E0DE;
+.column-example-one:first-child { 
+  background: #D7EBE9;
   margin-left: 0;
 }
 
-.column-example2:first-child { 
-  background: #C3E0DE;
+.column-example-two:first-child { 
+  background: #D7EBE9;
 }
 
-.column-example3:first-child {
+.column-example-three:first-child {
   margin-left: 0;
 }
 
-.column-example3:nth-child(odd) {
-  background: #DDD3D0;
+.column-example-three:nth-child(odd) {
+  background: #F0EBEA;
 }
 
 .animal-before:before {
@@ -274,6 +260,41 @@ article p { }
   background: url('/images/bear.jpg');
   content: " ";
   padding: 0.2em .9em;
+}
+
+/* =================================
+   TABLES
+   ============================== */
+
+table {
+  border: 1px solid #ddd;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead { 
+  background: #faa498;
+  color: #fff;
+  text-align: left;
+}
+
+tr { border-bottom: 1px solid #ddd; }
+.table-example tbody tr:nth-child(odd) { background: #f0ebea; }
+th, td { padding: 0.5em; }
+
+/* =================================
+   BOX USED FOR ALL EXAMPLES
+   ============================== */
+
+.box {
+  border: 1px dashed #E9E9E9; 
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+  max-width: 604px;
+  text-align: center;
 }
 
 /* =================================

@@ -1,0 +1,174 @@
+---
+layout: projects-layout
+---
+
+<!doctype html>
+<html>
+  <head>    
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Positioning<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+<link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+   	<ul class="egg-fixed">
+      <li class="egg"><img class="penguin-hover" src="/images/penguin-mini.png"></li>
+      <li class="egg"><img class="penguin-hover" src="/images/penguin-mini.png"></li>
+    </ul>
+
+      <div class="container">
+        <h1>Positioning</h1>
+        <p>Users can use positioning to position an element. They can be arranged using top, right, bottom, and left properties. But these properties will only work with the position property and will work differently with each position method. There are four:</p>
+      </div>
+    
+
+      <div class="color-container">
+        <div class="container cf">
+          <div class="column">
+            <div class="box">
+              <img class="parent" src="/images/house.png">
+            </div>
+            <h1>Parent Element</h1>
+            <p>Contains "children" elements.</p>
+          </div>
+          <div class="column">
+            <div class="box">
+              <img class="child" src="/images/penguin.png">
+            </div>
+            <h1>Child Element</h1>
+            <p>Contained by its parent element.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>There are four positioning methods:</h1>
+        <div class="row">
+          <div class="column">
+            <h3>Static</h3>
+            <p>Static elements simply position themselves to the normal flow of your page. By default, HTML elements are positioned as static. Note: they ignore top, right, bottom, and left properties.</p>
+          </div>
+          <div class="column">
+            <h3>Absolute</h3>
+            <p>Absolute positioned elements are removed from the normal flow of your page. It gets positioned relative to its parent element/container. Note: use top, right, bottom, and left properties to position an absolutely positioned element.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h3>Fixed</h3>
+            <p>An element with fixed position is positioned relative to the browser window. It will not move even if the window is scrolled.</p>
+          </div>
+          <div class="column">
+            <h3>Relative</h3>
+            <p>When you use relative positioning on an element, it will first be laid out as a static element. Then you can use top, right, bottom, and left properties to position it.</p>
+          </div>
+        </div> 
+      </div>
+    
+
+      <div class="color-container">
+        <div class="container cf">
+          <div class="row">
+          <div class="column">
+            <div class="box">
+              <img class="parent p-example-one" src="/images/house.png">
+              <img class="child c-example-one" src="/images/penguin.png">
+            </div>
+          </div>
+          <div class="column">
+             <h2>Static</h2>
+            <p>Here, you will see that both the parent and child element has been made static.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="box">
+              <img class="parent p-example-two" src="/images/house.png">
+              <img class="child c-example-two" src="/images/penguin.png">
+            </div>
+          </div>
+          <div class="column">
+            <h2>Absolute</h2>
+            <p>Absolute postioned elements will overlap other elements unless you place margins or padding on other elements to accomodate. </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="box">
+              <img class="parent p-example-three" src="/images/house.png">
+              <img class="child c-example-three" src="/images/penguin.png">
+            </div>
+            <div class="column">
+            <h2>Fixed</h2>
+            <p>Similar to the absolute propery, a fixed element wont move when you scroll through a document page. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="box">
+            <img class="parent p-example-four" src="/images/house.png">
+            <img class="child c-example-four" src="/images/penguin.png">
+            </div>
+          </div>
+          <div class="column">
+          <h2>Relative</h2>
+          <p>It's good to note that relative positioning isn't useful for laying out columns of content. However, its incredibly useful to position absolute elements. The reason being is that once you make a containing block relatively positioned, it can contain absolutely positioned children.</p> 
+
+          <p>Note: its pointless to use both left/right or top/bottom for the same element. If top and bottom are specified, top will be used and bottom will be ignored. If you use a left value with directionally left content, the right value will be ignored.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+ 
+        
+    <!-- 
+     
+      <div class="color-container">
+         <div class="container cf">
+            
+      </div> 
+
+      <div class="container">
+        
+    </div>
+    
+    <div class="container cf">
+      <h1>Z-Index</h1>
+      <p>By using the z-index property, elements are able to be "stacked." Positioned elements can overlap depending on their z-index. An element/box with a higher z-index (or stack level) will be stacked on top. Or rendered in front of an element with a lower z-index.</p>
+
+      <div class="column">
+        <div class="box">
+          <img class="parent p-example-five" src="/images/house.png">
+          <img class="child c-example-five" src="/images/penguin.png">
+        </div>
+        <h1>Parent Element</h1>
+        <p>Here, the parent element is set to a higher z-index. Thus, bringing it to the front.</p>
+      </div>
+
+      <div class="column">
+        <div class="box">
+           <img class="parent p-example-six" src="/images/house.png">
+          <img class="child c-example-six" src="/images/penguin.png">
+        </div>
+        <h1>Child Element</h1>
+        <p>Here, the child element is set to a higher z-index. Thus, bringing it to the front.</p>
+      </div>
+
+  <div class="color-container">
+    <div class="container">
+      <h1>Sources</h1>
+      <p>The Ultimate CSS Reference</p>
+    </div>
+  </div> -->
+  </body>
+</html>

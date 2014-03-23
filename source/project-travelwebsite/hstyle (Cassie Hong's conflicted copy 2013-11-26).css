@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	font-family: 'Quicksand', sans-serif;
+	color: #143D56;
+
+}
+
+a   {
+	color: #2B99B4; text-decoration: none;
+}
+
+a:hover {
+        color: #E76721;
+}
+
+/* SIDEBAR */
+
+#container {
+	
+}
+
+#sidebar {
+	background-image:url('sidebar.jpg');
+	border-style: solid;
+	border-right-width: 5px; 
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	border-right-color: #143D56; 
+	position: fixed; 
+	float: left;
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+#sidebar .scontainer {
+	padding: 20px;
+	margin-top: 0em;
+}
+
+.header {
+	text-align: right;
+}
+
+.header h1 {
+	font-size: 40px;
+	text-align: right;
+	font-weight: normal;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+
+span {
+	color: #2B99B4;
+}
+
+.nav {
+
+}
+
+.nav ul {
+	margin-top: 0.5em;
+	margin-bottom: 0px;
+	list-style: none;
+	text-align: right;
+	font-size: 15px;
+}
+
+.nav li {
+	padding: 3px;
+}
+
+.navi {
+	margin-top: 0px;
+	margin-right: 0.5em;
+}
+
+/* MAIN */
+
+
+#main {
+	float: right;
+	overflow: auto;
+	width: 100%;
+}
+
+.homebanner {
+	margin-top: 1em;
+	margin-right: 1em;
+	z-index: 3;
+	overflow: auto;
+	float: right;
+
+}
+
+
+
+
+/* FEATURE */
+
+
+#feature {
+	width: 850px;
+	height: 100%;
+	overflow: auto;
+}
+
+/* 
+.fcontainer h2 {
+	color: #F05F25;
+	font-size: 16px;
+	margin-left: 230px;
+}
+*/
+
+.fcontainer {
+	height: 200px;
+  	width: 100%;
+  	float: right;
+	border-radius: 10px;
+	margin-right: 0.5em;
+	margin-top: 1em;
+}
+
+.box {
+  float: right;
+  margin-right: 0.5em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 15%
+}
+
+.box h1 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.box p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.box img {
+	border-radius: 5px;
+}
+
+
+/* AD */
+
+#ad {
+	float: right;
+}
+
+.adcontainer {
+	height: auto;
+  	width: 100%;
+  	float: right;
+	margin-top: 4em;
+}
+
+.adbox {
+    float: right;
+    margin-right: 0.5em;
+    padding: 1em;
+	width: 30%
+}
+
+.adbox h1 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.adbox p {
+	font-size: 12px;
+	text-align: left;
+}
+
+/* FOOTER */
+
+
+#footer {
+	position: fixed; 
+	z-index: 4;
+	width: 500px;
+	height: 200px;
+}
+
+#footer p {
+	margin: 640px 10px 10px 200px;
+	float: left;
+	display:inline-block;
+	font-size: 12px;
+	color: #143D56;
+}
+
+#footer .contact img {
+	margin: 620px 0px 10px 0px;
+	float: left;
+}
+

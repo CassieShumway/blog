@@ -20,13 +20,13 @@ tags: pseudo, classes
 <p>Looking at the columns below, I've highlighted the <code>:first-child</code> in green.</p>
 
 <div class="box cf">
-  <div class="column-example1">
+  <div class="column-example-one">
     <p>column 1</p>
   </div>
-  <div class="column-example1">
+  <div class="column-example-one">
     <p>column 2</p>
   </div>
-  <div class="column-example1">
+  <div class="column-example-one">
     <p>column 3</p>
   </div>
 </div>
@@ -38,13 +38,13 @@ tags: pseudo, classes
 <p>Imagine if we hadn't used <code>:first-child</code> to clear the extra margin space. We would end up with a margin space on every column that would throw everything off center:</p>
 
 <div class="box cf">
-<div class="column-example2">
+<div class="column-example-two">
   <p>column 1</p>
 </div>
-<div class="column-example2">
+<div class="column-example-two">
   <p>column 2</p>
 </div>
-<div class="column-example2">
+<div class="column-example-two">
   <p>column 3</p>
 </div>
 </div>
@@ -69,22 +69,49 @@ tags: pseudo, classes
 <script src="https://gist.github.com/CassieShumway/9520699.js"></script>
 
 <div class="box cf">
-  <div class="column-example3">
+  <div class="column-example-three">
     <p>column 1</p>
   </div>
-  <div class="column-example3">
+  <div class="column-example-three">
     <p>column 2</p>
   </div>
-  <div class="column-example3">
+  <div class="column-example-three">
     <p>column 3</p>
   </div>
 </div>
 
-<p>Super easy!</p>
+<p>Lets try selecting only the odd items in a table:</p>
+
+<table class="table-example">
+  <thead>
+    <tr>
+      <th>Row</th>
+      <th>Odd/Even</th>
+      <th>Selected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1</td>
+      <td>Odd</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+      <td>Even</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Row 3</td>
+      <td>Odd</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3>Sources</h3>
 <ul>
-  <li><a href="http://www.ebooktrove.com/coding/cssref1pdf.pdf">The Ultimate CSS Reference by Tommy Olsson & Paul O'Brien</a></li>
+  <li><a href="http://www.ebooktrove.com/coding/cssref1pdf.pdf">The Ultimate CSS Reference by Tommy Olsson &amp; Paul O'Brien</a></li>
   <li><a href="http://www.w3schools.com/">CSS Pseudo-Classes</a></li>
   <li><a href="http://css-tricks.com/">Meet the Pseudo Class Selectors</a></li>
 </ul>
