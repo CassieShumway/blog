@@ -281,7 +281,30 @@ thead {
 
 tr { border-bottom: 1px solid #ddd; }
 .table-example tbody tr:nth-child(odd) { background: #f0ebea; }
-th, td { padding: 0.5em; }
+.table-example th, td { padding: 0.5em; }
+
+/* =================================
+   STYLES - FOR POSITIONING BLOG POST
+   ============================== */
+
+.animal-box {
+  background: #ecede8;
+  border: 1px solid #ddd;
+  margin: 1em 0;
+  position: relative;
+}
+
+ul.animal-list li {
+  border-bottom: 1px solid #ddd;
+  padding: .5em;
+}
+
+ul.animal-list li:nth-last-of-type(1) { border-bottom: 0; }
+
+.animal-image {
+  right: 1%;
+  position: absolute;
+}
 
 /* =================================
    BOX USED FOR ALL EXAMPLES
