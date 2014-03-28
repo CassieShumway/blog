@@ -41,12 +41,25 @@ h3 {
   padding-top: 0.5em;
 }
 
+h4 {
+  font-weight: 700;
+}
+
 hr {
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    height: 0;
-    width: 300px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  height: 0;
+  width: 300px;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  height: 0;
+  margin: 2em 0;
+  width: 100%;
 }
 
 p {
@@ -187,6 +200,17 @@ p {
 }
 
 /* =================================
+   HEART IMAGES - USED FOR LISTS
+   ============================== */
+
+.feather-image:before {
+  background: url('/images/feather.jpg');
+  content: " ";
+  margin-right: 5px;
+  padding: 0em 0.58em;
+}
+
+/* =================================
    STYLES - FOR BLOG PAGE
    ============================== */
 
@@ -266,20 +290,20 @@ article p { }
    TABLES
    ============================== */
 
-table {
+.table-example {
   border: 1px solid #ddd;
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-thead { 
+.table-example thead { 
   background: #faa498;
   color: #fff;
   text-align: left;
 }
 
-tr { border-bottom: 1px solid #ddd; }
+.table-example tr { border-bottom: 1px solid #ddd; }
 .table-example tbody tr:nth-child(odd) { background: #f0ebea; }
 .table-example th, td { padding: 0.5em; }
 
@@ -292,14 +316,15 @@ tr { border-bottom: 1px solid #ddd; }
   border: 1px solid #ddd;
   margin: 1em 0;
   position: relative;
+  width: 100%;
 }
 
-ul.animal-list li {
+.animal-list li {
   border-bottom: 1px solid #ddd;
   padding: .5em;
 }
 
-ul.animal-list li:nth-last-of-type(1) { border-bottom: 0; }
+.animal-list li:nth-last-of-type(1) { border-bottom: 0; }
 
 .animal-image {
   right: 1%;
@@ -330,7 +355,7 @@ code {
 	border-radius: 5px;
 	border: 1px solid #DDD7D7; 
 	font-size: 16px;
-	padding: 0.2em 0.7em;
+	padding: 0.2em 0.5em;
 	position: relative;
 	top: -1px;
 }

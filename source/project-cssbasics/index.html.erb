@@ -9,12 +9,12 @@ layout: projects-layout
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>CASSIE<%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		 <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
 		<!--content information reference: 
 		http://www.cssbasics.com/introduction-to-css/ 
 		http://www.w3schools.com/css/css_positioning.asp-->
@@ -22,7 +22,7 @@ layout: projects-layout
 
 	<body>
 		<div id="header">
-			<div class="navigation">
+			<div class="navigation cf">
 				<ul>
 					<a href="#"><li>Home</li></a>
 					<a href="#"><li>Contact</li></a>
@@ -37,25 +37,36 @@ layout: projects-layout
 		     <p>CSS stands for Cascading Style Sheets. This allows you to separate your web sites (X)HTML content from it’s style. CSS defines how HTML elements are to be displayed. These external style sheets enable you to change the appearance and layout of all the pages in a Web site, just by editing one single file!</p>	
 		     <p>Here are your topics:</p>
 			</div>
-			<div id="topics">
-				<ul class="topics-button">
-					<a href="#syntax"><li class="button">Syntax</li></a>
-					<a href="#spans"><li class="button">Spans</li></a>
-					<a href="#divisions"><li class="button">Divisions</li></a>
-					<a href="#pseudo"><li class="button">Pseudo Classes</li></a>
-					<a href="#static"><li class="button">Static Positioning</li></a>
-					<a href="#relative"><li class="button">Relative Positioning</li></a>
-					<a href="#absolute"><li class="button">Absolute Positioning</li></a>
-					<a href="#fixed"><li class="button">Fixed Positioning</li></a>
-				</ul>
+			<div class="topics">
+				<div class="row">
+					<div class="column">
+						<ul class="topics-button">
+							<a href="#syntax"><li class="button">Syntax</li></a>
+							<a href="#spans"><li class="button">Spans</li></a>
+							<a href="#divisions"><li class="button">Divisions</li></a>
+							<a href="#pseudo"><li class="button">Pseudo Classes</li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column">
+						<ul class="topics-button">
+							<a href="#static"><li class="button">Static Positioning</li></a>
+							<a href="#relative"><li class="button">Relative Positioning</li></a>
+							<a href="#absolute"><li class="button">Absolute Positioning</li></a>
+							<a href="#fixed"><li class="button">Fixed Positioning</li></a>
+						</ul>
+					</div>
+				</div>
 			</div>
+		
 			<hr>
 
 			<div id="content">
 				<section id="syntax">
 				<h2>CSS Syntax</h2>
 				<p>The syntax consists of only 3 parts: selector {propery:value}</p>
-				<p>>The selector is the (X)HTML element that you want to style. The property is the actual property title, and the value is the style you apply to that property.</p>
+				<p>The selector is the (X)HTML element that you want to style. The property is the actual property title, and the value is the style you apply to that property.</p>
 				<p>Each selector can have multiple properties, and each property within that selector can have independent values. The property and value are separated with a colon and contained within curly brackets. Multiple properties are separated by a semi colon. Multiple values within a property are sperated by commas, and if an individual value contains more than one word you surround it with quotation marks. As shown below.</p>
 				
 				<section id="spans">

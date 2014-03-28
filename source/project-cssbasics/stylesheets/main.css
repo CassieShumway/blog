@@ -1,3 +1,9 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
 body {
 	color: #0A6C89;
 	font-family: 'Alegreya Sans', sans-serif;
@@ -23,13 +29,14 @@ h1 {
 }
 
 h2 {
+  color: #D85588;
 	font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
 	font-weight: normal;
+  padding: 1em 0;
 }
 
-h3 { color: #D85588; }
-
-p { padding-top: 1em; }
+p { }
 
 hr {
     border: 0;
@@ -80,7 +87,6 @@ ul { list-style: none; }
 	font-weight: bold;
 	float:left;
 	padding: 0.5em;
-	
 }
 
 /* =================================
@@ -115,40 +121,39 @@ ul { list-style: none; }
   TOPICS
    ============================== */
 
-#topics {
+.topics {
 	margin: 0 auto;
 	padding: 1em;
 }
 
+.center {
+  text-align: center;
+}
+
 .topics-button {
 	margin: 0 auto;
- 	overflow: hidden;
- 	padding: 0;
  	text-align: center;
- 	/* apply to parent container and it will center your inline element
- 	makes block elements behave like inline elements */
 }
+
 
 .button {
 	-moz-border-radius: 50px; //for mozilla support
 	-webkit-border-radius: 50px; //for chrome support
 	border-radius: 50px;
-	background-color: #F9F4E4;
+  background: url(sprinkles2x.png);
 	display: inline-block;
 	float: left;
 	font-size: 1em;
+  height: 40px;
+  line-height: .5em;
 	margin: .5em;
-	height: 40px;
-	width: 19.5%;
-	padding: 2em 1em;
-	overflow: hidden; 
+  padding: 2em 1em;
+	width: 22.8%;
 }
 
 .button:hover {
-	background:  url(sprinkles2x.png);
-	color: #0A6C89;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
+	background: #f9f4e4;
+	color: #0a6c89;
 }
 
 /* =================================
@@ -158,12 +163,27 @@ ul { list-style: none; }
 #content { padding-top: 1em; }
 
 .column {
-    margin-left: 4%;
+  margin-left: 4%;
 	float: left;
-	width: 30%;
+	width: 100%;
 }
 
 .column:first-child { margin-left: 0; }
 
 .row { overflow: hidden; }
+
+/* =================================
+   CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
 
