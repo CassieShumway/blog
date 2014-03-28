@@ -8,7 +8,7 @@ tags: positioning, absolute
 <h1>Looking Back</h1>
 <p>During my novice apprenticeship at 8th Light, I've learned a lot. It's exciting to look back and see how much I've learned in HTML and CSS but its even more exciting to know that there is <em>always</em> more to learn.</p>
 
-<p>These projects and blog posts focus on setting good practices and understanding the basic fundamentals of HTML and CSS. Having Adam as my mentor has meant a lot to me because it's been so encouraging to problem solve together and develop best practices. I'm hoping to learn more from Adam's design approach by writing cleaner and more modular code while maintaing design integrity.</p>
+<p>These projects and blog posts focus on setting good practices and understanding the basic fundamentals of HTML and CSS. Having Adam as my mentor has meant a lot to me because it's been so encouraging to problem solve together and develop best practices. I'm hoping to learn more from Adam's design approach by writing cleaner and more modular code while maintaining design integrity.</p>
 
 <p>I'd like to make this blog post dedicated to all the things I've learned thus far.</p>
 
@@ -94,6 +94,31 @@ tags: positioning, absolute
 <hr class="divider"> 
 
 <h3>Pseudo Classes</h3>
+<p>Pseudo classes are used to modify certain selectors without adding markup in your HTML file.</p>
+<script src="https://gist.github.com/CassieShumway/9479800.js"></script>
+<p>Here are some important pseudo class selectors:</p>
+<h4>1. :first-child and :last-child</h4>
+<script src="https://gist.github.com/CassieShumway/9826457.js"></script>
+<ul>
+  <li class="feather-image">:first-child targets the first child of its parent element.</li>
+  <li class="feather-image">:last-child targets the last child element of its parent element.</li>
+</ul>
+<p>Both are most commonly used to clear extra margins or borders.</p>
+
+<h4>2. :before and :after</h4>
+<script src="https://gist.github.com/CassieShumway/9826461.js"></script>
+<ul>
+  <li class="feather-image">:before inserts content before an element.</li>
+  <li class="feather-image">:after inserts content after an element.</li>
+</ul>
+<p>Both only show themselves under specific elements selected in your CSS file.</p>
+
+<h4>3. :nth-child(N)</h4>
+<script src="https://gist.github.com/CassieShumway/9826534.js"></script>
+<ul>
+  <li class="feather-image">Matches elements of the nth child.</li>
+  <li class="feather-image">(N) could be a keyword, number or formula.</li>
+</ul>
 
 
 <hr class="divider"> 
@@ -102,9 +127,10 @@ tags: positioning, absolute
 <p>Aside from my love of Chicago doughnuts, I am a huge fan of illustration. With a background in fine arts, I would love to design custom illustrations for future projects and push the boundaries of design. Having previous experience as a freelance graphic designer, I love brainstorming design ideas and helping clients discover the design direction that best fits their needs.</p>
 
 <h3>From Here...</h3>
-<p>I want to continue moving forward with 8th Light to better my practices. It's been nothing less than thrilling and I'm looking forward to setting more advanced goals. 
+<p>I want to continue moving forward with 8th Light to better my practice and continue learning from other craftsmen with their experiences and different approaches. With that, continuing to problem solve and moving forward with the best solution. It's been thrilling to realize that 8th Light embraces this process which creates a constant environment of learning and opportunity to better your code. I'm looking forward to setting more advanced goals as I progress. 
 
-<p>One main goal I'm most focused on is responsive design. How can I keep design integrity while keeping practical and efficient code? How can I create the best experience for a user with exciting visuals and interactive responses?</p>
+<p>One specific goal I'm most interested in is responsive design. How can I keep design integrity while keeping practical and efficient code? How can I create the best experience for a user with exciting visuals and interactive responses?</p>
 
+<p>I'm hoping to always keep these questions in mind...But I'm also hoping to answer them!</p>
 
 </article>
