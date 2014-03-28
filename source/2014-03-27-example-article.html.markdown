@@ -123,13 +123,14 @@ tags: positioning, absolute
 
 <hr class="divider"> 
 
-<h3>What I Love</h3>
-<p>Aside from my love of Chicago doughnuts, I am a huge fan of illustration. With a background in fine arts, I would love to design custom illustrations for future projects and push the boundaries of design. Having previous experience as a freelance graphic designer, I love brainstorming design ideas and helping clients discover the design direction that best fits their needs.</p>
-
 <h3>From Here...</h3>
 <p>I want to continue moving forward with 8th Light to better my practice and continue learning from other craftsmen with their experiences and different approaches. With that, continuing to problem solve and moving forward with the best solution. It's been thrilling to realize that 8th Light embraces this process which creates a constant environment of learning and opportunity to better your code. I'm looking forward to setting more advanced goals as I progress. 
 
-<p>One specific goal I'm most interested in is responsive design. How can I keep design integrity while keeping practical and efficient code? How can I create the best experience for a user with exciting visuals and interactive responses?</p>
+<h3>What I Love</h3>
+<p>Aside from my love of Chicago doughnuts, I am a huge fan of illustration. With a background in fine arts, I would love to design custom illustrations for future projects and push the boundaries of design. Having previous experience as a freelance graphic designer, I love brainstorming design ideas and helping clients discover the design direction that best fits their needs.</p>
+
+<h3>Adding Love With Code</h3> 
+<p>What I'm most interested in is responsive design. How can I keep design integrity while keeping practical and efficient code? How can I create the best experience for a user with exciting visuals and interactive responses? How can I create harmony with my love for graphics and code?</p>
 
 <p>I'm hoping to always keep these questions in mind...But I'm also hoping to answer them!</p>
 
