@@ -120,7 +120,6 @@ tags: positioning, absolute
   <li class="feather-image">(N) could be a keyword, number or formula.</li>
 </ul>
 
-
 <hr class="divider"> 
 
 <h3>From Here...</h3>
