@@ -2,7 +2,7 @@ body {
 	background: #fff; 
 	color: #6a7574; 
 	font-size: 112%; /*allows font elemets to take their sizes from the body*/
-	font-family: 'Rosario', sans-serif;
+	font-family: "omnes-pro", sans-serif;
 	font-weight: 300;
 	line-height: 2em;
 	margin: 0; 
@@ -26,6 +26,7 @@ h1 {
 	/*color: #ff7865; orange coral*/
   color: #ff6b8e;
 	font-size: 1.5em;
+  font-weight: 500;
 	padding-bottom: 0.5em;
 	text-align: center;
 }

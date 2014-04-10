@@ -6,10 +6,12 @@
     <title>Cassie Shumway<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= stylesheet_link_tag 'normalize', 'main', 'responsive' %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'> -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:700,300,300italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cinzel:400, 900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="//use.typekit.net/jep8mdb.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
