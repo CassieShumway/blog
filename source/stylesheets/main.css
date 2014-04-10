@@ -98,6 +98,10 @@ a .underline { text-decoration:underline }
   color: #faa498;
 }
 
+.big {
+  font-size: 2em;
+}
+
 /* =================================
   NAVIGATION
    ============================== */
@@ -146,6 +150,11 @@ a .underline { text-decoration:underline }
 	background: url(creampixels.png);
   /*border-bottom: 1px solid #E9E9E9;*/
   padding: 1em;
+}
+
+.box-container {
+  width: 100%;
+  height: auto;
 }
 
 /* =================================
@@ -218,6 +227,10 @@ a .underline { text-decoration:underline }
   font-weight: 300;
 }
 
+.font-roboto-normal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 /* =================================
    UTILITIES
    ============================== */
