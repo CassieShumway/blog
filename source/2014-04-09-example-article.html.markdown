@@ -1,7 +1,7 @@
 ---
-title: Typeface
+title: Mixing Typeface
 date: 2014-04-09
-tags: typography
+tags: typeface, font
 ---
 
 <article>
@@ -15,7 +15,7 @@ tags: typography
 <h4>Typeface</h4>
 <p>A typeface is the look and style of the type design. Each typeface has a name, such as Helvetica, and is a family of fonts.</p>
 
-<p>Take for example, Helvetica. You have:</p>
+<p>So for Helvetica, you have:</p>
 <ul>
   <li class="feather-image">Helvetica Regular</li>
   <li class="feather-image">Helvetica Italic</li>
@@ -94,6 +94,15 @@ tags: typography
   <p class="font-roboto-light">This light weight 300 Roboto typeface works well with its heavier 700 weight as a headline. By using different weights, you can vary your typeface to give visual hierarchy.</p>
 </div>
 
+<h3>Font Weight</h3>
+<p>Knowing what we just learned about hierarchy, now is a good time to introduce font weight. Remember how we increased the weight to make our headline? Use different font weights to give some visual hierarchy and direction. 
+
+<ul>
+  <li class="feather-image font-roboto-light">Font weight 300</li>
+  <li class="feather-image font-roboto-normal">Font weight 400</li>
+  <li class="feather-image font-roboto-bold">Font weight 700</p></li>
+</ul>
+
 <hr class="divider-short"> 
 
 <h3>Personalities</h3>
@@ -105,13 +114,13 @@ tags: typography
   <li class="feather-image">Rockwell: Known for attention getting headlines</li>
   <li class="feather-image">New Baskerville: A versatile transitional serif typeface. Has wide glyphs that would work well with a heavy set typeface that helps off-balance it.</li>
   <li class="feather-image">Clarendon Bold: Being a slab serif, they have distinct personality.</li>
-  <li class="feather-image">Franklin Gothic Bold: Stoic, sturdy, strong but has a refined sense of elegance and is functional.</li>
+  <li class="feather-image">Franklin Gothic Bold: Stoic, sturdy, strong but with a sense of elegance.</li>
   <li class="feather-image">Souvenir: Playful, casual, and pretty.</li>
   <li class="feather-image">Futura Bold: Has high x-heights, wide glyphs and very circular letter shapes. </li>
   <li class="feather-image">Dax: Modern, savvy and bright</li>
   <li class="feather-image">Bell Gothic: Dynamic and outspoken.</li>
   <li class="feather-image">Bernhard Modern: Classy, quiet, and sophisticated.</li>
-  <li class="feather-image">Caslong: Old style typeface but has been modernized so its a nice neutral choice.</li>
+  <li class="feather-image">Caslong: Old style typeface but modernized to be a nice neutral choice.</li>
 </ul>
 
 </article>
