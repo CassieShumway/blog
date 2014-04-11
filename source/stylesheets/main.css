@@ -33,6 +33,11 @@ h1 {
 	text-align: center;
 }
 
+.front-page {
+  font-size: 2em;
+  font-weight: 400;
+}
+
 h2 {
 	padding-bottom: 1em;
 	text-align: center;
