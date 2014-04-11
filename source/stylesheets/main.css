@@ -39,14 +39,14 @@ h2 {
 h3 {
 	color: #faa498;
   /*color: #ff6578;*/
-	font-size: 1.1em;
-	font-weight: 700;
+	font-size: 1.2em;
+  font-weight: 400;
   padding-top: 0.5em;
 }
 
 h4 {
-  font-weight: 700;
   /*padding-bottom: 0.5em;*/
+  font-weight: 400;
 }
 
 hr {
