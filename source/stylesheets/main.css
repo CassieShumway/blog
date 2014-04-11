@@ -1,10 +1,11 @@
 body {
 	background: #fff; 
-	color: #6a7574; 
-	font-size: 112%; /*allows font elemets to take their sizes from the body*/
-	font-family: "omnes-pro", sans-serif;
-	font-weight: 300;
-	line-height: 2em;
+	color: #404747; 
+	font-size: 125%; /*allows font elemets to take their sizes from the body*/
+  font-family: "omnes-pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	line-height: 1.8em;
 	margin: 0; 
 	padding: 0; 
 }
@@ -16,7 +17,7 @@ body {
 }
 
 a {
-	color: #6a7574;
+	color: #404747;
 	text-decoration: none;
 }
 
@@ -25,9 +26,10 @@ a:hover { color: #ff6b8e; }
 h1 {
 	/*color: #ff7865; orange coral*/
   color: #ff6b8e;
-	font-size: 1.5em;
-  font-weight: 500;
-	padding-bottom: 0.5em;
+	font-size: 2.2em;
+  line-height: 1.2em;
+  font-weight: 400;
+	margin-bottom: 1.2em;
 	text-align: center;
 }
 
@@ -37,16 +39,16 @@ h2 {
 }
 
 h3 {
-	color: #faa498;
+  color: #ff6b8e;
   /*color: #ff6578;*/
 	font-size: 1.2em;
-  font-weight: 400;
-  padding-top: 0.5em;
+  font-weight: 500;
+  margin-bottom: 0.5em;
 }
 
 h4 {
-  /*padding-bottom: 0.5em;*/
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 0.3em;
 }
 
 hr {
@@ -69,22 +71,22 @@ hr {
 
 .divider-short {
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid #ddd;
   height: 0;
-  margin: 2em 0 2em;
-  width: 30%;
+  margin: 2em auto;
+  width: 100px;
 }
 
 p {
 	font-size: 1em;
 	font-style: normal;
-	margin: 1em 0;
+	margin-top: none;
+  margin-bottom: 1.5em;
 }
 
 .feature {
 	margin: 0 auto;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 	text-align: center;
 	width: 100%;
 }
@@ -96,7 +98,7 @@ ul {
 a .underline { text-decoration:underline } 
 
 .pink-text {
-  color: #faa498;
+  color: #ff6b8e;
 }
 
 .big {
@@ -115,7 +117,7 @@ a .underline { text-decoration:underline }
 }
 
 .nav {
-	font-size: 16px;
+	font-size: 1em;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -192,6 +194,10 @@ a .underline { text-decoration:underline }
    FONTS
    ============================== */
 
+.font-cinzel {
+  margin-bottom: 0;
+}
+
 .font-cinzel-bold {
   font-family: 'Cinzel', serif;
   font-weight: 900;
@@ -206,6 +212,7 @@ a .underline { text-decoration:underline }
 .font-fugaz {
   font-family: 'Fugaz One', cursive;
   font-size: 1.5em;
+  margin-bottom: .5em;
 }
 
 .font-roboto-bold {
@@ -213,7 +220,7 @@ a .underline { text-decoration:underline }
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
-  margin-bottom: 0;
+  margin-bottom: .2em;
 }
 
 .font-roboto-italic {
@@ -231,22 +238,6 @@ a .underline { text-decoration:underline }
 .font-roboto-normal {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-}
-/* =================================
-   UTILITIES
-   ============================== */
-
-.remove-margin { margin-left: 0; }
-
-.example { 
-	background-color: #f8f8f8;
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	font-size: 13px;
-	line-height: 19px;
-	margin: 1em 0;
-	overflow: auto;
-	padding: 1em;
 }
 
 /* =================================
@@ -299,7 +290,7 @@ a .underline { text-decoration:underline }
 .blog-text{ text-align: left; }
 
 article {
-  max-width: 620px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -423,6 +414,53 @@ article p { }
   text-align: center;
 }
 
+.font-example {
+  background: #fafafa;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: table;
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  text-align: center;
+  padding: 2.5em 1em;
+  margin: .5em 0;
+}
+
+.font-example-hr {
+  border: 0;
+  border-top: 1px solid #404747;
+  height: 0;
+  margin: 1em auto;
+  width: 40px;
+}
+
+.font-example-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* =================================
+   UTILITIES
+   ============================== */
+
+.remove-margin { margin-left: 0; }
+
+.half-margin-bottom {
+  margin-bottom: .5em;
+}
+
+.example { 
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 19px;
+  margin: 1em 0;
+  overflow: auto;
+  padding: 1em;
+}
+
 /* =================================
    CODE
    ============================== */
@@ -432,8 +470,8 @@ code {
 	-moz-border-radius: 15px;
 	border-radius: 5px;
 	border: 1px solid #DDD7D7; 
-	font-size: 16px;
-	padding: 0.2em 0.5em;
+	font-size: 1em;
+	padding: 0.2em 0.4em;
 	position: relative;
 	top: -1px;
 }
