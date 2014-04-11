@@ -17,10 +17,10 @@ tags: typeface, font
 
 <p class="half-margin-bottom">So for Helvetica, you have:</p>
 <ul>
-  <li class="feather-image">Helvetica Regular</li>
-  <li class="feather-image">Helvetica Italic</li>
-  <li class="feather-image">Helvetica Bold</li>
-  <li class="feather-image">......etc</li>
+  <li>Helvetica Regular</li>
+  <li>Helvetica Italic</li>
+  <li>Helvetica Bold</li>
+  <li>......etc</li>
 </ul>
 
 <p>This is a family of fonts and is a typeface. </p>
@@ -72,7 +72,7 @@ tags: typeface, font
 <div class="font-example">
   <div class="font-example-inner">
     <p class="font-roboto-bold">ROBOTO TYPEFACE</p>
-    <p class="font-roboto-light">This light weight 300 Roboto typeface works well with its heavier 700 weight as a headline. By using different weights, you can vary your typeface to give visual hierarchy.</p>
+    <p class="font-roboto-light remove-margin-bottom">This light weight 300 Roboto typeface works well with its heavier 700 weight as a headline. By using different weights, you can vary your typeface to give visual hierarchy.</p>
   </div>
 </div>
 

@@ -21,13 +21,13 @@ tags: pseudo, classes
 
 <div class="box cf">
   <div class="column-example-one">
-    <p>column 1</p>
+    <p class="box-text">column 1</p>
   </div>
   <div class="column-example-one">
-    <p>column 2</p>
+    <p class="box-text">column 2</p>
   </div>
   <div class="column-example-one">
-    <p>column 3</p>
+    <p class="box-text">column 3</p>
   </div>
 </div>
 
@@ -39,13 +39,13 @@ tags: pseudo, classes
 
 <div class="box cf">
 <div class="column-example-two">
-  <p>column 1</p>
+  <p class="box-text">column 1</p>
 </div>
 <div class="column-example-two">
-  <p>column 2</p>
+  <p class="box-text">column 2</p>
 </div>
 <div class="column-example-two">
-  <p>column 3</p>
+  <p class="box-text">column 3</p>
 </div>
 </div>
 
@@ -59,8 +59,8 @@ tags: pseudo, classes
 <script src="https://gist.github.com/CassieShumway/9500641.js"></script>
 
 <div class="box cf">
-  <p class="animal-before">This cat has been inserted using <code>:before</code> in this sentence</p>
-  <p class="animal-after">This bear has been inserted using <code>:after</code> in this sentence</p>
+  <p class="box-text animal-before">This cat has been inserted using <code>:before</code> in this sentence</p>
+  <p class="box-text animal-after">This bear has been inserted using <code>:after</code> in this sentence</p>
 </div>
 
 <h3>:nth-child(N)</h3>
@@ -70,13 +70,13 @@ tags: pseudo, classes
 
 <div class="box cf">
   <div class="column-example-three">
-    <p>column 1</p>
+    <p class="box-text">column 1</p>
   </div>
   <div class="column-example-three">
-    <p>column 2</p>
+    <p class="box-text">column 2</p>
   </div>
   <div class="column-example-three">
-    <p>column 3</p>
+    <p class="box-text">column 3</p>
   </div>
 </div>
 
