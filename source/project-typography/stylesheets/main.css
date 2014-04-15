@@ -8,7 +8,7 @@ body {
 	background: #fff; 
 	color: #807575; 
 	font-size: 112%; 
-	font-family: 'Noto Serif', serif;
+  font-family: "aktiv-grotesk-std",sans-serif;
 	font-weight: 300;
 	line-height: 2em;
 	margin: 0; 
@@ -23,24 +23,29 @@ a {
 a:hover { color: #FCE3A1; }
 
 h1 {
-	color: #98A7BC;
-	font-weight: 400;
+	color: #E80C7A;
+  font-size: 5em;
+  font-family: "minion-pro",sans-serif;
+	font-weight: 300;
+  line-height: 1em;
+  margin: 0;
 	text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-	color: #ED9F9F;
-	font-size: 1.5em;
-	font-weight: 400;
+  font-size: 3em;
+  line-height: 1.3em;
+  text-align: center;
 }
 
-hr {
-    border: 0;
-    height: 0;
-    margin-left:0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(252, 227, 161, 0.3);
-    width: 200px;
+h3 {
+  font-size: 1.5em;
+ 
+}
+
+p {
+ 
 }
 
 ul {
@@ -54,21 +59,160 @@ li {
   padding: 0.7em;
 }
 
+.big-text {
+  font-size: 7em;
+}
+
 /* =================================
-   CONTAINER
+   HEADER
    ============================== */
 
-.container {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 740px;
+#header {
+  margin: 0 auto;
+  padding: 15em 0;
+  text-align: center;
 }
 
-.color-container {
-	background: url(creampixels.png);
-  border-bottom: 1px solid #E9E9E9;
-  padding: 1em;
+.headline {
+background: #fff;
+color: #E80C7A;
+display: inline-block;
+font-family: "minion-pro";
+font-size: 1.25em;
+font-style: italic;
+padding: 0 5%;
+position: relative;
+top: -17px;
 }
+
+.headline-bar {
+margin: 0 auto;
+margin-top: 1em;
+height: 0;
+text-align: center;
+color: #999999;
+border-bottom: 1px solid #ddd;
+width: 40%;
+}
+
+/* =================================
+   WRAPPER
+   ============================== */
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+
+.wrapper-small {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+/* =================================
+   BOXES
+   ============================== */
+
+.box {
+  margin: 0 auto;
+  margin-top: 3em;
+  width: 100%;
+  max-width: 485px;
+}
+
+/* =================================
+   CIRCLE
+   ============================== */
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 70px;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 0.6em 0;
+  width: 70px;
+}
+
+/* =================================
+   SECTIONS
+   ============================== */
+
+.blue-effra {
+	background: #3fabda;
+  color: #fff;
+  font-family: "effra",sans-serif;
+  /*border-bottom: 1px solid #e9e9e9;*/
+  padding: 5em;
+}
+
+.blue-effra h2 {
+  margin-top: 0;
+}
+
+/* --------white-apolline-------- */
+
+.white-apolline {
+  color: #504646;
+  font-family: "apolline",serif;
+  padding: 6em;
+}
+
+.white-apolline h2 {
+  color: #504646;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.white-apolline h3 {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.white-apolline p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/* ----yellow-brandon-grotesque---- */
+
+.yellow-brandon-grotesque {
+  background: #f8b504;
+  color: #fff;
+  padding: 3em;
+  font-family: "brandon-grotesque",sans-serif;
+}
+
+.yellow-brandon-grotesque h2 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.yellow-brandon-grotesque h3 {
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+.yellow-brandon-grotesque p {
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 0.5em;
+  text-align: left;
+}
+
+.magenta-container {
+  background: #E80C7A;
+}
+
+/* =================================
+   COLORED TEXT
+   ============================== */
+
 
 /* =================================
    COLUMNS
@@ -81,16 +225,72 @@ li {
 
 .column {
   float: left;
-  margin-left: 5%;
+  margin-left: 10%;
   text-align: center;
 }
 
 .column:first-child { margin-left: 0; }
 
-.half { width: 47.5%; }
+.dashed {
+  border: 1px dashed #eee;
+}
+
+.half { width: 44.5%; }
 
 .third { width: 30%; }
 
+/* =================================
+   FONTS
+   ============================== */
+
+.font-brandon-grotesque {
+  color: #fff;
+  font-family: "brandon-grotesque",sans-serif;
+  font-weight: 300;
+}
+
+.font-brandon-grotesque-bold {
+  color: #fff;
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2.3em;
+}
+
+.font-effra {
+   font-family: "effra",sans-serif;
+   font-weight: 300;
+}
+
+.font-minion-pro {
+  color: #fff;
+  font-family: "minion-pro",sans-serif;
+  font-weight: 400;
+  } 
+
+.font-apolline {
+
+
+}
+
+/* =================================
+   LINES
+   ============================== */
+
+/*h3:after {
+  display: block;
+  margin: 30px auto 0 auto;
+  content: " ";
+  width: 60px;
+  border-bottom: 2px solid #eee;
+}*/
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #eee;
+  margin: 2em auto;
+  width: 3rem;
+}
 
 
 /* =================================
@@ -133,5 +333,16 @@ li {
 
 .cf { *zoom: 1; }
 
+/* =================================
+   ULTILIES
+   ============================== */
+
+.remove-margin-bottom {
+  margin-bottom: 0;
+}
+
+.remove-margin-left {
+  margin-left: 0;
+}
 
 

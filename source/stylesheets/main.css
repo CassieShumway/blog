@@ -119,6 +119,10 @@ a .underline { text-decoration:underline }
   color: #ff6b8e;
 }
 
+.grey-text {
+  color: #404747;
+}
+
 .big {
   font-size: 2em;
 }
@@ -176,6 +180,7 @@ a .underline { text-decoration:underline }
 .box-container {
   width: 100%;
   height: auto;
+  padding: 0;
 }
 
 /* =================================
@@ -481,6 +486,10 @@ article p { }
 
 .remove-margin-bottom {
   margin-bottom: 0;
+}
+
+.remove-margin-top {
+  margin-top: 0;
 }
 
 .example { 
