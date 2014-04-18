@@ -10,23 +10,17 @@ body {
 	font-size: 112%; 
   font-family: "aktiv-grotesk-std",sans-serif;
 	font-weight: 300;
+  -webkit-font-smoothing: antialiased;
 	line-height: 2em;
 	margin: 0; 
 	padding: 0; 
 }
 
-a {
-	color: #6A7574; 
-	text-decoration: none;
-}
-
-a:hover { color: #FCE3A1; }
-
 h1 {
 	color: #E80C7A;
   font-size: 5em;
   font-family: "minion-pro",sans-serif;
-	font-weight: 300;
+	font-weight: 500;
   line-height: 1em;
   margin: 0;
 	text-align: center;
@@ -39,35 +33,16 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1.5em;
- 
-}
+h3 { font-size: 1.5em; }
 
-p {
- 
-}
-
-ul {
-  list-style: none;
-  overflow: auto;
-}
-
-li {
-  
-  float: left;
-  padding: 0.7em;
-}
-
-.big-text {
-  font-size: 7em;
-}
+p { font-weight: 400; }
 
 /* =================================
    HEADER
    ============================== */
 
 #header {
+  border-bottom: 1px solid #ddd;
   margin: 0 auto;
   padding: 15em 0;
   text-align: center;
@@ -78,8 +53,9 @@ background: #fff;
 color: #E80C7A;
 display: inline-block;
 font-family: "minion-pro";
-font-size: 1.25em;
+font-size: 1.35em;
 font-style: italic;
+font-weight: 500;
 padding: 0 5%;
 position: relative;
 top: -17px;
@@ -99,12 +75,17 @@ width: 40%;
    WRAPPER
    ============================== */
 
-.wrapper {
+.wrapper-large {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+.wrapper-medium {
   width: 90%;
   margin: 0 auto;
   max-width: 740px;
 }
-
 
 .wrapper-small {
   width: 90%;
@@ -113,19 +94,54 @@ width: 40%;
 }
 
 /* =================================
-   BOXES
+   COLUMNS
    ============================== */
 
-.box {
-  margin: 0 auto;
-  margin-top: 3em;
-  width: 100%;
-  max-width: 485px;
+.row {
+  margin: 2em 0;
+  overflow: hidden;
 }
 
+.column {
+  float: left;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.column:first-child { margin-left: 0; }
+
+.dashed { border: 1px dashed #eee; }
+
+
+
+.half { width: 45%; }
+
+.third { width: 23.5%; }
+
 /* =================================
-   CIRCLE
+   YELLOW SECTION - "PROPER PUNCTUATION"
    ============================== */
+
+.yellow {
+  background: #f8b504;
+  color: #fff;
+  padding: 4em;
+  font-family: "brandon-grotesque",sans-serif;
+}
+
+.yellow h2 { font-weight: 500; }
+
+.yellow h3 {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.yellow p {
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 0.5em;
+  text-align: left;
+}
 
 .circle {
   border-radius: 50%;
@@ -137,11 +153,17 @@ width: 40%;
   width: 70px;
 }
 
+/*COLUMN*/
+.two-third { 
+  margin-left: 3%;
+  width: 56%;
+ }
+
 /* =================================
-   SECTIONS
+   BLUE SECTION - "DASHING DASHES"
    ============================== */
 
-.blue-effra {
+.blue {
 	background: #3fabda;
   color: #fff;
   font-family: "effra",sans-serif;
@@ -149,11 +171,15 @@ width: 40%;
   padding: 5em;
 }
 
-.blue-effra h2 {
-  margin-top: 0;
-}
+.blue h2 { margin-top: 0; }
 
-/* --------white-apolline-------- */
+.blue h3 { margin-bottom: 0; }
+
+.blue p { font-size: 1.2em; }
+
+/* =================================
+   WHITE SECTION - "HELLO HIERARCHY"
+   ============================== */
 
 .white-apolline {
   color: #504646;
@@ -174,116 +200,152 @@ width: 40%;
   margin-top: 0;
 }
 
-.white-apolline p {
+.white-apolline p { font-size: 1.3em; }
+
+/* =================================
+   WHITE SECTION- "MAGIC MOODS"
+   ============================== */
+
+.white-kepler {
+  color: #554e4e;
+  font-family: "kepler-std",serif;
+  padding: 4em;
+}
+
+.white-kepler h2 { margin: 0; }
+
+.white-kepler h3 {
   font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 2.5em;
+}
+
+.white-kepler p { text-align: left; }
+
+.font-acta {
+  display: block;
+  font-family: "acta-poster-swashes",sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin: 0;
+}
+
+.box-magic-moods {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 100%;
+  max-width: 485px;
+}
+
+.tranform-magic { 
+  margin-left: -188px;
+  margin-bottom: 9.5px;
+  display: block;
+}
+
+.transform-of {
+  margin-top: -49px;
+  display: block;
+}
+
+.transform-moods {
+  display: block;
+  margin-top: -18px;
+  margin-left: 111px;
+}
+
+/* =================================
+   GREEN SECTION - "SERIF & SANS SERIF"
+   ============================== */
+
+.green {
+  background: #0ABEA5;
+  color: #fff;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+.green h2 {
+  text-align: right;
   font-weight: 400;
+  margin-top: 0;
 }
 
-/* ----yellow-brandon-grotesque---- */
-
-.yellow-brandon-grotesque {
-  background: #f8b504;
-  color: #fff;
-  padding: 3em;
-  font-family: "brandon-grotesque",sans-serif;
+.serif-heading {
+  display: block;
+  font-family: "minion-pro",sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.4em;
 }
 
-.yellow-brandon-grotesque h2 {
-  color: #fff;
-  font-weight: 300;
-}
-
-.yellow-brandon-grotesque h3 {
-  font-size: 2.2em;
+.serif-text {
+  font-family: "minion-pro",sans-serif;
+  font-size: 1.6em;
   font-weight: 500;
 }
 
-.yellow-brandon-grotesque p {
-  font-size: 2em;
-  font-weight: 100;
-  margin-top: 0.5em;
-  text-align: left;
-}
-
-.magenta-container {
-  background: #E80C7A;
-}
-
-/* =================================
-   COLORED TEXT
-   ============================== */
-
-
-/* =================================
-   COLUMNS
-   ============================== */
-
-.row {
-  margin: 2em 0;
-  overflow: hidden;
-}
-
-.column {
-  float: left;
-  margin-left: 10%;
-  text-align: center;
-}
-
-.column:first-child { margin-left: 0; }
-
-.dashed {
-  border: 1px dashed #eee;
-}
-
-.half { width: 44.5%; }
-
-.third { width: 30%; }
-
-/* =================================
-   FONTS
-   ============================== */
-
-.font-brandon-grotesque {
-  color: #fff;
-  font-family: "brandon-grotesque",sans-serif;
-  font-weight: 300;
-}
-
-.font-brandon-grotesque-bold {
-  color: #fff;
-  font-family: "brandon-grotesque",sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-  line-height: 2.3em;
-}
-
-.font-effra {
-   font-family: "effra",sans-serif;
-   font-weight: 300;
-}
-
-.font-minion-pro {
-  color: #fff;
-  font-family: "minion-pro",sans-serif;
+.sans-serif-heading {
+  font-family: "aktiv-grotesk-std",sans-serif;
+  font-size: 0.8em;
   font-weight: 400;
-  } 
+  line-height: 1.5em;
+}
 
-.font-apolline {
+.sans-serif-text {
+  font-family: "aktiv-grotesk-std",sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
 
+.column-third {
+/*  border-right: 1px dashed #eee;
+  border-bottom: 1px dashed #eee;*/
+  float: left;
+  padding-right: 1em;
+  text-align: right;
+  width: 33%;
+}
 
+.column-half {
+  float: left;
+  padding-right: 1em;
+  text-align: right;
+  width: 45%;
+}
+
+.column-half-dash {
+  border-left: 1px dashed #eee;
+  float: left;
+  padding-left: 1em;
+  text-align: left;
+  width: 50%;
+}
+
+.arrow {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #eee;
+  display: block;
+  height: 0; 
+  margin-left: 274px;
+  width: 0; 
+
+}
+
+/* =================================
+   WHITE SECTION - "THRILL ME WITH TYPE"
+   ============================== */
+
+.white-type {
+  padding: 4em;
 }
 
 /* =================================
    LINES
    ============================== */
-
-/*h3:after {
-  display: block;
-  margin: 30px auto 0 auto;
-  content: " ";
-  width: 60px;
-  border-bottom: 2px solid #eee;
-}*/
 
 hr {
   border: 0;
@@ -291,7 +353,6 @@ hr {
   margin: 2em auto;
   width: 3rem;
 }
-
 
 /* =================================
    GIST OVERRIDES
@@ -337,12 +398,12 @@ hr {
    ULTILIES
    ============================== */
 
-.remove-margin-bottom {
-  margin-bottom: 0;
-}
+.remove-margin-bottom { margin-bottom: 0; }
 
-.remove-margin-left {
-  margin-left: 0;
-}
+.margin-bottom { margin-bottom: 5em; }
+
+.margin-top { margin-top: .3em; }
+
+.remove-margin-top { margin-top: 0; }
 
 
