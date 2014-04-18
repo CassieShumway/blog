@@ -8,7 +8,7 @@ tags: positioning, absolute
 <h1>Thinking With Type</h1>
 <h2>By Ellen Lupton</h2>
 
-<hr class="divider"> 
+<!-- <hr class="divider">  -->
 
 <h3>Dumb Quotes</h3>
 <p>When quotations are used incorrectly, they are called dumb quotes or hatch/prime marks. Do you notice how these quotation marks are straight up and down? That's ugly and incorrect! The only time hatch marks should be used is when you're indicating inches and feet. For example: I am 5'3"</p>
@@ -16,14 +16,14 @@ tags: positioning, absolute
 <p>Simply put, don't ever use these as quotations.</p>
 
 <div class="box">
-  <p><span class="pink-text">"</span>These are dumb quotes<span class="pink-text">"</span></p>
+  <p class="margin-top"><span class="pink-text big">"</span>These are dumb quotes<span class="pink-text big">"</span></p>
 </div>
 
 <h3>Smart Quotes</h3>
 <p>This is when quotations are used correctly. They are also commonly called curly quotes or typograher’s quotes. Notice how these quotations are distinctly opened and closed:</p>
 
 <div class="box">
-  <p><span class="pink-text">“</span>These are smart quotes<span class="pink-text">”</span></p>
+  <p class="margin-top"><span class="pink-text big">“</span>These are smart quotes<span class="pink-text big">”</span></p>
 </div>
 
 <hr class="divider"> 
@@ -98,6 +98,8 @@ tags: positioning, absolute
 <h3>X-Height</h3>
 <p>The height of lowercase letters are based on the height of the lowercase x.</p>
 
+<p>The x-height is extremely important to the overall visual design. If the x-height is too small, it can dramatically affect the body text of an article, making it difficult to read. Its best to choose typefaces with a large x-height to maintain legibility.</p>
+
 <h3>Baseline</h3>
 <p>Where all the letters sit.</p>
 
@@ -108,26 +110,10 @@ tags: positioning, absolute
 <h4>Font Smoothing</h4>
 
 <script src="https://gist.github.com/CassieShumway/10739287.js"></script>
-<p>
-Learn and use text-rendering: optimizeLegibility; and 
+<p>Many designers are utilizing font smoothing on their websites for clearer and crisper fonts. When using this hack, be sure to apply it to your whole stylesheet by placing it at the top of your code.</p>
+
+<p>The antialiased disables subpixel-rendering and smoothes the font on the level of the pixel instead of the subpixel <a class="underline" href="http://www.usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/">(source: Dmitry Fadeyev)</a>.</p>
 
 </article>
-
-
-Master the basic rules of typography. What makes a typeface good for screens? (History, legibility, & flexibility)
-Learn how to pick and pair fonts (sans-serif, serif, weight, etc.).
-
-Perfect sizing fonts and choosing line heights.
-
-Use Web fonts (Typekit, Google).
-Learn and use text-rendering: optimizeLegibility; and -webkit-font-smoothing: antialiased;
-
-
-
-
-
-
-
-Anatomy
 
 

@@ -5,25 +5,25 @@
 }
 
 body {
-	background: #fff; 
-	color: #807575; 
-	font-size: 112%; 
+  background: #fff; 
+  color: #807575; 
+  font-size: 112%; 
   font-family: "aktiv-grotesk-std",sans-serif;
-	font-weight: 300;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 	line-height: 2em;
-	margin: 0; 
-	padding: 0; 
+  margin: 0; 
+  padding: 0; 
 }
 
 h1 {
-	color: #E80C7A;
+  color: #E80C7A;
   font-size: 5em;
   font-family: "minion-pro",sans-serif;
-	font-weight: 500;
+  font-weight: 500;
   line-height: 1em;
   margin: 0;
-	text-align: center;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -111,8 +111,6 @@ width: 40%;
 .column:first-child { margin-left: 0; }
 
 .dashed { border: 1px dashed #eee; }
-
-
 
 .half { width: 45%; }
 
@@ -324,7 +322,7 @@ width: 40%;
   width: 50%;
 }
 
-.arrow {
+/*.arrow {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid #eee;
@@ -332,11 +330,10 @@ width: 40%;
   height: 0; 
   margin-left: 274px;
   width: 0; 
-
-}
+}*/
 
 /* =================================
-   WHITE SECTION - "THRILL ME WITH TYPE"
+   WHITE SECTION - "TYPE"
    ============================== */
 
 .white-type {
