@@ -1,0 +1,38 @@
+
+        <div class="row margin-bottom">
+
+          <div class="column-third">
+            <p class="serif-heading">Serif</p>
+          </div>
+          <div class="column-half-dash">
+            <div class="arrow">
+            </div>
+            <p class="serif-text">This is a serif typeface.</p>
+            <p class="serif-text">I have flourishes at the end of my strokes.</p>
+          </div>
+
+
+    <div class="row">
+
+          <div class="column-half-dash">
+            <p class="sans-serif-text">This is a serif typeface.</p>
+            <p class="sans-serif-text">I have <em>no</em> flourishes at the end of my strokes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!--   <div class="column-third">
+            <div class="arrow">
+            </div>
+            <p class="serif-text">This is a serif typeface.</p>
+            <p class="serif-text">I have flourishes at the end of my strokes.</p>
+          </div> -->\
+
+
+                 <h2>Hello Heirarchy</h2>
+        <h3>Follow along as you read through</h3>
+        <hr>
+        <p>Notice how your eyes easily scan through? As you are reading, you can see the clear differentiation between the title, headline, and body of text. Using italics, font weight, and varying font sizes all help towards happy hierarchy.</p>
+        <p>Also, look for typefaces that have a large selection of family fonts. All the fonts you see here are within the apolline typeface. This makes for an easy mix that will always be balanced.</p>
+        <p>—Cassie</p>

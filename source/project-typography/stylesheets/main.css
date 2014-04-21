@@ -49,26 +49,26 @@ p { font-weight: 400; }
 }
 
 .headline {
-background: #fff;
-color: #E80C7A;
-display: inline-block;
-font-family: "minion-pro";
-font-size: 1.35em;
-font-style: italic;
-font-weight: 500;
-padding: 0 5%;
-position: relative;
-top: -17px;
+  background: #fff;
+  color: #E80C7A;
+  display: inline-block;
+  font-family: "minion-pro";
+  font-size: 1.35em;
+  font-style: italic;
+  font-weight: 500;
+  padding: 0 5%;
+  position: relative;
+  top: -17px;
 }
 
 .headline-bar {
-margin: 0 auto;
-margin-top: 1em;
-height: 0;
-text-align: center;
-color: #999999;
-border-bottom: 1px solid #ddd;
-width: 40%;
+  margin: 0 auto;
+  margin-top: 1em;
+  height: 0;
+  text-align: center;
+  color: #999999;
+  border-bottom: 1px solid #ddd;
+  width: 490px;
 }
 
 /* =================================
@@ -190,12 +190,17 @@ width: 40%;
   font-size: 2.5em;
   font-weight: 700;
   margin: 0;
+  text-align: left;
 }
 
 .white-apolline h3 {
   font-weight: 400;
+  font-size: 1.43em;
   font-style: italic;
+  left: 3.9px;
   margin-top: 0;
+  position: relative;
+  text-align: left;
 }
 
 .white-apolline p { font-size: 1.3em; }
@@ -268,6 +273,7 @@ width: 40%;
 .green h2 {
   text-align: right;
   font-weight: 400;
+  line-height: 0.8em;
   margin-top: 0;
 }
 
@@ -314,8 +320,8 @@ width: 40%;
   width: 45%;
 }
 
-.column-half-dash {
-  border-left: 1px dashed #eee;
+.column-half-border {
+  border-left: 1px solid #eee;
   float: left;
   padding-left: 1em;
   text-align: left;

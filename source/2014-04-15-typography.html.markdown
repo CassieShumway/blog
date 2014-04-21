@@ -8,6 +8,7 @@ tags: positioning, absolute
 <h1>Thinking With Type</h1>
 <h2>By Ellen Lupton</h2>
 
+<h3></h3>
 <!-- <hr class="divider">  -->
 
 <h3>Dumb Quotes</h3>
@@ -101,8 +102,14 @@ tags: positioning, absolute
 <p>The x-height is extremely important to the overall visual design. If the x-height is too small, it can dramatically affect the body text of an article, making it difficult to read. Its best to choose typefaces with a large x-height to maintain legibility.</p>
 
 <h3>Baseline</h3>
-<p>Where all the letters sit.</p>
+<p>Where all the letters sit. This is used as a point of reference when aligning text, images, and other bodies of text.</p>
 
+<h3></h3>
+<p></p>
+
+<h3>Scale</h3>
+<p>Scale is important to create contrast in designs. By playing with different scales, you can give design more dynamic and depth. This helps to contribute to hierarchy</p>
+ 
 <hr class="divider"> 
 
 <h3>Type for the Web</h3>
