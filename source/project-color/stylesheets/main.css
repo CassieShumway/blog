@@ -6,76 +6,179 @@
 
 body {
 	background: #fff; 
-	color: #807575; 
+	color: #8c044d;
 	font-size: 112%; 
-	font-family: 'Noto Serif', serif;
+  font-family: "ff-tisa-web-pro",serif;
+  -webkit-font-smoothing: antialiased;
 	font-weight: 300;
 	line-height: 2em;
 	margin: 0; 
 	padding: 0; 
 }
 
-a {
-	color: #6A7574; 
-	text-decoration: none;
+h1, h2, h3, h4, p {
+  margin: 0;
 }
 
-a:hover { color: #FCE3A1; }
-
 h1 {
-	color: #98A7BC;
-	font-weight: 400;
+	color: #8c044d;
+  font-family: "omnes-pro",sans-serif;
+	font-size: 4em;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 0.6em ;
 	text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-	color: #ED9F9F;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 400;
+  text-align: left;
 }
 
-hr {
-    border: 0;
-    height: 0;
-    margin-left:0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(252, 227, 161, 0.3);
-    width: 200px;
+p {
+  color: #8c044d;
+  font-size: 1.1em;
+  margin-bottom:  1em;
 }
 
-ul {
-  list-style: none;
-  overflow: auto;
+/* =================================
+  WRAPPER
+   ============================== */
+
+/* =================================
+  HEADER
+   ============================== */
+
+.header {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 420px;
 }
 
-li {
-  
+.extra-light {
+  font-family: "omnes-pro",sans-serif;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.italic {
+  background: #fff;
+  color: #8c044d;
+  display: inline-block;
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 1.65em;
+  font-style: italic;
+  font-weight: 500;
+  padding: 0 5%;
+  position: relative;
+  text-transform: lowercase;
+  top: -17px;
+}
+
+.line {
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 0;
+  text-align: center;
+  color: #999999;
+  border-bottom: 1px solid #ddd;
+  width: 260px;
+}
+
+.color-line-container {
+  height: auto;
+  width: 100%;
+  max-width: 420px;
+  margin: 1.5em 0;
+}
+
+.color-vertical {
+  width: 70px;
+  height: 360px;
+  background: #fff;
   float: left;
-  padding: 0.7em;
 }
 
-/*-----------CONTAINERS--------------*/
+/* =================================
+  SECTIONS
+   ============================== */
 
-.container {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 740px;
+.section {
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  height: auto;
+  padding: 4em 0;
+  margin: 0 auto;
 }
 
-.color-container {
-	background: url(creampixels.png);
-  border-bottom: 1px solid #E9E9E9;
-  padding: 1em;
-}
-
-/*--------------BOXES----------------*/
+/* =================================
+  BOX
+   ============================== */
 
 .box {
-  background: #333;
-  background: rgba(0,0,0,7);
+  margin: 0 auto;
+  padding: 1em;
+  width: 100%;
+  max-width: 900px;
 }
 
-/* ---------Gist Overrides---------- */
+/* =================================
+  COLUMNS
+   ============================== */
+
+.row {
+  margin: 2em 0;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.column:first-child {
+  margin-left: 0;
+}
+
+/* =================================
+  COLORS
+   ============================== */
+
+.color-horizontal {
+  margin: 0 auto;
+  height: 55px;
+  width: 100%;
+}
+
+.plum { background: #8c044d; }
+
+.red { background: #AA0406;}
+
+.orange { background: #FF722B; }
+
+.yellow { background: #FFCB3B; }
+
+.blue { background: #113A5D; }
+
+.green { background: #015B5B; }
+
+.cream { background: #FFFFBF; }
+
+.brown { background: #6F4F1C; }
+
+/* =================================
+  UTILITIES
+   ============================== */
+
+.remove-margin-bottom { margin-bottom: 0; }
+
+/* =================================
+  GIST OVERRIDES
+   ============================== */
 
 .gist .gist-file {
   font-size: .9rem !important;
@@ -99,7 +202,9 @@ li {
   font-weight: normal !important;
 }
 
-/*----------CLEAR FIX-----------------*/
+/* =================================
+  CLEAR FIX
+   ============================== */
 
 .cf:before,
 .cf:after {
