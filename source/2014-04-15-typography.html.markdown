@@ -16,14 +16,14 @@ tags: positioning, absolute
 
 <p>Simply put, don't ever use these as quotations.</p>
 
-<div class="box">
+<div class="box grey">
   <p class="margin-top"><span class="pink-text big">"</span>These are dumb quotes<span class="pink-text big">"</span></p>
 </div>
 
 <h3>Smart Quotes</h3>
 <p>This is when quotations are used correctly. They are also commonly called curly quotes or typograher’s quotes. Notice how these quotations are distinctly opened and closed:</p>
 
-<div class="box">
+<div class="box grey">
   <p class="margin-top"><span class="pink-text big">“</span>These are smart quotes<span class="pink-text big">”</span></p>
 </div>
 
@@ -36,14 +36,14 @@ tags: positioning, absolute
   <div class="row">
     <div class="column half">
       <h4>Left Double Quote</h4>
-      <div class="box">
+      <div class="box grey">
         <p><span class="pink-text big">“</span></p>
         <p>option + [</p>
       </div>
     </div>
     <div class="column half">
       <h4>Right Double Quote</h4>
-      <div class="box">
+      <div class="box grey">
         <p><span class="pink-text big">”</span></p>
         <p>option + shift + [</p>
       </div>
@@ -52,14 +52,14 @@ tags: positioning, absolute
   <div class="row">
     <div class="column half">
       <h4>Left Single Quote</h4>
-      <div class="box">
+      <div class="box grey">
         <p><span class="pink-text big">‘</span></p>
         <p>option + ]</p>
       </div>
     </div>
     <div class="column half">
       <h4>Right Single Quote</h4>
-      <div class="box">
+      <div class="box grey">
       <p><span class="pink-text big">“</span></p>
       <p>option + shift + ]</p>
       </div>
@@ -80,14 +80,14 @@ tags: positioning, absolute
 <div class="box-container cf">
   <div class="column half">
     <h4>Em Dash</h4>
-    <div class="box">
+    <div class="box grey">
       <p><span class="pink-text big">—</span></p>
       <p>option + shift + -</p>
     </div>
   </div>
   <div class="column half">
     <h4>En Dash</h4>
-    <div class="box">
+    <div class="box grey">
       <p><span class="pink-text big">–</span></p>
       <p>option + -</p>
     </div>

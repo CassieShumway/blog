@@ -438,6 +438,11 @@ article p { }
   padding: 1em;
   width: 100%;
   text-align: center;
+  
+}
+
+.grey {
+  background: #F0F0F0;
 }
 
 .box-text {

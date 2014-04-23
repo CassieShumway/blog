@@ -1,0 +1,108 @@
+color theory
+
+
+<section class="section">
+      <div class="wrapper-left cf">
+        <div class="row">
+          <h2>What are the different feelings to color?</h2>
+        </div>
+        <div class="row">
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">Red</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal red no-hover"></div>
+              <p>Is a powerful color of passion, violence, strength, importance. Think of blood, life, heat.</p>
+            </div>
+          </div>
+
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">Blue</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal blue no-hover"></div>
+              <p>Blue is a very calming color. Think of the water and the sky. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">yellow</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal yellow no-hover"></div>
+              <p>Yellow often gives positive energy and growth. Think of the sun. </p>
+            </div>
+          </div>
+
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">orange</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal orange no-hover"></div>
+              <p>Orange is cool like Naruto</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">purple</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal purple no-hover"></div>
+              <p>I'm purple like Lorde</p>
+            </div>
+          </div>
+
+          <div class="column-container">
+            <div class="column third">
+              <span class="text-em">green</span>
+            </div>
+            <div class="column half">
+              <div class="color-third-horizontal green no-hover"></div>
+              <p>Mermaids are awesome</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    =============================
+
+    =============================
+
+
+    .column-container {
+  float: left;
+  width: 50%
+}
+
+.half { width: 64%; }
+
+.third {
+  text-align: right;
+  width: 30%;
+}
+
+.color-third-horizontal {
+  display: inline-block;
+  height: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-em {
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+}

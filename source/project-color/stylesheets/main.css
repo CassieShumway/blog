@@ -16,14 +16,27 @@ body {
 	padding: 0; 
 }
 
-h1, h2, h3, h4, p {
-  margin: 0;
+blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
 }
+
+.quote-question {
+  display: block;
+  font-size: 1.5em;
+  font-style: normal;
+  line-height: 1.4em;
+  margin-bottom: .5em;
+}
+
+h1, h2, h3, h4, p { margin: 0; }
 
 h1 {
 	color: #8c044d;
   font-family: "omnes-pro",sans-serif;
-	font-size: 4em;
+	font-size: 4.2em;
   font-weight: 300;
   line-height: 1.1;
   margin-bottom: 0.6em ;
@@ -32,20 +45,46 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: 400;
+  line-height: 1.2em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2em 0 0.3em 0;
   text-align: left;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #FFCB3B;
+  margin: 0 0 .5em 0;
+  width: 8rem;
+  margin-bottom: 0;
+
 }
 
 p {
   color: #8c044d;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom:  1em;
 }
 
 /* =================================
   WRAPPER
    ============================== */
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 100%;
+  max-width: 900px;
+}
 
 /* =================================
   HEADER
@@ -61,6 +100,7 @@ p {
   font-family: "omnes-pro",sans-serif;
   font-weight: 200;
   font-size: 4em;
+  margin-bottom: .3em;
 }
 
 .italic {
@@ -68,13 +108,13 @@ p {
   color: #8c044d;
   display: inline-block;
   font-family: "ff-tisa-web-pro",serif;
-  font-size: 1.65em;
+  font-size: 1.6em;
   font-style: italic;
   font-weight: 500;
   padding: 0 5%;
   position: relative;
   text-transform: lowercase;
-  top: -17px;
+  top: -21px;
 }
 
 .line {
@@ -88,18 +128,11 @@ p {
   width: 260px;
 }
 
-.color-line-container {
+.color-vertical-container {
   height: auto;
   width: 100%;
   max-width: 420px;
   margin: 1.5em 0;
-}
-
-.color-vertical {
-  width: 70px;
-  height: 360px;
-  background: #fff;
-  float: left;
 }
 
 /* =================================
@@ -110,19 +143,8 @@ p {
   border-bottom: 1px solid #e3e3e3;
   width: 100%;
   height: auto;
-  padding: 4em 0;
+  padding: 5em 0;
   margin: 0 auto;
-}
-
-/* =================================
-  BOX
-   ============================== */
-
-.box {
-  margin: 0 auto;
-  padding: 1em;
-  width: 100%;
-  max-width: 900px;
 }
 
 /* =================================
@@ -130,7 +152,7 @@ p {
    ============================== */
 
 .row {
-  margin: 2em 0;
+  margin-bottom: 6em;
   overflow: hidden;
 }
 
@@ -140,13 +162,36 @@ p {
   margin-left: 2%;
 }
 
-.column:first-child {
-  margin-left: 0;
+.column:first-child { margin-left: 0; }
+
+.half { 
+  margin-left: 10%;
+  width: 45%; 
+}
+
+.color-third-horizontal {
+  height: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-em {
+  font-size: 1em;
+  font-weight: 600;
+  margin-right: 5px;
+  text-transform: uppercase;
 }
 
 /* =================================
   COLORS
    ============================== */
+
+.color-vertical {
+  width: 70px;
+  height: 360px;
+  background: #fff;
+  float: left;
+}
 
 .color-horizontal {
   margin: 0 auto;
@@ -154,27 +199,51 @@ p {
   width: 100%;
 }
 
-.plum { background: #8c044d; }
+.color-horizontal:hover:before {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  content: " ";
+  display: block;
+  font-size: .9em;
+  letter-spacing: 2px;
+  padding: .6em;
+  text-transform: uppercase;
+  text-align: center;
+}
 
-.red { background: #AA0406;}
+.purple { background: #8c044d; }
+.purple:hover:before { content: "purple"; }
+
+.red { background: #AA0406; }
+.red:hover:before { content: "Red"; }
 
 .orange { background: #FF722B; }
+.orange:hover:before { content: "orange"; }
 
 .yellow { background: #FFCB3B; }
+.yellow:hover:before { content: "yellow"; }
 
 .blue { background: #113A5D; }
+.blue:hover:before { content: "blue"; }
 
 .green { background: #015B5B; }
+.green:hover:before { content: "green"; }
 
-.cream { background: #FFFFBF; }
-
-.brown { background: #6F4F1C; }
+.no-hover:hover:before { content: " "; }
 
 /* =================================
   UTILITIES
    ============================== */
 
 .remove-margin-bottom { margin-bottom: 0; }
+.margin-bottom { margin-bottom: .6em; }
+
+.remove-margin-top { margin-top: 0; }
+.margin-top {margin-top: .6em; }
+
+.padding-left { padding-left: 22.6%; }
+
+.text-center { text-align: center; }
 
 /* =================================
   GIST OVERRIDES
