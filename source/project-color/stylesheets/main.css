@@ -74,8 +74,6 @@ p {
   margin-bottom:  1em;
 }
 
-.grey { color: #8c044d; }
-
 ul { }
 
 li { 
@@ -250,18 +248,11 @@ li {
 .no-hover:hover:before { content: " "; }
 
 /* =================================
-  LIST: COLOR TAGS
-   ============================== */
-
-
-
-/* =================================
   UTILITIES
    ============================== */
 
 .remove-margin-bottom { margin-bottom: 0; }
 .margin-bottom { margin-bottom: 2.5em; }
-.margin-bottom-small { margin-bottom: 1.5em;}
 
 .remove-margin-top { margin-top: 0; }
 .margin-top {margin-top: .6em; }
