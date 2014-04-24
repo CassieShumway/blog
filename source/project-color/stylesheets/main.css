@@ -76,6 +76,15 @@ p {
 
 .grey { color: #8c044d; }
 
+ul { }
+
+li { 
+  color: #573346;
+  font-size: 1.2em; 
+  line-height: 2em;
+  margin-left: -37px;
+}
+
 /* =================================
   WRAPPER
    ============================== */
@@ -239,6 +248,12 @@ p {
 .green-text { color: #015B5B; }
 
 .no-hover:hover:before { content: " "; }
+
+/* =================================
+  LIST: COLOR TAGS
+   ============================== */
+
+
 
 /* =================================
   UTILITIES
