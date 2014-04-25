@@ -67,17 +67,17 @@ tags: color, color theory
 
 <div class="box">
 	<img class="image" src="/images/warning.png">
-	<p>1</p>
+	<p>1. Yellow used as a caution sign</p>
 </div>
 
 <p>1. Here we see red and yellow as warning signs. Typically we see yellow on construction sites as warnings or caution. Here you can see that they've attributed the same meaning, but online. Furthermore, by adding red we see a stark and jolting contrast that screams “Caution!” to warn the user.</p>
 
 <div class="box">
 	<img class="image" src="/images/yellow-ad.jpg">
-	<p>2</p>
+	<p>2. Yellow used for a button</p>
 </div>
 
-<p>2. Here we see yellow as something bright with high energy screaming “Sell Now!” to the user. Yellow is typically used for ads and marketing because it grabs people's attention but is a friendly color as not to scare them away.</p>
+<p>2. Here we see yellow as something bright with high energy screaming “Sell Now!” to the user. Yellow is typically used for ads and marketing because it grabs people's attention but is a friendly color as not to scare them away. In terms of using it as a button, its bright color helps direct the user to click on it.</p>
 
 <hr class="divider">
 
