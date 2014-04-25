@@ -24,8 +24,9 @@ a:hover { color: #EDBCBC; }
 
 h1 {
 	color: #BD628E;
-  font-size: 2.5em;
+  	font-size: 2.5em;
 	font-weight: 400;
+	line-height: 1em;
 	text-align: center;
 }
 
@@ -34,6 +35,12 @@ h2 {
 	font-size: 1.5em;
 	font-weight: 400;
 }
+
+p {
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
 /* =================================
   WRAPPER
    ============================== */

@@ -33,10 +33,14 @@ h2 {
 	font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
 	font-weight: normal;
-  padding: 1em 0;
+  padding: .5em 0;
+  margin-bottom: 0;
 }
 
-p { }
+p { 
+	font-size: 1.2em;
+	margin-top: 0;
+}
 
 hr {
     border: 0;

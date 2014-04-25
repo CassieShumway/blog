@@ -12,7 +12,7 @@ layout: projects-layout
     <%= stylesheet_link_tag 'normalize' %>
     <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -25,7 +25,7 @@ layout: projects-layout
 
     <div class="container">
       <h1>Positioning</h1>
-      <p>Users can use positioning to position an element. They can be arranged using top, right, bottom, and left properties. But these properties will work differently with each position method.</p>
+      <p class="center">Users can use positioning to position an element. They can be arranged using top, right, bottom, and left properties. But these properties will work differently with each position method.</p>
     </div>
   </header>
 
@@ -50,7 +50,7 @@ layout: projects-layout
 
     <section>
       <div class="container">
-        <h1>There are four positioning methods:</h1>
+        <h1>Methods</h1>
         <div class="row">
           <div class="column">
             <h2>Static</h2>
@@ -144,7 +144,7 @@ layout: projects-layout
 
     <section class="light-orange">
       <div class="container cf">
-        <h1>Did you notice the Eggs?</h1>
+        <h1 class="lowercase">Did you notice the Eggs?</h1>
         <p>These little eggs are elements that have been positioned using fixed positioning. Similar to the absolute propery, a fixed element wont move as you scroll through a document page.</p>
       </div>
     </section>

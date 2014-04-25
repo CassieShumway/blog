@@ -428,6 +428,29 @@ article p { }
 }
 
 /* =================================
+   STYLES - FOR COLOR POST
+   ============================== */
+
+.color-text { 
+  color: #fff; 
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 500;
+  padding: .1em .2em;
+  margin-right: .2em;
+}   
+
+.purple-text { background-color: #8c044d; }
+.red-text {  background-color: #AA0406; }
+.orange-text { background-color: #FF722B; }
+.yellow-text { background-color: #FFCB3B; }
+.blue-text { background-color: #113A5D; }
+.green-text { background-color: #015B5B; }
+
+/* =================================
    BOX USED FOR ALL EXAMPLES
    ============================== */
 
@@ -440,6 +463,8 @@ article p { }
   text-align: center;
   
 }
+
+.text-left {text-align: left;}
 
 .grey {
   background: #F0F0F0;

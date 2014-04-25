@@ -8,8 +8,7 @@ body {
 	background: #fff; 
 	color: #807575; 
 	font-size: 112%; 
-  font-family: 'Rosario', sans-serif;
-	font-weight: 400;
+  font-family: 'Lato', 'sans-serif';
 	line-height: 2em;
 	margin: 0; 
 	padding: 0; 
@@ -24,15 +23,19 @@ a:hover { color: #FFF7E4; }
 
 h1 {
   color: #807575;
-  font-size: 2em;
-  margin-bottom: 1em;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 1em 0;
 	text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
 	color: #F7A200;
   font-size: 1.5em;
   margin-bottom: .5em;
+  text-transform: uppercase;
 }
 
 hr {
@@ -44,9 +47,17 @@ hr {
   width: 100%;
 }
 
+p { 
+  font-size: 1.2em;
+}
+
 ul { list-style: none; }
 
 .header { text-align: center; }
+
+.lowercase { text-transform: none}
+
+.center { text-align: center;}
 
 /* =================================
   CONTAINER
@@ -56,7 +67,7 @@ ul { list-style: none; }
   margin: 0 auto;
   width: 90%;
   max-width: 740px;
-  padding: 2em 0;
+  padding: 4em 0;
 }
 
 .light-orange {
