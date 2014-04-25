@@ -62,6 +62,25 @@ tags: color, color theory
 
 <hr class="divider">
 
+<h3>Color on the Web</h3>
+<p>Taking what we know about colors, we can attribute the same feelings on the web. Lets take a look at how red and yellow might have different meanings.</p>
+
+<div class="box">
+	<img class="image" src="/images/warning.png">
+	<p>1</p>
+</div>
+
+<p>1. Here we see red and yellow as warning signs. Typically we see yellow on construction sites as warnings or caution. Here you can see that they've attributed the same meaning, but online. Furthermore, by adding red we see a stark and jolting contrast that screams “Caution!” to warn the user.</p>
+
+<div class="box">
+	<img class="image" src="/images/yellow-ad.jpg">
+	<p>2</p>
+</div>
+
+<p>2. Here we see yellow as something bright with high energy screaming “Sell Now!” to the user. Yellow is typically used for ads and marketing because it grabs people's attention but is a friendly color as not to scare them away.</p>
+
+<hr class="divider">
+
 <h3>Reminder</h3>
 <p>Don't forget that successfully using color theory requires awareness of color meaning. To be successful in your design, keep in mind the associations color has culturally and naturally. Then proceed to improve your design!</p>
 
