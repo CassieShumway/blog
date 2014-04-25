@@ -56,14 +56,14 @@ tags: color, color theory
 	<ul>
 		<li><span class="purple-text color-text"></span> Purple is a color that has long given a sense of royalty and wealth. </li>
 		<li><span class="orange-text color-text"></span> Orange is a bright and energetic color that's associated with autumn.</li>
-		<li><span class="green-text color-text"></span> Green is a very earthy color. It represents growth, nature, and renewal.</li>
+		<li><span class="green-text color-text"></span> Green is a very earthy color. Think of growth, nature, and renewal.</li>
 	</ul>
 </div>
 
 <hr class="divider">
 
 <h3>Reminder</h3>
-<p>Don't forget that successfully using color theory requires awareness of color meaning. To be successful in your design, keep in mind the associations color has culturally and naturally.</p>
+<p>Don't forget that successfully using color theory requires awareness of color meaning. To be successful in your design, keep in mind the associations color has culturally and naturally. Then proceed to improve your design!</p>
 
 </article>
 
