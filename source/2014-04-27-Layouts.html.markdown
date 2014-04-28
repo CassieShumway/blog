@@ -1,0 +1,75 @@
+---
+title: Layouts
+date: 2014-04-27
+tags: layout, wireframing
+---
+
+<article>
+<p class="part-text">Part 1.</p>
+<h1>And They All Look Just the Same</h1>
+<h2>By Greg Storey</h2>
+
+<p>After reading Greg Storey's article, I defintely felt a strong chord hit within me. As I was reading through, I was exclaiming (in my head) “Yes! That's how I feel!” because it had resonated with the same conflictions I had about the current trend of web design. Everything is starting to look the same: too trendy, modern, and slick...without much meaning or substance. The result? All companies are starting to look alike. The layout is all the same.</p>
+
+<hr class="divider-short">
+
+<blockquote>“Too many companies look the same–all style and not enough substance.”</blockquote>
+<blockquote>–Jason Fried</blockquote>
+
+<hr class="divider-short">
+
+<p>I admit, starting out at 8th Light, all I wanted to do was make “cool websites” that followed that trend. I love the look of clean and sleek layouts which typically consists of large photos and minimalist text. And don't get me wrong –I can still appreciate and find these layouts beautiful– but I want something new. A layout should be clean but I'd like for it to not be predictable.</p> 
+
+<p>So, should we be creative? Of course! Storey stresses that designers should strive to break free of the mold and stop regurgitating the same designs.</p>
+
+<hr class="divider-short">
+
+<blockquote>“Don‘t borrow code and sit on your ass. Keep trying new things. Share with the community. And move on.”</blockquote>
+<blockquote>–Greg Storey</blockquote>
+
+<hr class="divider-short">
+
+<p>Keep in mind, its definitely possible to still be creative and keep a clean style. You can add unique elements so that your webpage can gain some character. But you want to remember to keep the user in mind. There's no sense in having an intricate design (as beautiful as it may be) if the user gets confused and can't even navigate through the webpage. So always try to think: “Who are we really working for?” And always reply with: “We're working for the customer.”</p>
+
+<p>Personally, I want something with <em>personality</em> and <em>creativity</em>. I hope to challenge myself with this project and try some new layouts!</p>
+
+<hr class="divider">
+
+<p class="part-text">Part 2.</p>
+<h1>Original And Innovative Web Layouts</h1>
+<h2>By Shavaughn Haack</h2>
+
+<blockquote>“The layout is the foundation of your website. It guides the user through the sections and tells them what is most important. It also sets the aesthetic of the website. Therefore, you need to carefully think through how you lay out content.”</blockquote>
+<blockquote>–Shavaughn Haack</blockquote>
+
+<hr class="divider-short">
+
+<p>I love this excerpt from Haack because it perfectly summarizes how important layout is. I'm sure we can all agree that creativity is a great thing. But we must always keep the user in mind. Haack stresses the same importance as Storey: Don't let creativity hinder usability. Make sure to always ask yourself questions so that you're placing information in the right places.</p>
+
+<p>Haack offers some great questions to ask yourself when thinking of the user: “What do we want them to see first?” and “How will your message be best communicated?”</p>
+	
+<p>There are many beautiful websites out there with amazing ideas. All original web layouts. I browsed through the list provided by Haack and you can tell that these designers have definitely broken the mold. Granted, not all of them work well in terms of usability (slow loading time &amp; confusing navigation) but its a start. I'm hoping other designers will take this cue and try something new.</p>
+
+<p>Here are a few of my favorites listed in Haack's article. Although I highly encourage a peek at the entire list. (Pictures and links from Haack).</p>
+
+<div class="box">
+	<ul>
+		<li><a href="http://www.adamhartwig.co.uk/"><img src="/images/AdamHartwig.png"></a></li>
+		<li>Adam Hartwig</li>
+		<li><a href="http://www.freeger.com/projects/contextad/"><img src="/images/Contad.png"></a></li>
+		<li>Contad</li>
+		<li><a href="http://johnjacob.ca/"><img src="/images/JohnJacob.png"></a></li>
+		<li>John Jacob</li>
+		<li><a href="http://www.lucasnikitczuk.com.ar/"><img src="/images/LucasNikitczuk.png"></a></li>
+		<li>Lucas Nikitczuk</li>
+		<li><a href="http://nationallgbtmuseum.org/#/home"><img src="/images/LGBTMuseum.png"></a></li>
+		<li>National LGBT Museum</li>
+	</ul>
+</div>
+
+<h3>Sources</h3>
+<ul>
+	<li><a href="http://www.smashingmagazine.com/2013/08/29/innovative-appraoches-web-layout/">Original And Innovative Web Layouts by Shavaughn Haack</a></li>
+	<li><a href="http://cognition.happycog.com/article/and-they-all-look-just-the-same">And They All Look Just the Same by Greg Storey</a></li>
+</ul>
+</article>
