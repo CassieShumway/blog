@@ -10,9 +10,6 @@ body {
 	padding: 0;
 }
 
-div {
-	display: block;
-}
 
 a {
 	text-decoration: none;
@@ -20,9 +17,7 @@ a {
 	font-size: 1em;
 }
 
-a:hover {
-	color: #F7DF40;
-}
+a:hover { color: #F7DF40;}
 
 p {
 	font-size: 1em;
@@ -36,20 +31,9 @@ h1 {
 	color: #F7DF40;
 }
 
-h2 {
-	display: block;
+h3 { color: #F7DF40; }
 
-}
-
-h3 {
-	color: #F7DF40;
-}
-
-
-span {
-	color: #F7DF40;
-}
-
+span { color: #F7DF40; }
 
 /* ---- HEADER ------ */
 
@@ -58,9 +42,7 @@ span {
 	text-align: center;
 }
 
-
 /* -------- NAVIGATION ----------- */
-
 
 .circle-navigation {
 	list-style: none;
@@ -82,9 +64,7 @@ span {
 	text-align: center;
 }
 
-
 /* -------- CONTENT -----------*/
-
 
 .container {
 	overflow: hidden;
@@ -94,29 +74,18 @@ span {
 	width: 90%;
 }
 
-.center {
-	text-align: center;
-}
+.center { text-align: center; }
 
+.container-white, { margin: 0 auto; }
 
-.container-white, {
-	margin: 0 auto;
-}
-
-
-
-.texture {
-	background: url(brushed.png);
-}
+.texture { background: url(brushed.png); }
 
 .data {
 	padding: 2em;
 	position: relative;
 }
 
-table {
-	width: 80%;
-}
+table { width: 80%; }
 
 .data td {
 	padding: 0.5em;
@@ -124,14 +93,7 @@ table {
 	border-top: 1px gray solid;
 }
 
-td {
-	
-}
-
-
-.row {
-	overflow: hidden;
-}
+.row { overflow: hidden; }
 
 .column {
 	float: left;
@@ -139,10 +101,6 @@ td {
 	width: 48%;
 }
 
-.column:first-child {
-  margin-left: 0;
-}
+.column:first-child { margin-left: 0; }
 
-#example {
-	list-style: none;
-}
+#example { list-style: none; }

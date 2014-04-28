@@ -14,19 +14,24 @@ layout: projects-layout
   </head>
 
   <body>
-    <div class="container">
+    <div class="container cf">
       <h1>Inline Elements &amp; Block-Level Elements</h1>
-      <div class="box">
-        <p>Hi! As you are reading through this paragraph, you can see that <span>inline elements</span> flow like text. They do not create new line breaks like block elements.</p>
+      <div class="box cf">
+        <p class="text-example">Hi! As you are reading through this paragraph, you can see that <span>inline elements</span> flow like text. They do not create new line breaks like block elements.</p>
       </div>
       <div class="box">
         <div class="block">
-          <p>Hi! I'm a block-level element, which is a block of content.</p>
+          <p class="text-example">Hi! I'm a block-level element, which is a block of content.</p>
         </div>
       </div>
+
+      <hr class="divider-short">
+
       <h3>Introduction</h3>
       <p>For this project, we'll be going over how CSS can change behavior in inline and block-level elements. If you'd like to review the basics of these elements, please go to the blog post Inline Elements & Block-Level Elements first before reading on. 
       </p> 
+
+      <hr class="divider-short">
 
       <h3>Inline Block</h3>
       <script src="https://gist.github.com/CassieShumway/9253123.js"></script>
@@ -40,6 +45,8 @@ layout: projects-layout
 
       <p>Remember how <code>h2</code> tags were block elements? With a little CSS, they are now behaving like inline elements.</p>
       
+      <hr class="divider-short">
+
       <h3>Block</h3>
       <script src="https://gist.github.com/CassieShumway/9254434.js"></script>
       <p>By using this bit of code, you can have an element display as a block element. To demonstrate, lets take an inline element <code>a</code> tag and turn it into a block element. Normally, this inline element would flow like regular text. But now you'll notice that it creates a new line break and takes up the full width of its container:</p>
@@ -48,6 +55,8 @@ layout: projects-layout
         <p><a class ="inline-block" href="#">a</a></p>
         <p><a class ="inline-block" href="#">a</a></p>
       </div>
+
+      <hr class="divider-short">
 
       <h3>Inline</h3>
       <script src="https://gist.github.com/CassieShumway/9255164.js"></script>
@@ -60,6 +69,9 @@ layout: projects-layout
         </ul>
       </div>
       <p>As you can see, we've created the natural block element <code>li</code> to display as an inline element.</p>
+
+      <hr class="divider-short">
+
       <h3>Sources</h3>
       <p><a href="http://www.w3schools.com/">CSS Display Property</a></p>
     </div>

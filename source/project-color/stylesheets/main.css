@@ -16,6 +16,10 @@ body {
 	padding: 0; 
 }
 
+a { color: #8c044d; }
+
+a:hover { color: #573346; }
+
 blockquote {
   font-size: 1.5em;
   font-style: italic;
@@ -74,13 +78,12 @@ p {
   margin-bottom:  1em;
 }
 
-ul { }
+ul { padding: 0; }
 
 li { 
   color: #573346;
   font-size: 1.2em; 
   line-height: 2em;
-  margin-left: -37px;
 }
 
 /* =================================
@@ -181,9 +184,6 @@ li {
 .color-third-horizontal {
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
-  box-shadow: 0 0 5px #888;
   height: 30px;
   margin: 0 auto;
   width: 100%;
@@ -211,9 +211,6 @@ li {
 .color-horizontal {
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px#888;
-  box-shadow: 0 0 5px #888;
   margin: 0 auto;
   height: 55px;
   width: 100%;

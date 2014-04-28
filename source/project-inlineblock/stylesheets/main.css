@@ -9,6 +9,8 @@ body {
 	padding: 0; 
 }
 
+h1, h2, h3, h4, p { margin: 0;}
+
 a {
 	color: #6A7574;
 	text-decoration: none;
@@ -17,9 +19,9 @@ a {
 a:hover { color: #FF7865; }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	text-align: center;
-	margin-bottom: 2em;
+	margin: 1em 0 2em 0;
 }
 
 h2 {
@@ -33,9 +35,22 @@ h2 {
 	width: 14%;
 }
 
-h4 { font-weight: normal; }
+h3 { 
+	margin: 1.2em 0 .5em 0; }
+
+.divider-short {
+  border: 0;
+  border-top: 1px solid #ddd;
+  height: 0;
+  margin: 2em auto;
+  width: 100px;
+}
 
 span { color: #FF3D7F; }
+
+p { font-size: 1.2em; }
+
+.text-example { font-size: 1em; }
 
 ul { text-align: center; }
 
@@ -55,7 +70,7 @@ li {
 	margin: 0 auto;
 	padding: 2em 0;
 	width: 90%;
-	max-width: 640px;
+	max-width: 670px;
 }
 
 /* =================================
@@ -64,11 +79,8 @@ li {
 
 .box {
 	border: 1px dashed #E9E9E9; 
-	margin: 0 auto;
-	margin-bottom: 1em;
+	margin: 1em 0;
 	padding: 1em;
-	width: 100%;
-	max-width: 604px;
 }
 
 /* =================================
@@ -132,3 +144,18 @@ code {
 	position: relative;
 	top: -1px;
 }
+
+/* =================================
+   CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+

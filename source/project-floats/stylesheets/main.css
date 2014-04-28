@@ -8,7 +8,7 @@ body {
 	background: #fff; 
 	color: #6A7574; 
 	font-size: 112%; 
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Droid Serif', 'serif';
 	font-weight: 300;
 	line-height: 2em;
 	margin: 0; 
@@ -34,12 +34,15 @@ h2 {
 	color: #ED9F9F;
 	font-size: 1.5em;
 	font-weight: 400;
+	margin-top: 3em;
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	margin-bottom: 1em;
 }
+
+.text-example { font-size: 1em; }
 
 /* =================================
   WRAPPER
@@ -50,7 +53,7 @@ p {
 	margin: 0 auto;
 	padding: 2em 1em;
 	width: 90%;
-	max-width: 800px;
+	max-width: 900px;
 }
 
 /* =================================
@@ -59,7 +62,7 @@ p {
 
 .container {
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 670px;
 }
 
 /* =================================
