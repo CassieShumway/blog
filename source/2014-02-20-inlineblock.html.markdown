@@ -1,5 +1,5 @@
 ---
-title: Inline & Block-Level Elements
+title: Inline & Block-Level
 date: 2014-02-20
 tags: inline, block level, elements
 ---
