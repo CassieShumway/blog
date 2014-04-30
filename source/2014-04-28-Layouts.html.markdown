@@ -67,9 +67,33 @@ tags: layout, wireframing
 	</ul>
 </div>
 
+<hr class="divider">
+
+<p class="part-text">Part 3.</p>
+<h1>Design Your Own</h1>
+
+<p>Here are some rough sketches of ideas that I'm brewing:</p>
+
+<div class="box">
+	<ul>
+		<li><img class="image" src="/images/layoutsketch1.jpg"></li>
+		<li><img class="image" src="/images/layoutsketch2.jpg"></li>
+		<li><img class="image" src="/images/layoutsketch3.jpg"></li>
+	</ul>
+</div>
+
+<hr class="divider">
+
 <h3>Sources</h3>
 <ul>
 	<li><a href="http://www.smashingmagazine.com/2013/08/29/innovative-appraoches-web-layout/">Original And Innovative Web Layouts by Shavaughn Haack</a></li>
 	<li><a href="http://cognition.happycog.com/article/and-they-all-look-just-the-same">And They All Look Just the Same by Greg Storey</a></li>
 </ul>
+
 </article>
+
+
+
+
+
+
