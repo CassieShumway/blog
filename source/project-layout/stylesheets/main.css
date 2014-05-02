@@ -1,0 +1,316 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+body {
+	background: #fff; 
+	color: #404747;
+	font-size: 112%; 
+  font-family: "brandon-grotesque",sans-serif;
+  -webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+h1, h2, h3, h4, ul, li, p { margin: 0; }
+
+a { 
+  color: #404747; 
+  text-decoration: none;
+}
+
+a:hover { color: #EFAE9C; }
+
+h1 { 
+  font-size: 2em;
+  font-weight: 700;
+  margin: 1.5em 0 2em 0;
+  text-transform: uppercase;
+}
+
+h2 {
+
+}
+
+h3 {
+  color: #92A0A0;
+  font-size: 1em;
+  text-align: left;
+}
+
+/* hr */
+.divider {
+  border: 0;
+  border-top: 1px solid #C2C2C2;
+  height: 0;
+  margin: 2em auto;
+  width: 100px;
+}
+
+.divider-long {
+  border: 0;
+  border-top: 1px dashed #C2C2C2;
+  height: 0;
+  margin: 7em 0;
+  width: 100%;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+ul { 
+  list-style: none; 
+  padding: 0;
+}
+
+li { 
+  padding-left: .5em;
+  text-align: left; 
+}
+
+.cross:before {
+  background: url('box-x.png');
+  content: " ";
+  display: inline-block;
+  height:20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* =================================
+  NAVIGATION
+   ============================== */
+
+.navigation-box { 
+  font-size: .8em;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 150px;
+  padding-right: 1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.navigation-box li { 
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.1em;
+  padding: .5em 0;
+  text-align: left;
+}
+
+/* =================================
+  SIDEBAR
+   ============================== */
+/*
+http://www.colourlovers.com/palette/3335790/stories_we_tell
+http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
+*/
+
+.sidebar {
+  background: url(blizzard.png);
+  margin: 0 auto;
+  position: fixed;
+  width: 220px;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar p { 
+  font-size: 1em;
+  text-align: center; 
+}
+
+.sidebar .divider { 
+  margin-bottom: 1.5em; 
+  margin-top: 1em;
+}
+
+.sidebar-wrapper {
+  padding: 1em;
+  text-align: center;
+}
+
+.sidebar-box {
+  height: auto;
+  margin: 0 auto;
+  max-width: 150px;
+  padding: .5em 0;
+}
+
+.border {
+  background: #fff;
+  border: 1px dashed #C2C2C2;
+  margin-bottom: 1em;
+  padding: .5em;
+}
+
+.sidebar-image {
+  width: 100%;
+  max-width: 150px;
+  padding: 1.5em 0;
+}
+
+/* =================================
+  ICONS
+   ============================== */
+
+.icon {
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+  height: 35px;
+  margin: 0 auto;
+  width: 35px;
+  margin-left: .7em;
+}
+
+.fb { background: #EFAE9C url("/images/fb.png") no-repeat center;}
+
+.p { background: #B79F95 url("/images/p.png") no-repeat center; }
+
+.twitter { background: #7DB4B5 url("/images/twitter.png") no-repeat center; }
+
+/* =================================
+  WRAPPER
+   ============================== */
+
+#wrapper {
+  margin: 5em 0 0 19em;
+  min-width: 515px;
+  max-width: 1037px;
+  padding: 1em;
+  width: 100%;
+}
+
+/* =================================
+  CONTENT
+   ============================== */
+
+.content { text-align: center; }
+
+.image-box {
+  margin: 2em 0 4em 0;
+}
+
+.image {
+  width: 100%;
+  max-width: 830px;
+  margin: 2em 0;
+}
+
+/* =================================
+   SPLASH PAGE
+   ============================== */
+
+.splash-image {
+  height: auto;
+  max-width: 100%;
+}
+
+/* =================================
+  BOX
+   ============================== */
+
+.box {
+  margin: 0 auto;
+  max-width: 1020px;
+  padding: .5em;
+  width: 100%;
+}
+
+.small-box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* =================================
+  COLUMNS
+   ============================== */
+
+.row { 
+  margin: 1em 0;
+  overflow: hidden; 
+}
+
+.column {
+  float: left;
+  margin: 0 auto;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.column:first-child { margin-left: 0; }
+
+/* =================================
+  CIRCLES
+   ============================== */
+
+.circle { 
+  background: url(Texture4.jpg);
+  border-radius: 50%;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 4.5em;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+/* =================================
+  UTILITIES
+   ============================== */
+
+.margin { margin: 14em 0 7em 0; }
+
+/* =================================
+  GIST OVERRIDES
+   ============================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/* =================================
+  CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+
+
