@@ -1,0 +1,281 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+body {
+	background: url(/images/texture-squares.jpg); 
+	color: #EDD7BE;
+  font-family: 'Merriweather', serif;
+	font-size: 112%; 
+  -webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 0; 
+	padding: 0; 
+}
+
+h1, h2, h3, h4, ul, li, p { margin: 0; }
+
+
+h1 { 
+  color: #E8AF6D;
+  font-weight: 100;
+  font-size: 4em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+h2 {
+  color: #E8AF6D;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1em;
+  text-align: center;
+}
+
+
+h3 {
+  color: #EDD7BE;
+  font-family: 'Lato', sans-serif;
+  font-size: 5.2em;
+  font-weight: 100;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+h4 
+
+p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+ul { list-style: none; }
+
+li { 
+  color: #E8AF6D;
+  float: left;
+  font-size: .9em;
+  font-weight: 400;
+  padding-left: .5em;
+}
+
+/* =================================
+  COLOR NAVIGATION
+   ============================== */
+
+/*#color-nav {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+}
+
+.color-square {
+  border-radius: 2px;
+  height: 30px;
+  margin-bottom: .3em;
+  width: 30px;
+}*/
+
+/* =================================
+  HEADER
+   ============================== */
+
+.header { margin: 3em 0 6.5em 0; }
+
+/* =================================
+  WRAPPER
+   ============================== */
+
+#wrapper {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 2em 0;
+}
+
+/* =================================
+  CENTERING WRAPPER
+   ============================== */
+
+/*http://www.colourlovers.com/pattern/3641081/
+*/
+
+/* =================================
+  COLUMNS
+   ============================== */
+
+.row {
+  margin: 6em 0 2em 0;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.column:first-child { margin-left: 0; }
+
+.half { width: 47.5% }
+
+.fourth { 
+  margin-left: 2%;
+  text-align: center;
+  width: 23.5%; 
+}
+
+.fifth {
+  margin-left: 2%;
+  width: 18.4%;
+}
+
+/* =================================
+  SECTION DIVIDERS
+   ============================== */
+
+.italic {
+  background: url(/images/texture-squares.jpg);
+  color: #E8AF6D;
+  display: inline-block;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 300;
+  position: relative;
+  text-transform: lowercase;
+  top: -18px;
+  width: 160px;
+}
+
+.line {
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 6em;
+  height: 0;
+  text-align: center;
+  color: #5C472E;
+  border-bottom: 1px solid #5C472E;
+  width: 100%;
+}
+
+/* =================================
+  SECTION-ONE
+   ============================== */
+
+.section-heading { 
+  width: 100%; 
+  height: 200px; 
+  line-height: 0px; 
+  color: transparent; 
+  -webkit-transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease; 
+  -o-transition: all 0.5s ease; 
+} 
+
+.section-heading:hover { 
+    line-height: 133px; 
+    color: #EDCEA9 ; 
+} 
+
+/* =================================
+  SECTION-TWO
+   ============================== */
+
+.section-paragraph {
+  margin: 2em 0;
+}
+
+.section-paragraph p:first-child:first-letter{
+    float:left;
+    font-size:3.1em;
+    margin-top:7px;
+    margin-right:5px;
+    color:#EDD7BE;
+    }
+
+/* =================================
+  SECTION-THREE
+   ============================== */
+
+.color-palette {
+  /*border: 1px solid #5C472E;*/
+  border-radius: 2px;
+  height: 50px;
+  margin-bottom: .3em;
+  width: 100%;
+}
+
+.butter { background: #E8AF6D; }
+.purple { background: #2B232B; }
+.flesh { background: #EDD7BE; }
+.grey { background: #454045; }
+.beige { background: #EDCEA9; }
+
+/* =================================
+  HERO
+   ============================== */
+
+<div class="hero">
+</div>
+.hero {
+  background: url(a;sa;sdjfl) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: askd;
+}
+
+/* =================================
+  UTILITIES
+   ============================== */
+
+.margin-top { margin-top: 3em; }
+
+/* =================================
+  GIST OVERRIDES
+   ============================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/* =================================
+  CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+
+

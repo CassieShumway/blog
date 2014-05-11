@@ -33,13 +33,17 @@ h1 {
 }
 
 h2 {
-
+  font-family: "jubilat",sans-serif;
+  /*font-family: "abril-text", serif;*/
+  font-size: 2.7em;
+  font-weight: 700;
+  margin: 1.5em 0;
+  text-transform: uppercase;
 }
 
 h3 {
-  color: #92A0A0;
-  font-size: 1em;
-  text-align: left;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /* hr */
@@ -49,6 +53,10 @@ h3 {
   height: 0;
   margin: 2em auto;
   width: 100px;
+}
+
+section {
+
 }
 
 .divider-long {
@@ -72,16 +80,6 @@ ul {
 li { 
   padding-left: .5em;
   text-align: left; 
-}
-
-.cross:before {
-  background: url('box-x.png');
-  content: " ";
-  display: inline-block;
-  height:20px;
-  margin-right: 5px;
-  vertical-align: middle;
-  width: 20px;
 }
 
 /* =================================
@@ -117,10 +115,16 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
 .sidebar {
   background: url(blizzard.png);
   margin: 0 auto;
-  position: fixed;
-  width: 220px;
-  top: 0;
-  bottom: 0;
+}
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  .sidebar { 
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    width: 220px;
+  }
 }
 
 .sidebar p { 
@@ -141,8 +145,13 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
 .sidebar-box {
   height: auto;
   margin: 0 auto;
-  max-width: 150px;
   padding: .5em 0;
+}
+
+@media (min-width: 40rem) {
+  .sidebar-box {
+    max-width: 150px;
+  }
 }
 
 .border {
@@ -183,12 +192,25 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
    ============================== */
 
 #wrapper {
-  margin: 5em 0 0 19em;
-  min-width: 515px;
-  max-width: 1037px;
   padding: 1em;
   width: 100%;
 }
+
+@media (min-width: 40rem) {
+  #wrapper {
+    margin: 5em 0 0 19em;
+    min-width: 515px;
+    max-width: 1037px;
+  }
+}
+
+/*@media (min-width: 70rem) {
+  #wrapper {
+    margin: 5em 0 0 28em;
+    min-width: 515px;
+    max-width: 1037px;
+  }
+}*/
 
 /* =================================
   CONTENT
@@ -204,6 +226,11 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
   width: 100%;
   max-width: 830px;
   margin: 2em 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* =================================
@@ -242,13 +269,19 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
 }
 
 .column {
-  float: left;
-  margin: 0 auto;
-  margin-left: 5%;
-  width: 30%;
+  margin-bottom: 2em;
+
 }
 
-.column:first-child { margin-left: 0; }
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+  }
+
+  .column:first-child { margin-left: 0; }
+}
 
 /* =================================
   CIRCLES
@@ -265,6 +298,74 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
   height: 100px;
   text-align: center;
 }
+
+/* =================================
+  SPEECH BUBBLE
+   ============================== */
+
+/*.bubble-border {
+  position: relative;
+  padding: 70px 30px;
+  margin: 1em auto 60px;
+  border: 1px dashed #C2C2C2;
+  text-align: center;
+  color: #333;
+  background: #fff;
+  -webkit-border-top-left-radius: 240px 140px;
+  -webkit-border-top-right-radius: 240px 140px;
+  -webkit-border-bottom-right-radius: 240px 140px;
+  -webkit-border-bottom-left-radius: 240px 140px;
+  -moz-border-radius: 240px / 140px;
+  border-radius: 140px / 140px;
+}
+
+blockquote p {
+margin: 0;
+font-size: 2em;
+}
+
+.bubble-border:before {
+  content: "";
+position: absolute;
+z-index: 2;
+bottom: 68px;
+right: 5%;
+width: 20px;
+height: 31px;
+border-style: dashed;
+border-width: 0 1px 1px 0;
+border-color: #C2C2C2;
+margin-right: 20px;
+background: transparent;
+-webkit-border-bottom-right-radius: 40px 50px;
+-moz-border-radius-bottomright: 40px 50px;
+border-bottom-right-radius: 40px 50px;
+display: block;
+}
+
+.bubble-border:after {
+content: "";
+position: absolute;
+z-index: 2;
+bottom: 68px;
+right: 5%;
+width: 20px;
+height: 31px;
+border-style: dashed;
+border-width: 0 1px 1px 0;
+border-color: #C2C2C2;
+margin-right: 20px;
+background: transparent;
+-webkit-border-bottom-right-radius: 40px 50px;
+-moz-border-radius-bottomright: 40px 50px;
+border-bottom-right-radius: 40px 50px;
+display: block;
+}*/
+
+.bubble {
+  
+}
+
 
 /* =================================
   UTILITIES

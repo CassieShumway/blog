@@ -530,6 +530,8 @@ article p { }
   margin-bottom: 0;
 }
 
+.margin-bottom { margin-bottom: 1em; }
+
 .remove-margin-top {
   margin-top: 0;
 }
@@ -548,6 +550,8 @@ article p { }
   overflow: auto;
   padding: 1em;
 }
+
+.bold-text { font-weight: 700;}
 
 /* =================================
    CODE
