@@ -1,0 +1,92 @@
+---
+title: An Important Lesson	
+date: 2014-05-09
+tags: time management, workload
+---
+
+<article>
+
+<h1>An Important Lesson</h1>
+<h2>Learning Key Things For Projects, Work, And Myself</h2>
+
+<p>This past week I was challenged with an assignment from Mike Jansen with intentionally vague instructions. This was meant to simulate future clients that might not know what design direction they want to take. Therefore, it's up to the designer to properly manage the project for —and with— the client.</p>
+
+<p>But there's another part to all of this. It was also a test to see how I would manage myself during this project. Given this extra assignment from Mike, how would I manage my time? In addition to this, how would I go about managing my current workload with Adam? Well, I will reflect on those questions with my experience this past week and how I could have gone about it better. Essentially, the mistakes I could have avoided.</p>
+
+<h3>The Assignment</h3>
+<p>I was given the task to create a schedule for 8th Light events on Friday. It would be projected onto the screen and would need to depict the details of time and location for each event so attendees would know where to go. My first thought process was this: make something simple and legible.</p>
+
+<div class="box">
+	<p>Attempt #1</p>
+	<img class="image" src="/images/FridaySchedule1.jpg">
+</div>
+
+<hr class="divider-short">
+
+<h3>Does This Work?</h3>
+
+<p>Nope! This plain approach wasn't creative enough or visually appealing. When I presented this to Mike, he knew things could be pushed more. However, continuing to be intentionally vague, he simply instructed to me that it was “a bit plain.” I certainly wouldn't disagree with him but I had a hard time correlating a projector graphic with a print graphic. The entire time I kept thinking: “Keep it simple. Keep it readable!”</p>
+
+<p>So I tried keeping the content in the same format but with a different layout. It was simple but was it enough?</p>
+
+<div class="box">
+	<p>Attempt #2</p>
+	<img class="image" src="/images/FridaySchedule2.jpg">
+</div>
+
+<hr class="divider-short">
+
+<h3>Wrong Again!</h3>
+
+<p>By this time, I really had no idea which direction I should be going. Presenting this second concept to Mike, I got the same response.  I was obviously on the wrong path and was given a ray of hope when Mike finally asked me what <em>my style</em> of design was. He referred to my projects page, the overall look and feel, and gave me permission again to be creative.</p>
+
+<p>So with that direction, I took at it a third time. This time creating something that was completely my style and free with my design. Since the deadline was drawing near, I invested a lot of personal time to create this design.</p>
+
+<p>So for my third attempt, I created something custom. I definitely felt more confident in my design so I sent this off to Mike. Shortly after, it was approved! The only thing that needed fixing was the typography. With this said, did this mean that I was finally done? Unfortunately, no, it didn't because ultimately this design failed. It was decided by the design team that this illustration did not work. So that meant going back to the drawing board!</p>
+
+<div class="box">
+	<p>Attempt #3</p>
+	<img class="image" src="/images/FridaySchedule-Creative.jpg">
+</div>
+
+<hr class="divider-short">
+
+<h3>Starting again</h3>
+
+<p>By this point I was worn down, confused, and burnt out. I had put all of my eggs in one basket and it still wasn't the right direction. For this next attempt, I churned out a different design that didn't even feel like me. I wasn't proud of any of my work and that should have been a red flag from the start.</p>  
+
+<div class="box">
+	<p>Attempt #4</p>
+	<img class="image" src="/images/FridaySchedule-photo.jpg">
+</div>
+
+<h3>Reflection</h3>
+
+<p>What I should have done —from the very beginning— was ask for more direction. To seek out help and answers. Instead, I retracted with self defeat and didnt reach out. Reflecting back on this, I really shouldn't be surprised at the failed outcome.</p>
+
+<ul class="margin-bottom">
+	<li class="pink-text">If I had questions, I should have asked them.</li>
+	<li class="pink-text">If I needed help, I should have asked for help.</li> 
+	<li class="pink-text">If I needed direction, I should have asked for direction.</li>
+</ul>
+
+<p>Even with something as simple as this...I never <em>once</em> reached out to my mentor when I should have. My biggest mistake was not seeking help and just working blindly. Which of course, led to fruitless efforts. Because of this I was angry at myself for not performing well, and then, I shut down.</p>
+
+<hr class="divider-short">
+
+<p>Looking back now, I'm like <em class="bold-text">DUH!</em> to myself. Of course I couldn't perform! Why? Because I never asked any questions to get the answers I needed! Without that, how else would I manage my time, my workload or priorities? You just can't! (Cue for another DUH! on myself).</p>
+
+
+<p>I'll have to remember that this residency is still new and that I shouldn't feel ashamed of showing designs that might look elementary. I am, afterall, still learning. I'm going to make mistakes and I don't have all the answers. I won't always be able to perform. But if that's the case, I need to allow my mentor to help me so I can get back on my feet.</p>
+
+<p>So with all of that said, Adam and I worked together, and the design finally starting feeling right again. This past week really challenged me but it taught me a LOT. I need to know how to properly manage my time, my workload, my priorities, and be humble enough to ask for help when I need it.</p>
+
+<div class="box">
+	<p>Final Design with Adam</p>
+	<img class="image" src="/images/May9Schedule.jpg">
+	<p>Thanks Adam :)</p>
+<img src="/images/custom-monkey.png">
+</div>
+
+</article>
+
