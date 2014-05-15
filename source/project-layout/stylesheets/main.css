@@ -77,6 +77,14 @@ h3 {
   width: 100%;
 }
 
+@media (max-width: 40rem) {
+  h2 {
+    margin: .5em 0;
+  }
+
+  .divider-long { margin: 2em 0; }
+}
+
 p {
   font-size: 1.2em;
   text-align: left;
@@ -113,6 +121,31 @@ li {
   padding: .5em 0;
   text-align: left;
 }
+
+/*@media (max-width: 40rem) {
+  .navigation-box {
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .navigation-box li {
+    float: left;
+    padding-left: 2em;
+    }
+  }
+
+}*/
+
+@media (max-width: 40rem) {
+    .sidebar li {
+      display: none;
+    }
+
+    .sidebar h3 {
+      display: none;
+    }
+  }
 
 /* =================================
   SIDEBAR
@@ -165,8 +198,10 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
 
 @media (min-width: 40rem) {
   .sidebar-box {
-    max-width: 150px;
-  }
+    margin: 0 auto;
+    max-width: 150px
+    padding: 1em 0;
+    }
 }
 
 .border {
@@ -180,6 +215,52 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
   width: 100%;
   max-width: 150px;
   padding: 1.5em 0;
+}
+
+/* =================================
+  SPEECH BUBBLE
+   ============================== */
+
+.arrow_box {
+  position: relative;
+  background: #fff;
+  border: 1px solid #E6E4E4;
+  margin-bottom: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.arrow_box:after, .arrow_box:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.arrow_box:before {
+  border-color: rgba(238, 238, 238, 0);
+  border-bottom-color: #E6E4E4;
+  border-width: 11px;
+  margin-left: -11px;
+}
+
+@media (max-width: 40rem) {
+
+  .arrow_box {
+    width: 100%;
+    margin: 0 auto; 
+    max-width: 300px;
+  }
 }
 
 /* =================================
@@ -199,6 +280,14 @@ http://www.colourlovers.com/palette/3335783/%E2%80%A2Natura%E2%80%A2
 .fb { background: #3b5999 url("/images/fb.png") no-repeat center;}
 .p { background: #cc2127 url("/images/p.png") no-repeat center; }
 .twitter { background: #55acee url("/images/twitter.png") no-repeat center; }
+
+@media (max-width: 40rem) {
+  .icon {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
 
 /* =================================
   WRAPPER
@@ -244,6 +333,18 @@ img {
   height: auto;
 } 
 
+.small-img {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  .splash-image { 
+    display: none;
+  }
+
+  .small-img { display: block;}
+}
+
 /* =================================
   BOX
    ============================== */
@@ -261,6 +362,13 @@ img {
   max-width: 250px;
 }
 
+@media (max-width: 40rem) {
+  .small-box {
+    max-width: 100%;
+  }
+
+}
+
 /* =================================
   COLUMNS
    ============================== */
@@ -270,7 +378,10 @@ img {
   overflow: hidden; 
 }
 
-.column { margin-bottom: 2em; }
+.column { 
+  margin-bottom: 2em; 
+  width: 100%;
+}
 
 @media (min-width: 40rem) {
   .column {
@@ -283,47 +394,14 @@ img {
 }
 
 /* =================================
-  SPEECH BUBBLE
-   ============================== */
-
-.arrow_box {
-  position: relative;
-  background: #fff;
-  border: 1px solid #E6E4E4;
-  margin-bottom: 1em;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-}
-.arrow_box:after, .arrow_box:before {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-
-.arrow_box:after {
-  border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #fff;
-  border-width: 10px;
-  margin-left: -10px;
-}
-.arrow_box:before {
-  border-color: rgba(238, 238, 238, 0);
-  border-bottom-color: #E6E4E4;
-  border-width: 11px;
-  margin-left: -11px;
-}
-
-/* =================================
   UTILITIES
    ============================== */
 
 .margin { margin: 14em 0 7em 0; }
+
+@media (max-width: 40rem) {
+  .margin { margin: 3em 0;}
+}
 
 /* =================================
   GIST OVERRIDES

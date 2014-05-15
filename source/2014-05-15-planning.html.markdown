@@ -1,0 +1,70 @@
+---
+title: Planning
+date: 2014-05-15
+tags: management, review
+---
+
+<article>
+
+<h1>Planning</h1>
+
+<p>Whoa! This week went by fast but I feel back on track. Even though last week was rough, I made it a point to start off this week with a positive attitude. I even wore orange lipstick. After my reflection this past weekend I wanted to reinforce —within myself— that these challenges were meant to make me better. Rough patches aren't for nothing! We should learn from them and become better.</p>
+
+<p>With that said, my design groove was back to normal and Adam asked, “What had been different this week compared to last?” This question helped me to pin point the things I needed in order to perform better.</p>
+
+<hr class="divider-short">
+
+<h3>Expection</h3>
+
+<p>I know this sounds silly, but if I see what's expected of me, then I perform better. What I mean by this, is knowing what design direction is wanted. Similar to working with a new client, unless you know what they're looking for, you will continually be shooting in the dark. However, after speaking with the client and getting some design direction, <em>then</em> you can make progress.</p>
+
+<h3>Planning</h3>
+
+<p>The next step of course is basic planning. Knowing what designs you'd like to explore. Start off with some rough sketches and start planning. I've found that my designs are always more successful this way. Also, asking for constant feedback is great because I'm able to refine my designs under the right direction or be steered if I'm going the wrong way. </p>
+
+<h3>Details</h3>
+
+<p>From the start of my apprenticeship, I've always needed a detailed list of what was required. I've found that it <em>really</em> helps me to see everything I need to do. Then mark them off one by one to make sure I'm meeting all the requirements. A great new tool that helped with this is Artisan. I really liked using Artisan this week because I could see all the projects I'm working on and could therefore prioritize my time better.</p>
+
+<hr class="divider-short">
+
+<h3>So, How'd You Do?</h3>
+
+<p>Well, with all of that said, how was my work this week compared to last? Well, it was definitely more prepared! And it was definitely more thought out.</p>
+
+<h4>1. Take Notes</h4>
+
+<p class="left-text">I like to take notes whenever talking with Adam, the design team, or other 8th Lighters. It helps me get started and know what I need to do.</p>
+
+<div class="box">
+	<img class="image" src="/images/plan-sketch.jpg">
+</div>
+
+<h4>2. Draw Sketches</h4>
+
+<p>I started off by creating mock-up sketches of different layouts I wanted to explore</p>
+
+<h4>3. Make Mock-ups</h4>
+
+<div class="box">
+	<img class="image" src="/images/may16-one.jpg">
+	<p>Mock-up #1</p>
+</div>
+
+<div class="box">
+	<img class="image" src="/images/may16-two.jpg">
+	<p>Mock-up #2</p>
+</div>
+
+
+<div class="box">
+	<img class="image" src="/images/may16-three.jpg">
+	<p>Mock-up #3</p>
+</div>
+
+<h4>4. Discuss</h4>
+
+<p>Keep an open discussion with your mentor and/or client and you'll always be on track!</p>
+
+</article>
+
