@@ -42,9 +42,11 @@ tags: management, review
 
 <h4>2. Draw Sketches</h4>
 
-<p>I started off by creating mock-up sketches of different layouts I wanted to explore</p>
+<div class="box">
+	<img class="image" src="/images/planning-sketch.jpg">
+</div>
 
-<h4>3. Make Mock-ups</h4>
+<h4>3. Create Mock-ups</h4>
 
 <div class="box">
 	<img class="image" src="/images/may16-one.jpg">
