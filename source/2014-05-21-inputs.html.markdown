@@ -1,0 +1,210 @@
+---
+title: Inputs
+date: 2014-05-21
+tags: input
+---
+
+<article>
+
+<h1>Inputs</h1>
+
+<code>input</code> 
+
+<p>The input tag is used for an area where you want a user to type in specific data. Typically, these are used within a form element. These input tags can then be used in a variety of ways such as logins, passwords, and checkboxes.</p>
+
+<code>form</code>
+
+<p>The form element is associated with the input element. Typically paired together, the input element can be a descendant of a form element. However, if an attribute is not specified, then a label element must be a descendant of a form element.  </p>
+
+<code>label</code>
+
+<p>The label element serves as a caption for an item. It can be associated with a control by: (a) placing the control element inside the label element or (b) by using the for attribute. Be sure to nest within your label elements!</p>
+
+<hr class="divider">
+
+<h3>Different Type Attributes</h3>
+
+<h4>1. Text Fields</h4>
+
+<p>Text fields can be presented in a variety of ways and styles. Most commonly, you'll see forms presented with text that can be arranged around the input area.</p>
+
+<script src="https://gist.github.com/CassieShumway/01335bd883af275c2933.js"></script>
+
+<div class="box grey cf">
+	<form>
+		<div class="row">
+			<div class="column fourth">
+				<label>First name:</label>
+			</div>
+		<div class="column full">
+			<input type="text" name="firstname">
+		</div>
+		</div>
+		<div class="row">
+			<div class="column fourth">
+				<label>Last name:</label>
+			</div>
+			<div class="column full">
+				<input type="text" name="lastname">
+			</div>
+		</div>
+	</form>
+</div>
+
+<hr class="divider">
+
+<h4>2. Placeholder Text</h4>
+
+<p>To go for a cleaner design, you can use placeholder text as a nice way to help guide users. You can input different text so users know what information is needed. However, you should note that this type attribute can only be text, search, tel, url, or email. Otherwise, it will be ignored!</p> 
+
+<script src="https://gist.github.com/CassieShumway/6464d4bfe18e818853e7.js"></script>
+
+<div class="box grey cf">
+	<form>
+			<div class="input-column">
+				<input type="text" name="firstname" placeholder="First name">
+			</div>
+			<div class="input-column">
+				<input type="text" name="lastname" placeholder="Last name">
+			</div>
+		</div>
+	</form>
+</div>
+
+<hr class="divider">
+
+<h4>3. Textarea</h4>
+
+<p>Sometimes you will see a text area element included with your input elements. Text areas can be styled in your CSS file and don't require much markup.</p>
+
+<script src="https://gist.github.com/CassieShumway/73bf10bd1fb6838a1d3c.js"></script>
+
+<div class="box grey cf">
+	<form>
+		<div class="row">
+		<div class="column fourth">
+			<label>First name:</label>
+		</div>
+		<div class="column full">
+			<input type="text" name="firstname">
+		</div>
+	</div>
+	<div class="row">
+		<div class="column fourth">
+			<label>Last name:</label>
+		</div>
+		<div class="column full">
+			<input type="text" name="lastname">
+		</div>
+	</div>
+	<div class="row">
+		<label>Tell us about your project?</label>
+		<textarea></textarea>
+	</div>
+	</form>
+</div>
+
+<hr class="divider">
+
+<h4>4. Passwords</h4>
+
+<script src="https://gist.github.com/CassieShumway/09d920cf57f8f60857eb.js"></script>
+
+<div class="box grey">
+	<form action="">
+		<div class="half-margin-bottom">
+	    <label>Username:</label>
+	    <input type="text" class="input">
+	  </div>
+	  <div class="half-margin-bottom">
+	    <label>Password:</label>
+	    <input type="password" class="input">
+	  </div>
+	    <input type="submit" value="Submit" class="submit-button">
+	</form>
+</div>
+
+<hr class="divider">
+
+<h4>5. Validation Error</h4>
+
+<p>Validation errors are essential when helping to guide users with inputs. There are browser extensions —like Firefox— that allows you to display custom error messages when an input field doesn't successfully validate.</p>
+
+<script src="https://gist.github.com/CassieShumway/9661ab43f46dc1002aeb.js"></script>
+
+<p>But if you want to stick to inputs, simply specify and class your validation error like so:</p>
+
+<script src="https://gist.github.com/CassieShumway/82ce627b34a05fba632e.js"></script>
+
+<div class="box grey">
+	<form action="">
+		<div class="half-margin-bottom">
+	    <label>Validation Error</label>
+	    <input type="text" class="validation-error">
+	  </div>
+	</form>
+</div>
+
+<hr class="divider">
+
+<h4>6. Checkboxes</h4>
+
+<p>A useful tip when using checkboxes is to always wrap your input text with a label. This way, users aren't limited to clicking a tiny checkbox but can click the whole text to make it easier to select items.</p>
+
+<script src="https://gist.github.com/CassieShumway/13ec3c0e05d1193ff0a2.js"></script>
+
+<div class="box grey">
+	<form action="">
+		<label>
+			<input class="input-width" type="checkbox" name="vehicle" value="Bike">
+			I have a bike
+		</label>
+
+		<label>
+			<input class="input-width" type="checkbox" name="vehicle" value="Car">
+			I have a car 
+		</label>
+	</form>
+</div>
+
+<hr class="divider">
+
+<h3>Adding Styling</h3>
+
+<p>When using inputs you'll always want to style input fields to help guide users visually and interactively.</p>
+
+<h4>1. Focus</h4>
+
+<script src="https://gist.github.com/CassieShumway/1f2a16b156de11dae2ac.js"></script>
+
+<p>Adding the pseudo class <code>:focus</code> helps reassure users that they are in the correct input field. By applying similar styling you're able make them responsive. Apply this to all of your input fields and you're good to go!</p>
+
+<script src="https://gist.github.com/CassieShumway/3e850be55b2d207b0d87.js"></script>
+
+<h4>2. Buttons</h4>
+
+<p>You can use an input type attribute as a button or submit button.</p>
+
+<script src="https://gist.github.com/CassieShumway/72ecbabb42bf69ef107c.js"></script>
+
+<p>If you want to safe guard yourself, be sure to select the input type attribute as well as the class that you made for it in your CSS file.</p>
+
+<script src="https://gist.github.com/CassieShumway/88ae211021cf9e103f9c.js"></script>
+
+<div class="box grey">
+	<form>
+ 		<input type="submit" value="Submit" class="submit-button input-full-width">
+	</form>
+</div>
+
+<hr class="divider">
+
+<h3>Sources</h3>
+<ul>
+	<a href="http://cssbutton.com/forms/"><li>Input Boxes and Submit Buttons</li></a>
+	<a href="http://www.w3schools.com/html/html_forms.asp"><li>W3Schools HTML Forms and Input</li></a>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input"><li>input</li></a>
+</ul>
+
+</article>
+

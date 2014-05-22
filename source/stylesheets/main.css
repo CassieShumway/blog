@@ -224,9 +224,13 @@ a .underline { text-decoration:underline }
 
 .column:first-child { margin-left: 0; }
 
+.full { width: 70%; }
+
 .half { width: 47.5%; }
 
 .third { width: 30%; }
+
+.fourth { width: 20% }
 
 /* =================================
    FONTS
@@ -463,17 +467,125 @@ article p { }
 .green-text { background-color: #015B5B; }
 
 /* =================================
+   STYLES - FOR INPUTS BLOG POST
+   ============================== */
+
+form {
+  font-family: "omnes-pro", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: left;
+}
+
+textarea { min-height: 200px; }
+
+input[type="password"], 
+input[type="text"], 
+input[type="tel"], 
+textarea {
+  border: 1px solid #DDD;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: .5em;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 0.3em;
+  line-height: 1.5;
+}
+
+/*clicking to help user*/
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus, 
+textarea:focus {
+  border: 1px solid #333;
+  outline: none;
+} 
+
+/*error*/
+input[type="email"].validation-error,
+input[type="tel"].validation-error,
+input[type="password"].validation-error,
+input[type="text"].validation-error {
+  border: 1px solid #ff6b8e;
+}
+
+/*button*/
+input[type="submit"],
+.submit-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  -webkit-appearance: none;
+  border: none;
+  background: #ff6b8e;
+  color: #fff;
+  font-size: .9em;
+  padding: .6em 3em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+input[type="submit"]:hover,
+.submit-button:hover {
+  background: #ff7c9b;
+}
+
+@media screen and (max-width: 480px) {
+  input[type="submit"],
+  .submit-button {
+    display: block;
+    width: 100%;
+  }
+}
+
+.input-row {
+  margin-bottom: .5em 0;
+  overflow: hidden;
+}
+
+.input-column {
+  float: left;
+  margin-left: 5%;
+  width: 47.5%;
+}
+
+.input-column:first-child { margin-left: 0;}
+
+.input-full-width { width: 100%; }
+
+.input-width {
+  margin-left: 5%;
+  width: 30px; 
+}
+
+::-webkit-input-placeholder { color: #bbb; }
+:-moz-placeholder { color: #bbb; }
+::-moz-placeholder { color: #bbb; }
+:-ms-input-placeholder { color: #bbb; }
+
+label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+/* =================================
    BOX USED FOR ALL EXAMPLES
    ============================== */
 
 .box {
   border: 1px dashed #E9E9E9; 
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   margin: 0 auto;
   margin: 1.5em 0;
   padding: 1em;
   width: 100%;
   text-align: center;
-  
 }
 
 .text-left {text-align: left;}
