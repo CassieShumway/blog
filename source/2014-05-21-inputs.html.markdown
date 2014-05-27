@@ -61,12 +61,11 @@ tags: input
 
 <div class="box grey cf">
 	<form>
-			<div class="input-column">
-				<input type="text" name="firstname" placeholder="First name">
-			</div>
-			<div class="input-column">
-				<input type="text" name="lastname" placeholder="Last name">
-			</div>
+		<div class="input-column">
+			<input type="text" name="firstname" placeholder="First name">
+		</div>
+		<div class="input-column">
+			<input type="text" name="lastname" placeholder="Last name">
 		</div>
 	</form>
 </div>
@@ -156,12 +155,11 @@ tags: input
 <div class="box grey">
 	<form action="">
 		<label>
-			<input class="input-width" type="checkbox" name="vehicle" value="Bike">
+			<input type="checkbox" name="vehicle" value="Bike" class="input-width">
 			I have a bike
 		</label>
-
 		<label>
-			<input class="input-width" type="checkbox" name="vehicle" value="Car">
+			<input type="checkbox" name="vehicle" value="Car" class="input-width">
 			I have a car 
 		</label>
 	</form>
@@ -169,11 +167,27 @@ tags: input
 
 <hr class="divider">
 
-<h3>Adding Styling</h3>
+<h4>7. Radio Buttons</h4>
 
-<p>When using inputs you'll always want to style input fields to help guide users visually and interactively.</p>
+<p>Radio buttons are similar to checkboxes except users will not be able to choose more than one item. Once again, we want to wrap our input fields with a label element so we can easily click each item.</p>
 
-<h4>1. Focus</h4>
+<script src="https://gist.github.com/CassieShumway/f54a87c225b7236ed44b.js"></script>
+
+<div class="box grey">
+	<form>
+		<label>
+			<input type="radio" name="sex" value="male" class="input-width">Male
+		</label>
+		<label>
+			<input type="radio" name="sex" value="female" class="input-width">Female
+		</label>
+	</form>
+</div>
+
+
+<hr class="divider">
+
+<h4>8. Focus</h4>
 
 <script src="https://gist.github.com/CassieShumway/1f2a16b156de11dae2ac.js"></script>
 
@@ -181,7 +195,7 @@ tags: input
 
 <script src="https://gist.github.com/CassieShumway/3e850be55b2d207b0d87.js"></script>
 
-<h4>2. Buttons</h4>
+<h4>9. Buttons</h4>
 
 <p>You can use an input type attribute as a button or submit button.</p>
 

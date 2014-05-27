@@ -224,13 +224,13 @@ a .underline { text-decoration:underline }
 
 .column:first-child { margin-left: 0; }
 
-.full { width: 70%; }
+.full { width: 80%; }
 
 .half { width: 47.5%; }
 
 .third { width: 30%; }
 
-.fourth { width: 20% }
+.fourth { width: 15% }
 
 /* =================================
    FONTS
@@ -487,6 +487,7 @@ textarea {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  font-weight: 300;
   margin-bottom: .5em;
   -webkit-appearance: none;
   width: 100%;
@@ -500,7 +501,7 @@ input[type="tel"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus, 
 textarea:focus {
-  border: 1px solid #333;
+  border: 1px solid #A0A0A0;
   outline: none;
 } 
 
@@ -526,7 +527,6 @@ input[type="submit"],
   font-size: .9em;
   padding: .6em 3em;
   text-transform: uppercase;
-  margin-bottom: 1em;
 }
 
 input[type="submit"]:hover,
