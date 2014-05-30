@@ -1,0 +1,85 @@
+---
+title: Habits
+date: 2014-05-29
+tags: development, habits, good practice
+---
+
+<article>
+
+<h1>Habits</h1>
+
+<h2>Project Footprints: Design Process</h2>
+
+<p>For the past few weeks I've been working on mock-ups for different projects. When starting out a design process, its important to sketch out your ideas, make mock-ups, and to <em>keep all your drafts</em>. The reason I emphasis that last point is because you want to see your design process evolve. To see the changes you made in order to problem solve and to keep ideas you might want to revisit later.</p>
+
+<h3>Presenting to a Client</h3>
+
+<h4>Applicant Page</h4>
+
+<p>I presented this mock-up page to Ryan Verner for the applicant profile page. It had some interactive elements to it and I needed a clean and clear way of presenting those elements. In order to do this, you can create static pages that highlight each action you want to depict. In addition to presentation, gray out the rest of the page so the client can focus on what you want.</p>
+
+<div class="box">
+	<p>Figure 1. Mock-up of overall page layout</p>
+	<img class="image" src="/images/habits1.jpg">
+</div>
+
+<div class="box">
+	<p>Figure 2. Highlight interactive elements</p>
+	<img class="image" src="/images/habits2.jpg">
+</div>
+
+<div class="box">
+	<p>Figure 3. Highlight interactive elements</p>
+	<img class="image" src="/images/habits3.jpg">
+</div>
+
+<h3>Watch how Things Evolve</h3>
+
+<h4>Craftsmen Page</h4>
+
+<p>This was my original mock-up for the craftsmen page. After presenting this to Ryan and Mike, elements were changed, replaced, and deleted. This is where you see designs evolve to better fit the client and usability.</p>
+
+<div class="box">
+	<p>Figure 1. Mock-up of overall page layout</p>
+	<img class="image" src="/images/habits6.jpg">
+</div>
+
+<div class="box">
+	<p>Figure 2. Mock-up of “No Apprentice” Page</p>
+	<img class="image" src="/images/habits7.jpg">
+</div>
+
+<div class="box">
+	<p>Figure 3. Highlight interactive elements on page</p>
+	<img class="image" src="/images/habits8.jpg">
+</div>
+
+<h4> Craftsmen Page Edited</h4>
+
+<p>I had a meeting with Ryan to present the original mock-up and he added and removed elements. Ryan knew which elements would be automated, which were unnecessary, and what options would be needed. Therefore, the craftsmen page evolved to the one below:</p>
+
+<div class="box">
+	<img class="image" src="/images/habits9.jpg">
+</div>	
+
+<p>With these changes, we had a meeting between Mike Jansen, Ryan Verner, and myself. After presenting the mock-ups to Mike, he ultimately had something else in mind. Mike was more interested in seeing the numbers for the craftsmen laid out. He wanted visual representation in a table and a graph. So now the design process evolves again.</p>
+
+<h3>Keep Your Drafts</h3>
+
+<h4>Projection Page</h4>
+
+<p>I presented this mock-up to Mike Jansen to see if this were the right direction for the page. While it was on the right track, he was interested in seeing another option with a cleaner table (see figure 2).</p>
+
+<div class="box">
+	<p>Figure 1. Mock-up of table layout</p>
+	<img class="image" src="/images/habits4.jpg">
+</div>
+
+<div class="box">
+	<p>Figure 2. Bare table for a cleaner table layout</p>
+	<img class="image" src="/images/habits5.jpg">
+</div>
+
+
+</article>
+
