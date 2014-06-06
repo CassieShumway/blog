@@ -1,5 +1,3 @@
-
-
 * {
   -moz-box-sizing: border-box;                                                        
   -webkit-box-sizing: border-box;                                                    
@@ -7,71 +5,15 @@
 }
 
 body {
-	background: #fff; 
-	color: #56434B;
-	font-size: 112%; 
+  background: #fff; 
+  color: #56434B;
+  font-size: 112%; 
   font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-	font-weight: 400;
-	line-height: 2em;
-	margin: 0; 
-	padding: 0; 
-}
-
-h1, h2, h3, h4 { 
-  margin: 0; }
-
-h1 {
-  color: #FB8BB0;
-  /*font-family: 'Josefin Slab', serif;*/
-  font-weight: 700;
-  line-height: 1.2em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-h2 {
-  color: #8AD6E3;
-  /*font-family: 'Josefin Slab', serif;*/
-  font-weight: 600;
-  line-height: 1.3em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-
-
-h3 {
-  color: #492E13;
-  /*font-family: 'Josefin Slab', serif;*/
-  font-size: 2.7em;
-  font-weight: 500;
-  line-height: 1em;
-  margin-top: 1.2em;
-  text-align: center;
-}
-
-h4 {
-  color: #492E13;
-  /*font-family: 'Josefin Slab', serif;*/
-  font-size: 3em;
-  font-weight: 500;
-  line-height: 1em;
-  margin: 1em 0 .5em 0;
-  text-align: center;
-}
-
-.frame-number {
-  background: url(/images/frame.png) no-repeat;
-  height: 146px;
-  margin: 0 auto;
-  width: 170px;
-  color: #492E13;
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.3em;
-  font-weight: 500;
-  text-align: center;
-  line-height: 3.7em;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 0; 
+  padding: 0; 
 }
 
 a {
@@ -82,6 +24,47 @@ a {
 }
 
 a:hover { color: #FAC6C8; }
+
+
+/* =================================
+  TYPOGRAPHY
+   ============================== */
+
+h1, h2, h3, h4 { margin: 0; }
+
+h1 {
+  color: #FB8BB0;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #926A77;
+  font-weight: 600;
+  line-height: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+ 
+h3 {
+  color: #926A77;
+  font-size: 1.9em;
+  font-weight: 500;
+  line-height: 1em;
+  margin-top: 1.2em;
+  text-align: center;
+}
+
+h4 {
+  color: #492E13;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1em;
+  margin: 1em 0 .5em 0;
+  text-align: center;
+}
 
 p { 
   font-size: 1em;
@@ -94,6 +77,16 @@ p {
   margin-top: 1em;
 }
 
+.light-beige { 
+  color: #FCF2EB;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* =================================
+  LISTS
+   ============================== */
+
 ul { 
   list-style: none;
   margin: 0;
@@ -104,7 +97,6 @@ ul {
 }
 
 li {
-  /*font-family: 'Vollkorn', serif;*/
   font-size: 1.2em;
   font-weight: 600;
 }
@@ -117,42 +109,9 @@ li {
   margin-top: 1em;
 }
 
-
-
-/* =================================
-  FIXED HOME TAB
-   ============================== */
-
-.home-tab {
-  background: url(/images/hearthome3.png);
-  color: #56434B;
-  font-size: 1.1em;
-  font-weight: 600;
-  height: 49px;
-  line-height: 2.5em;
-  padding-right: 9px;
-  position: fixed;
-  right: 0;
-  text-align: right;
-  top: 20px;
-  width: 100px;
-}
-
 /* =================================
   HEADER
    ============================== */
-
-#small-header {
-  display: none;
-}
-
-#large-header {
-margin: 0 auto;
-margin-top: 5em;
-margin-bottom: 5em;
-max-width: 960px;
-width: 100%;
-}
 
 .header-box {
   margin: 0 auto;
@@ -171,13 +130,22 @@ width: 100%;
   width: 100%;
 }
 
-.top-picks { 
+#small-header {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  max-width: 960px;
+  width: 100%;
+}
+
+/*.top-picks { 
   font-family: 'Josefin Slab', serif;
   font-size: 2.4em; 
   margin-bottom: 0;
 }
 
-.for-the-best {
+.header-for-the-best {
   background: #fff;
   display: inline-block;
   font-family: 'Josefin Slab', serif;
@@ -190,7 +158,7 @@ width: 100%;
   text-transform: lowercase;
 }
 
-.chicago-donuts { font-size: 3em; }
+.chicago-donuts { font-size: 3em; }*/
 
 /* =================================
   WRAPPER
@@ -211,6 +179,27 @@ width: 100%;
   height: 146px;
   margin: 0 auto;
   width: 170px;
+}
+
+.numbers {
+  color: #492E13;
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.3em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.frame-number {
+  background: url(/images/frame3.png) no-repeat;
+  height: 95px;
+  margin: 0 auto;
+  width: 110px;
+  color: #492E13;
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.3em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 2.4em;
 }
 
 /* =================================
@@ -278,7 +267,7 @@ td {
 
 .dashed-line {
   border: 0;
-  border-top: 2px dashed #FAC6C8;
+  border-top: 1px dashed #FAC6C8;
   height: 0;
   width: 100%;
 }
@@ -320,7 +309,7 @@ img {
   max-width: 417px; 
 }
 
-.doughnut { max-width: 190px; }
+.doughnut { max-width: 160px; }
 
 .heart {
   background: url(/images/heart4.jpg);
@@ -349,7 +338,7 @@ img {
 
 .light-pink { 
   background: #FCF2EB;
-  padding: 2em 0; 
+  padding: 3em 0; 
   text-align: center;
 }
 
@@ -363,8 +352,7 @@ img {
    ============================== */
 
 .dotted-box {
-  border-top: 2px dashed #fff;
-  border-bottom: 2px dashed #fff;
+  border: 2px dashed #FCF2EB;;
   margin: .2em 0;
   padding: 3em 0;
 }
@@ -378,7 +366,7 @@ img {
 .title-box {
   margin: 0 auto;
   width: 100%;
-  max-width: 344.5px;
+  max-width: 284.5px;
 }
 
 .title-box a { font-size: 1.4em; }
@@ -416,7 +404,9 @@ img {
 
 
 @media (max-width: 700px) {
-  
+  .column { width: 100%;}
+
+  .third { width: 100%; }
   
 }
 
@@ -456,17 +446,9 @@ img {
   #large-header { display: none; }
 }
 
-@media (max-width: 700px) {
 
 
-  #small-header {
-    display: block;
-    margin: 0 auto;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    max-width: 960px;
-    width: 100%;
-  }
+
 
   .header-box {
     margin: 0 auto;
@@ -474,7 +456,10 @@ img {
     max-width: 222px;
   }
 
-  .top-picks { font-size: 2.5em; }  
+  .top-picks { 
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.6em; 
+}  
   /*.for-the-best { font-size: 1.8em; }*/
   .for-my-fav {
     font-family: 'Josefin Slab', serif;
@@ -496,7 +481,7 @@ img {
     margin: 1em 0;
     width: 100%;
   }
-}
+
 
 /* =================================
   UTILITIES
@@ -508,6 +493,10 @@ img {
   margin: 0 auto; 
   text-align: center;
 }
+
+.margin-bottom-none { margin-bottom: 0;}
+
+.margin-top-none { margin-top: 0; }
 
 .text-left { text-align: left; }
 .text-right { text-align: right; }
