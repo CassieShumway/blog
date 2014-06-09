@@ -42,6 +42,7 @@ h1 {
 
 h2 {
   color: #926A77;
+  font-family: 'Josefin Slab', serif;
   font-weight: 600;
   line-height: 1.3em;
   text-align: center;
@@ -61,8 +62,8 @@ h4 {
   color: #492E13;
   font-size: 3em;
   font-weight: 500;
-  line-height: 1em;
-  margin: 1em 0 .5em 0;
+  line-height: 1.1em;
+  margin-bottom: .5em;
   text-align: center;
 }
 
@@ -77,12 +78,6 @@ p {
   margin-top: 1em;
 }
 
-.light-beige { 
-  color: #FCF2EB;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 /* =================================
   LISTS
    ============================== */
@@ -92,7 +87,6 @@ ul {
   margin: 0;
   margin-bottom: 0.5em;
   padding: 0;
-  
   text-align: center;
 }
 
@@ -101,37 +95,11 @@ li {
   font-weight: 600;
 }
 
-.title {
-  color: #FB8BB0;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.2em;
-  font-weight: 700; 
-  margin-top: 1em;
-}
-
 /* =================================
   HEADER
    ============================== */
 
-.header-box {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 482px;
-}
-
-.header-line {
-  margin: 0 auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  height: 0;
-  text-align: center;
-  color: #5C472E;
-  border-bottom: 1px dashed #FAC6C8;
-  width: 100%;
-}
-
-#small-header {
-  display: block;
+#header {
   margin: 0 auto;
   margin-top: 5em;
   margin-bottom: 5em;
@@ -139,26 +107,24 @@ li {
   width: 100%;
 }
 
-/*.top-picks { 
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.4em; 
-  margin-bottom: 0;
+.header-box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 225px;
 }
 
-.header-for-the-best {
-  background: #fff;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.75em;
-  font-style: italic;
-  font-weight: 500;
-  padding: 0 5%;
-  position: relative;
-  top: -17px;
-  text-transform: lowercase;
+.header-line {
+  border: 0;
+  border-top: 1px dashed #FAC6C8;
+  height: 0;
+  margin: 1em 0;
+  width: 100%;
 }
 
-.chicago-donuts { font-size: 3em; }*/
+.top-picks { font-size: 2.6em; }  
+.for-my-fav { font-size: 1.35em; }
+.chicago { font-size: 2.8em; }
+.donuts { font-size: 3em; }
 
 /* =================================
   WRAPPER
@@ -167,73 +133,7 @@ li {
 .wrapper {
   margin: 0 auto;
   width: 90%;
-  max-width: 1000px;
-}
-
-/* =================================
-  HOMEPAGE: TOP THREE CHOICES
-   ============================== */
-
-.frame {
-  background: url(/images/frame.png) no-repeat;
-  height: 146px;
-  margin: 0 auto;
-  width: 170px;
-}
-
-.numbers {
-  color: #492E13;
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.3em;
-  font-weight: 500;
-  text-align: center;
-}
-
-.frame-number {
-  background: url(/images/frame3.png) no-repeat;
-  height: 95px;
-  margin: 0 auto;
-  width: 110px;
-  color: #492E13;
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.3em;
-  font-weight: 500;
-  text-align: center;
-  line-height: 2.4em;
-}
-
-/* =================================
-  TABLE: MENU
-   ============================== */
-
-.menu {
-  background: #fff;
-  color: #FB8BB0;
-  display: inline-block;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.85em;
-  font-weight: 600;
-  padding: 0 5%;
-  position: relative;
-  top: -17px;
-  text-transform: uppercase;
-}
-
-.menu-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 0 auto;
-  margin-top: 5em;
-  text-align: left;
-  width: 100%;
-}
-
-.menu-list { margin-top: 2em; }
-
-.menu-list li {
-  font-size: 1.1em;
-  font-weight: 600;
-  text-align: center;
+  max-width: 1160px;
 }
 
 /* =================================
@@ -258,8 +158,6 @@ td {
   width: 50%;
   text-align: right;
 }
-
-/*tr { border-bottom: 1px dashed #FAC6C8; }*/
 
 /* =================================
   LINES
@@ -323,8 +221,6 @@ img {
   z-index: 10;
 }
 
-.phone { max-width: 30px; }
-
 /* =================================
   SECTIONS
    ============================== */
@@ -338,13 +234,8 @@ img {
 
 .light-pink { 
   background: #FCF2EB;
-  padding: 3em 0; 
+  padding: 4em 0; 
   text-align: center;
-}
-
-.dark-pink { 
-  background: #FAC6C8; 
-  padding: .2em;
 }
 
 /* =================================
@@ -352,24 +243,10 @@ img {
    ============================== */
 
 .dotted-box {
-  border: 2px dashed #FCF2EB;;
+  border: 1px dashed #F8D4D5;
   margin: .2em 0;
-  padding: 3em 0;
+  padding: 3em .7em;
 }
-
-.small-dotted-box {
-  border-top: 2px dashed #fff;
-  border-bottom: 2px dashed #fff;
-  padding: .5;
-}
-
-.title-box {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 284.5px;
-}
-
-.title-box a { font-size: 1.4em; }
 
 .description-box  {
   margin: 0 auto;
@@ -377,20 +254,11 @@ img {
   max-width: 400px;
 }
 
-.description-box p {
-  font-family: 'Vollkorn', serif;
-  text-align:justify;
-  text-justify:inter-word;
-}
+.description-box p { font-family: 'Vollkorn', serif; }
 
 /* =================================
   COLUMNS
    ============================== */
-
-.row { 
-  margin: 1.5em 0 2em 0;
-  overflow: hidden; 
-}
 
 .column {
     float: left;
@@ -402,92 +270,32 @@ img {
 .half { width: 47.5%; }
 .third {  width: 30%; }
 
-
-@media (max-width: 700px) {
-  .column { width: 100%;}
-
-  .third { width: 100%; }
-  
-}
-
 /* =================================
-  MOBILE: SMALL NAVIGATION 
+  MEDIA QUERIES
    ============================== */
 
-#navigation {
-  display: none;
-  width: 100%;
-}
+@media (max-width: 990px) {
 
-.nav-bar { 
-  background: #FAC6C8;
-  padding: .2em 0;
-}
-
-#navigation ul { float: right; }
-
-#navigation li { 
-  float: left; 
-  padding-right: 5px; 
-  padding-top: 5px;}
-
-@media (max-width: 700px) {
-  #navigation {
-    display: block;
-  }
-  .home-tab { display: none; }
-}
-
-/* =================================
-  MOBILE: SMALL HEADER 
-   ============================== */
-
-@media (max-width: 700px) {
-  #large-header { display: none; }
-}
-
-
-
-
-
-  .header-box {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 222px;
-  }
-
-  .top-picks { 
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.6em; 
-}  
-  /*.for-the-best { font-size: 1.8em; }*/
-  .for-my-fav {
-    font-family: 'Josefin Slab', serif;
-    font-size: 1.35em;
-  }
-  .chicago { font-size: 2.8em; }
-  .donuts { font-size: 3em; }
-
-  .header-box {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 225px;
-  }
-
-  .header-line {
-    border: 0;
-    border-top: 1px dashed #FAC6C8;
-    height: 0;
-    margin: 1em 0;
+  .column { 
+    margin-left: 0;
+    margin-bottom: 1em;
     width: 100%;
   }
 
+  .third { 
+    border-bottom: 1px dashed #F8D4D5; 
+    width: 100%; }
+
+  .third:last-child {
+    border-bottom: 0;
+  }
+
+  .dotted-box { border: 0; }
+}
 
 /* =================================
   UTILITIES
    ============================== */
-
-.margin-top { margin-top: 2em}
 
 .center { 
   margin: 0 auto; 
@@ -495,8 +303,6 @@ img {
 }
 
 .margin-bottom-none { margin-bottom: 0;}
-
-.margin-top-none { margin-top: 0; }
 
 .text-left { text-align: left; }
 .text-right { text-align: right; }
@@ -540,4 +346,3 @@ img {
 .cf:after { clear: both; }
 
 .cf { *zoom: 1; }
-
