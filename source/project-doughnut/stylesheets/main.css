@@ -201,7 +201,7 @@ img {
   font-weight: 700;
   height: 49px;
   line-height: 2.9em;
-  margin: 2em 0;
+  margin:0 ;
   text-align: center;
   width: 100%;
   max-width: 417px; 
@@ -302,6 +302,7 @@ img {
   text-align: center;
 }
 
+.margin-top { margin-top: 1.5em; }
 .margin-bottom-none { margin-bottom: 0;}
 
 .text-left { text-align: left; }
