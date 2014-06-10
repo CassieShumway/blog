@@ -1,3 +1,7 @@
+/* =================================
+  LAYOUT
+   ============================== */
+
 * {
   -moz-box-sizing: border-box;                                                        
   -webkit-box-sizing: border-box;                                                    
@@ -99,7 +103,7 @@ li {
   HEADER
    ============================== */
 
-#header {
+header {
   margin: 0 auto;
   margin-top: 5em;
   margin-bottom: 5em;
@@ -136,6 +140,12 @@ li {
   max-width: 1160px;
 }
 
+.heart-graph-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 920px;
+}
+
 /* =================================
   TABLE: SCHEDULE;
    ============================== */
@@ -170,17 +180,6 @@ td {
   width: 100%;
 }
 
-.heart-line {
-margin: 0 auto;
-margin-top: 2.5em;
-margin-bottom: 2.5em;
-height: 0;
-text-align: center;
-color: #5C472E;
-border-bottom: 1px dashed #5C472E;
-width: 100%;
-}
-
 /* =================================
   IMAGES
    ============================== */
@@ -207,18 +206,18 @@ img {
   max-width: 417px; 
 }
 
+.banner-block { display: none; }
+
 .doughnut { max-width: 160px; }
 
-.heart {
-  background: url(/images/heart4.jpg);
-  border: none;
-  border-style: none;
-  display: inline-block;
-  height: 36px;
-  position: relative;
-  top: -17px;
-  width: 100.6px;
-  z-index: 10;
+.donut-header {
+  margin-bottom: 2em;
+  max-width: 80px;
+}
+
+.heart-graph {
+  width: 100%;
+  max-width: 94px;
 }
 
 /* =================================
@@ -261,14 +260,14 @@ img {
    ============================== */
 
 .column {
-    float: left;
-    margin-left: 5%;
+  float: left;
+  margin-left: 5%;
 }
 
 .column:first-child { margin-left: 0; }
 
 .half { width: 47.5%; }
-.third {  width: 30%; }
+.third { width: 30%; }
 
 /* =================================
   MEDIA QUERIES
@@ -286,11 +285,30 @@ img {
     border-bottom: 1px dashed #F8D4D5; 
     width: 100%; }
 
-  .third:last-child {
-    border-bottom: 0;
-  }
+  .third:last-child { border-bottom: 0; }
 
   .dotted-box { border: 0; }
+}
+
+@media (max-width: 480px) {
+  .banner { display: none;}
+  
+  .banner-block { 
+    display: block; 
+    background: #818B94;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    height: 100%;
+    max-height: 48px;    
+    line-height: 2.9em;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    text-align: center;
+    width: 100%;
+    max-width: 417px; 
+  }
 }
 
 /* =================================
@@ -307,32 +325,6 @@ img {
 
 .text-left { text-align: left; }
 .text-right { text-align: right; }
-
-/* =================================
-  GIST OVERRIDES
-   ============================== */
-
-.gist .gist-file {
-  font-size: .9rem !important;
-  margin: 0 auto;
-  max-width: 750px;
-  overflow: hidden !important;
-  text-align: left;
-}
-
-.gist .gist-file .gist-data {
-  background: #f8f8f8 !important;
-  border-bottom: none !important;
-}
-
-.gist .gist-file .gist-meta {
-  display: none !important;
-}
-
-.gist-syntax .k {
-  color: #555 !important;
-  font-weight: normal !important;
-}
 
 /* =================================
   CLEAR FIX
