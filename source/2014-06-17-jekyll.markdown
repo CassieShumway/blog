@@ -1,0 +1,91 @@
+---
+title: Jekyll
+date: 2014-06-17
+tags: jekyll, images not linking, gem install rdoc
+---
+
+<article>
+
+<h1>Let's Troubleshoot Jekyll</h1>
+
+<p>This week I had to set up a new environment using Jekyll. I've always heard good things about Jekyll and was looking forward to seeing how it worked. The catch of course, was to get everything set-up first. 
+
+<p>In terms of public use, it's pretty easy to install and they have great online resources. The website for <a class="underline" href="http://jekyllrb.com/">Jekyll</a> is easy to navigate through and user friendly. However, I did run into a few errors.</p> 
+
+<hr class="divider-short">
+
+<h3>Setting Up</h3>
+
+<p> To install Jekyll on your computer, type this command in your terminal:</p>
+
+<p><code>gem install jekyll</code></p>
+
+<p>Terminal will automatically start downloading Jekyll, but unfortunately, there were some issues that disabled Jekyll from fully installing. After Google searching, I was able to find some forums that ran into the same problem.</p>
+
+<p><a class="underline" href="https://github.com/rdoc/rdoc/issues/175">Parsing problem #175</a></p>
+
+<p>I kept running into this error message in terminal:</p>
+
+<script src="https://gist.github.com/CassieShumway/d1473c5c88308ede9d03.js"></script>
+
+<p>I wasn't sure what was going on, but from reading the forums, it sounded like there was a problem with the pry gem. So in order to fix this, I had to type this command in my terminal:</p>
+
+<p><code>gem install rdoc</code></p>
+
+<p>Afterwards, I tried downloading the Jekyll gem again, and it went through! Now, onward for more victories!</p>
+
+<hr class="divider-short">
+
+<h3>Running Jekyll</h3>
+
+<p>Now that we've defeated the first problem, it should be noted that to run Jekyll on your local host, it requires different commands.</p>
+
+<script src="https://gist.github.com/CassieShumway/41479d944137aaf2e68c.js"></script>
+
+<p>For my terminal, however, the following command was needed:</p>
+
+<p><code>jekyll serve --baseurl -w</code></p>
+
+<hr class="divider-short">
+
+<h3>_config.yml</h3>
+
+<p>This config file helps keep our repository crisp and clean. So we'll need to edit our <code>_config</code> file to ensure Jekyll links all of our pages properly.</p> 
+
+<p>Note: Make sure that your base url matches that of your github repository</p>
+
+<script src="https://gist.github.com/CassieShumway/da93552cf1331c79cfe1.js"></script>
+
+<hr class="divider-short">
+
+<h3>Your .gitignore</h3>
+
+<p>Let's not forget about that <code>.gitignore</code> file. Very similar to Middleman, all we need to do is add one line of code for the <code>_site</code> that Jekyll uses.</p>
+
+<script src="https://gist.github.com/CassieShumway/9c675c0604b43e6aedc3.js"></script>
+
+<hr class="divider-short">
+
+<h3>Where to work</h3>
+
+<p>Speaking of the sites folder....I made a special note to myself: Never <em>ever</em> work in your <code>_site</code> folder!</p>
+
+<p>Jekyll explains below:</p>
+
+<div class="box text-left">
+	<p>Destination folders are cleaned on site builds. The contents of <code>destination</code> are automatically cleaned when the site is built. Files or folders that are not created by your site will be removed. Do not use an important location for <code>destination</code>; instead, use it as a staging area and copy files from there to your web server.</p>
+</div>
+
+<hr class="divider-short">
+
+<h3>What If You Already git pushed?</h3>
+
+<p>So, what happens if you accidentally git pushed files that you didnt' mean to? Such as accidentally working within Jekyll's <code>_sites</code> folder....?</p>
+
+<p>Well, let's remember that you can't remove files on Github without unstaging them first. So let's be sure to write the following command in terminal to remove them:</p>
+
+<p>You can type the following command: <code>git rm unwanted-file-name-here</code></p>
+
+<p>But if that won't do the trick, then you can force remove them with the following command: <code>git rm -f unwanted-file-name-here</code></p>
+
+</article>

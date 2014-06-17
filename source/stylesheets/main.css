@@ -43,7 +43,6 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-	/*color: #ff7865; orange coral*/
   color: #ff6b8e;
 	font-size: 2.3em;
   line-height: 1.2em;
@@ -625,8 +624,6 @@ label {
   display: table-cell;
   vertical-align: middle;
 }
-
-
 
 /* =================================
    UTILITIES
