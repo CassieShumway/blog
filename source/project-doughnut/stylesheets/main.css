@@ -37,7 +37,7 @@ a:hover { color: #FAC6C8; }
 h1, h2, h3, h4 { margin: 0; }
 
 h1 {
-  color: #FB8BB0;
+  color: #fb8bb0;
   font-weight: 700;
   line-height: 1.2em;
   text-align: center;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  color: #926A77;
+  color: #926a77;
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   line-height: 1.3em;
@@ -54,8 +54,8 @@ h2 {
 }
  
 h3 {
-  color: #926A77;
-  font-size: 1.9em;
+  color: #926a77;
+  font-size: 1.8em;
   font-weight: 500;
   line-height: 1em;
   margin-top: 1.2em;
@@ -119,7 +119,7 @@ header {
 
 .header-line {
   border: 0;
-  border-top: 1px dashed #FAC6C8;
+  border-top: 1px dashed #fac6c8;
   height: 0;
   margin: 1em 0;
   width: 100%;
@@ -175,8 +175,17 @@ td {
 
 .dashed-line {
   border: 0;
+  border-top: 1px dashed #fac6c8;
+  height: 0;
+  width: 100%;
+}
+
+
+.header-line {
+  border: 0;
   border-top: 1px dashed #FAC6C8;
   height: 0;
+  margin: 1em 0;
   width: 100%;
 }
 
@@ -226,25 +235,22 @@ img {
 
 .white {
   background: #fff;
-  border-bottom: 1px dashed #FAC6C8;
-  margin: 0 auto;
+  border-bottom: 1px dashed #ffe3e4;
   padding: 4em 0;
 }
 
 .light-pink { 
-  background: #FCF2EB;
+  background: #fcf2eb;
   padding: 4em 0; 
-  text-align: center;
 }
 
 /* =================================
   BOXES
    ============================== */
 
-.dotted-box {
-  border: 1px dashed #F8D4D5;
+.box {
   margin: .2em 0;
-  padding: 3em .7em;
+  padding: 3em 0;
 }
 
 .description-box  {
@@ -275,6 +281,10 @@ img {
 
 @media (max-width: 990px) {
 
+  h4 { margin-bottom: .2em; }
+
+  .white, .light-pink { padding: 2em 0; }
+
   .column { 
     margin-left: 0;
     margin-bottom: 1em;
@@ -285,9 +295,10 @@ img {
     border-bottom: 1px dashed #F8D4D5; 
     width: 100%; }
 
-  .third:last-child { border-bottom: 0; }
+  .third:last-child { 
+    border-bottom: 0; }
 
-  .dotted-box { border: 0; }
+  .box { padding: 1em 0; }
 }
 
 @media (max-width: 480px) {
@@ -314,6 +325,7 @@ img {
 /* =================================
   UTILITIES
    ============================== */
+.border-bottom-none { border-bottom: none;}
 
 .center { 
   margin: 0 auto; 
